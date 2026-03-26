@@ -1,0 +1,15 @@
+{
+  "models": {
+    "llama": {
+      "h_pre_unit_mean": 0.999989,
+      "h_post_worst_var": 0.40763171,
+      "n_samples": 300
+    },
+    "mistral": {
+      "h_pre_unit_mean": 0.999999,
+      "h_post_worst_var": 0.10522355,
+      "n_samples": 300
+    }
+  },
+  "timestamp": "2026-03-21T13:54:16.107884"
+}
