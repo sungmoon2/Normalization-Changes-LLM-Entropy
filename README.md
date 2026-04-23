@@ -2,7 +2,7 @@
 
 Code and data for:
 
-> **In RMSNorm-Based Language Models, Pre- vs. Post-Normalization Changes What Layerwise Decoded Entropy Measures**
+> **Decoded Entropy Is Not One Signal: Pre- and Post-RMSNorm Projections Yield Non-Equivalent Measurements in RMSNorm-Based Decoder LMs**
 >
 > Sungmoon Park, Jinhong Yang
 >
@@ -101,7 +101,7 @@ All experiments were run on a single NVIDIA RTX 3090 Ti (24 GB VRAM) with FP16 i
 
 ```bibtex
 @article{park2026normalization,
-  title={In RMSNorm-Based Language Models, Pre- vs. Post-Normalization Changes What Layerwise Decoded Entropy Measures},
+  title={Decoded Entropy Is Not One Signal: Pre- and Post-RMSNorm Projections Yield Non-Equivalent Measurements in RMSNorm-Based Decoder LMs},
   author={Park, Sungmoon and Yang, Jinhong},
   year={2026}
 }
