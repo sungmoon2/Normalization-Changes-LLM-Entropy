@@ -107,6 +107,14 @@ All experiments were run on a single NVIDIA RTX 3090 Ti (24 GB VRAM) with FP16 i
 }
 ```
 
+## Acknowledgments
+
+This work was supported by the Korea Institute for Advancement of Technology (KIAT) grant funded by the Korea government (Ministry of Trade, Industry and Energy) through the International Cooperation in Industrial Technology program (Project Number: P0026190) and Institute of Information & Communications Technology Planning & Evaluation(IITP)-Innovative Human Resource Development for Local Intellectualization program grant funded by the Korea government(MSIT)(IITP-2026-RS-2024-00436773).
+
 ## License
 
 MIT
+
+---
+
+This codebase accompanies the paper 'Decoded Entropy Is Not One Signal: Pre- and Post-RMSNorm Projections Yield Non-Equivalent Measurements in RMSNorm-Based Decoder LMs', which is currently under review at IEEE Access.
