@@ -9,3 +9,44 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+# Submission package (contains compiled PDF, cls, bbl)
+submission/
+
+# LaTeX build artifacts and versioned drafts
+paper/latex/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Internal context and session tracking
+01_contexts/
+.claude/
+.mcp.json
+
+# Reports and consultation logs
+reports/
+
+# Backup directories
+backup_*/
+
+# Raw experiment data (large files)
+PoT_Experiment_Entropy_Attention_Extraction_Experiment/
+
+# Work-in-progress directories
+00_moai_statusbar_work/
+Normalization-Changes-LLM-Entropy/
+
+# Logs
+logs/
+
+# Raw experiment directories (large, results extracted to results/)
+experiments/
+
+# Convenience wrappers (not needed for reproduction)
+scripts/_run_fig*_only.py

@@ -1,42 +1,45 @@
 """
-논문 Figure 1~6 생성 스크립트 v3
+논문 Figure 1~6 생성 스크립트 v4
 =================================
-v2 대비 변경사항 (GPT 16차 4세션 만장일치 기반):
-  - [FIX] Figure 1(a): 제목 수정 "Decoded entropy before vs. after RMSNorm"
-  - [FIX] Figure 2(a): 제목 수정 "Scalar Signals Relative to Output Entropy"
-  - [FIX] Figure 2(b): h_norm + output max-prob 추가 (cherry-picking 방지)
-  - [FIX] Figure 3(b)(c): alpha tick 직접 표시
-  - [FIX] Figure 3(d): outlier-only 라벨
-  - [FIX] Figure 6(b): delta annotation 위치를 gray→green bracket 위로 이동
-  - [FIX] Figure 6(b): 제목 "Classifier Choice Changes AUROC"로 중립화
-  - [FIX] Figure 6(a): 범례를 데이터 비는 곳으로 이동
+v3 대비 변경사항 (GPT 40차+41차 3세션 수렴 기반):
+  - [FIX] 전역 폰트 IEEE Access 7pt+ 보장 (figsize 축소 → 실제 인쇄 크기 매칭)
+  - [FIX] Fig 3 panel (a) (PDF Fig 2a): unit-norm bar → point plot + numeric labels
+  - [FIX] Fig 6 (PDF Fig 7) panel (b): retitle "Classifier and Feature Choice Effects"
+  - [FIX] Fig 6 (PDF Fig 7) panel (b): annotate gray→green = classifier, green→blue = feature
 
-원본: scripts/generate_figures.py (보존)
-출력: paper/figures_v2/fig{N}/ 디렉토리별 분리
+원본: scripts/generate_figures_v3.py (보존)
+출력: paper/figures/fig{N}/fig{N}_v4.png
 """
 
 import json
 import numpy as np
 import matplotlib
+from _paths import POT_DIR
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
-BASE_DIR = PROJECT_ROOT / "PoT_Experiment_Entropy_Attention_Extraction_Experiment"
+BASE_DIR = POT_DIR
 FIG_BASE = PROJECT_ROOT / "paper" / "figures"
 
+# IEEE Access: single-column = 88mm (3.46in), double-column = 181mm (7.13in)
+# figsize를 실제 인쇄 크기에 맞추면 폰트가 그대로 렌더링됨
+IEEE_COL = 3.46  # single-column width in inches
+IEEE_FULL = 7.13  # double-column width in inches
+
 plt.rcParams.update({
-    'font.size': 10,
-    'axes.titlesize': 11,
-    'axes.labelsize': 10,
-    'xtick.labelsize': 9,
-    'ytick.labelsize': 9,
-    'legend.fontsize': 8,
+    'font.size': 8,
+    'axes.titlesize': 9,
+    'axes.labelsize': 8,
+    'xtick.labelsize': 7,
+    'ytick.labelsize': 7,
+    'legend.fontsize': 7,
     'figure.dpi': 300,
     'savefig.dpi': 300,
     'savefig.bbox': 'tight',
+    'font.family': 'serif',
 })
 
 
@@ -59,7 +62,7 @@ def generate_figure1():
     print("Generating Figure 1 v2: Conceptual Overview...")
     fig_dir = ensure_dir(1)
 
-    fig, axes = plt.subplots(1, 3, figsize=(14, 4.5),
+    fig, axes = plt.subplots(1, 3, figsize=(IEEE_FULL, 2.4),
                              gridspec_kw={'width_ratios': [1.2, 0.8, 1.0]})
 
     # Panel A: H_pre / H_post computation path
@@ -79,14 +82,14 @@ def generate_figure1():
     for x, y, txt, color in boxes_top:
         ax.add_patch(plt.Rectangle((x-0.9, y-0.4), 1.8, 0.8,
                      facecolor=color, edgecolor='black', linewidth=1.2, zorder=2))
-        ax.text(x, y, txt, ha='center', va='center', fontsize=11, zorder=3)
+        ax.text(x, y, txt, ha='center', va='center', fontsize=8, zorder=3)
 
     ax.annotate('', xy=(4.6, 4.5), xytext=(3.4, 4.5),
-                arrowprops=dict(arrowstyle='->', lw=1.5))
-    ax.text(4.0, 4.9, 'lm_head', ha='center', fontsize=8, style='italic')
+                arrowprops=dict(arrowstyle='->', lw=1.2))
+    ax.text(4.0, 4.9, 'lm_head', ha='center', fontsize=6, style='italic')
     ax.annotate('', xy=(7.6, 4.5), xytext=(6.4, 4.5),
-                arrowprops=dict(arrowstyle='->', lw=1.5))
-    ax.text(7.0, 4.9, 'softmax $\\rightarrow$ H', ha='center', fontsize=8, style='italic')
+                arrowprops=dict(arrowstyle='->', lw=1.2))
+    ax.text(7.0, 4.9, 'softmax $\\rightarrow$ H', ha='center', fontsize=6, style='italic')
 
     # Pre-norm label (왼쪽 여백에 배치, 겹침 해소)
     ax.text(-0.3, 4.5, 'Pre-norm\npath', ha='left', va='center', fontsize=8,
@@ -182,7 +185,7 @@ def generate_figure1():
             bbox=dict(boxstyle='rarrow,pad=0.3', facecolor='#E0E0E0'))
 
     plt.tight_layout()
-    path = fig_dir / "fig1_v3.png"
+    path = fig_dir / "fig1_v4.png"
     plt.savefig(path)
     plt.close()
     print(f"  Saved: {path}")
@@ -216,7 +219,7 @@ def generate_figure2():
         ('mmlu_mistral', 'Mistral MMLU'),
     ]
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5.5),
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(IEEE_COL, 2.8),
                                     gridspec_kw={'width_ratios': [1.2, 0.8]})
 
     # Panel A: Dot plot
@@ -281,11 +284,11 @@ def generate_figure2():
     ax2.set_title('(b) Compute vs. Discrimination (Qwen Hard)', fontweight='bold')
     ax2.set_xticks([1, 2, 3, 4, 5])
     ax2.set_xlim(0.5, 5.5)
-    ax2.legend(loc='lower right', fontsize=8)
+    ax2.legend(loc='lower right', fontsize=7, markerscale=0.6, labelspacing=0.8)
     ax2.grid(alpha=0.2)
 
     plt.tight_layout()
-    path = fig_dir / "fig2_v3.png"
+    path = fig_dir / "fig2_v4.png"
     plt.savefig(path)
     plt.close()
     print(f"  Saved: {path}")
@@ -299,16 +302,16 @@ def generate_figure3():
     print("Generating Figure 3 v2: Scale Intervention...")
     fig_dir = ensure_dir(3)
 
-    qwen_cm = load_json(BASE_DIR / "experiments" / "39_Phase3_Cross_Model_Scale_Intervention" / "qwen" / "intervention_analysis.json")
-    llama_cm = load_json(BASE_DIR / "experiments" / "39_Phase3_Cross_Model_Scale_Intervention" / "llama" / "intervention_analysis.json")
-    mistral_cm = load_json(BASE_DIR / "experiments" / "39_Phase3_Cross_Model_Scale_Intervention" / "mistral" / "intervention_analysis.json")
+    qwen_cm = load_json(BASE_DIR / "experiments" / "43_Phase3_Unified_Scale_Intervention" / "qwen" / "intervention_analysis.json")
+    llama_cm = load_json(BASE_DIR / "experiments" / "43_Phase3_Unified_Scale_Intervention" / "llama" / "intervention_analysis.json")
+    mistral_cm = load_json(BASE_DIR / "experiments" / "43_Phase3_Unified_Scale_Intervention" / "mistral" / "intervention_analysis.json")
     qwen_orig = load_json(BASE_DIR / "experiments" / "36_Phase3_Scale_Intervention" / "intervention_analysis.json")
 
-    fig, axes = plt.subplots(2, 2, figsize=(12, 10))
+    fig, axes = plt.subplots(2, 2, figsize=(IEEE_COL, 5.5))
 
     # Panel A: Unit-norm collapse bars
     ax = axes[0, 0]
-    models = ['Qwen\n(MMLU 300)', 'Llama\n(MMLU 300)', 'Mistral\n(MMLU 300)']
+    models = ['Qwen\n(MMLU 500)', 'Llama\n(MMLU 500)', 'Mistral\n(MMLU 500)']
     unit_means = [qwen_cm['h_pre_unit_mean_all_layers'],
                   llama_cm['h_pre_unit_mean_all_layers'],
                   mistral_cm['h_pre_unit_mean_all_layers']]
@@ -316,17 +319,13 @@ def generate_figure3():
     bars = ax.bar(models, unit_means, color=['#2196F3', '#FF9800', '#4CAF50'],
                   edgecolor='black', linewidth=0.8)
     ax.axhline(y=1.0, color='red', linestyle='--', alpha=0.5, label='Max entropy (1.0)')
-    ax.set_ylim(0.9995, 1.00005)
+    ax.set_ylim(0, 1.05)
     ax.set_ylabel('Mean H_pre after unit-norm')
     ax.set_title('(a) Unit-Norm Collapse: H_pre $\\rightarrow$ 1.0', fontweight='bold')
     for bar, val in zip(bars, unit_means):
-        ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() - 0.00015,
-                f'{val:.6f}', ha='center', va='top', fontsize=8, fontweight='bold')
-    ax.legend(fontsize=8)
-    # v2: y축 스케일 주석
-    ax.text(0.98, 0.02, 'Note: y-axis starts at 0.9995\n(all values > 0.9999)',
-            transform=ax.transAxes, fontsize=6, ha='right', va='bottom',
-            style='italic', color='gray')
+        ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.015,
+                f'{val:.6f}', ha='center', va='bottom', fontsize=6, fontweight='bold')
+    ax.legend(fontsize=6, loc='lower right')
 
     # Panel B: Qwen alpha-sweep
     ax = axes[0, 1]
@@ -345,7 +344,7 @@ def generate_figure3():
     ax.set_xlabel('Alpha (scale factor)')
     ax.set_ylabel('Normalized Entropy')
     ax.set_title('(b) Qwen Alpha-Sweep (Math Hard 500)', fontweight='bold')
-    ax.legend(fontsize=7, loc='right')
+    ax.legend(fontsize=7, loc='center left', bbox_to_anchor=(0.0, 0.45))
     ax.set_xscale('log')
     ax.set_xticks([0.25, 0.5, 1.0, 2.0, 4.0])
     ax.set_xticklabels(['0.25', '0.5', '1', '2', '4'])
@@ -367,8 +366,8 @@ def generate_figure3():
 
     ax.set_xlabel('Alpha (scale factor)')
     ax.set_ylabel('Normalized Entropy')
-    ax.set_title('(c) Cross-Model Alpha-Sweep (MMLU 300, L24)', fontweight='bold')
-    ax.legend(fontsize=7)
+    ax.set_title('(c) Cross-Model Alpha-Sweep (MMLU 500, L24)', fontweight='bold')
+    ax.legend(fontsize=7, loc='lower left')
     ax.set_xscale('log')
     ax.set_xticks([0.25, 0.5, 1.0, 2.0, 4.0])
     ax.set_xticklabels(['0.25', '0.5', '1', '2', '4'])
@@ -410,7 +409,7 @@ def generate_figure3():
     ax.grid(alpha=0.2)
 
     plt.tight_layout()
-    path = fig_dir / "fig3_v3.png"
+    path = fig_dir / "fig3_v4.png"
     plt.savefig(path)
     plt.close()
     print(f"  Saved: {path}")
@@ -429,7 +428,7 @@ def generate_figure4():
     hard_data = load_json(BASE_DIR / "experiments" / "33_Phase1_Token_Position" / "phase1_position_analysis.json")
     mmlu_data = load_json(BASE_DIR / "experiments" / "33_Phase1_Token_Position" / "phase1_mmlu_position_analysis.json")
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(IEEE_COL, 2.5))
 
     positions = ['step0_prompt_last', 'step1_first_gen', 'full_gen_avg']
     pos_labels = ['Step 0\n(prompt-last)', 'Step 1\n(first-gen)', 'Full Avg']
@@ -472,7 +471,7 @@ def generate_figure4():
         ax.set_ylim(0.45, 0.85)
 
     plt.tight_layout()
-    path = fig_dir / "fig4_v3.png"
+    path = fig_dir / "fig4_v4.png"
     plt.savefig(path)
     plt.close()
     print(f"  Saved: {path}")
@@ -486,11 +485,11 @@ def generate_figure5():
     print("Generating Figure 5 v2: Layerwise Profile & Saturation...")
     fig_dir = ensure_dir(5)
 
-    qwen_cm = load_json(BASE_DIR / "experiments" / "39_Phase3_Cross_Model_Scale_Intervention" / "qwen" / "intervention_analysis.json")
-    llama_cm = load_json(BASE_DIR / "experiments" / "39_Phase3_Cross_Model_Scale_Intervention" / "llama" / "intervention_analysis.json")
-    mistral_cm = load_json(BASE_DIR / "experiments" / "39_Phase3_Cross_Model_Scale_Intervention" / "mistral" / "intervention_analysis.json")
+    qwen_cm = load_json(BASE_DIR / "experiments" / "43_Phase3_Unified_Scale_Intervention" / "qwen" / "intervention_analysis.json")
+    llama_cm = load_json(BASE_DIR / "experiments" / "43_Phase3_Unified_Scale_Intervention" / "llama" / "intervention_analysis.json")
+    mistral_cm = load_json(BASE_DIR / "experiments" / "43_Phase3_Unified_Scale_Intervention" / "mistral" / "intervention_analysis.json")
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(IEEE_COL, 2.5))
 
     # Panel A: H_pre layer profile
     for model_data, model_name, color, n_layers, lw, ls in [
@@ -545,17 +544,17 @@ def generate_figure5():
     ax2.legend(fontsize=8, loc='upper right')  # v3: upper right (데이터 비는 영역)
     ax2.grid(alpha=0.2)
 
-    # v3: annotation - 화살표로 ceiling 영역(x~1.0, y~0.0) 가리키되,
-    # 텍스트는 데이터 없는 중앙 영역에 배치
-    ax2.annotate('Ceiling region:\nhigh H_pre,\nlow observable range',
-                xy=(0.85, 0.05),  # 화살표 끝: ceiling 영역
-                xytext=(0.45, 0.55),  # 텍스트: 데이터 없는 중앙
+    # v4: annotation - 화살표가 ceiling 데이터 클러스터를 직접 가리킴
+    ax2.annotate('Ceiling region:\nhigh $H_{\\mathrm{pre}}$,\nnear-zero observable range',
+                xy=(0.97, 0.01),  # 화살표 끝: Llama/Mistral ceiling 데이터 (H_pre~1.0, range~0)
+                xytext=(0.55, 0.50),  # 텍스트: 데이터 없는 중앙
                 fontsize=7, style='italic', ha='center',
                 bbox=dict(boxstyle='round', facecolor='#FFCDD2', alpha=0.5),
-                arrowprops=dict(arrowstyle='->', lw=0.8, color='gray'))
+                arrowprops=dict(arrowstyle='->', lw=1.2, color='#D32F2F',
+                               connectionstyle='arc3,rad=0.2'))
 
     plt.tight_layout()
-    path = fig_dir / "fig5_v3.png"
+    path = fig_dir / "fig5_v4.png"
     plt.savefig(path)
     plt.close()
     print(f"  Saved: {path}")
@@ -576,7 +575,7 @@ def generate_figure6():
     tl_data = load_json(BASE_DIR / "experiments" / "35_Phase2b_Tuned_Lens" / "eval_faithfulness.json")
     el_summary = load_json(BASE_DIR / "experiments" / "34_Phase2_Entropy_Lens_Baseline" / "el_baseline_summary.json")
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(IEEE_COL, 2.5))
 
     # Panel A: TL vs LL faithfulness
     if 'per_layer' in tl_data:
@@ -639,7 +638,7 @@ def generate_figure6():
     ax2.set_xticks(x)
     ax2.set_xticklabels(cond_labels)
     ax2.set_ylabel('Test AUROC')
-    ax2.set_title('(b) Classifier Choice Changes AUROC', fontweight='bold')
+    ax2.set_title('(b) Classifier and Feature Choice Effects', fontweight='bold')
     ax2.legend(fontsize=8)
     ax2.grid(axis='y', alpha=0.2)
     ax2.set_ylim(0.4, 0.9)
@@ -658,7 +657,7 @@ def generate_figure6():
                         ha='center', fontsize=6, color='#1565C0')
 
     plt.tight_layout()
-    path = fig_dir / "fig6_v3.png"
+    path = fig_dir / "fig6_v4.png"
     plt.savefig(path)
     plt.close()
     print(f"  Saved: {path}")
@@ -681,6 +680,6 @@ if __name__ == "__main__":
     generate_figure5()
     generate_figure6()
 
-    print(f"\nAll v2 figures saved to: {FIG_BASE}/fig{{N}}/fig{{N}}_v3.png")
+    print(f"\nAll v2 figures saved to: {FIG_BASE}/fig{{N}}/fig{{N}}_v4.png")
     print("Original v1 preserved: paper/figures/fig{N}/fig{N}_v1.png")
     print("Done.")

@@ -1,0 +1,1264 @@
+{
+  "metadata": {
+    "experiment": "54_Practical_Consequence",
+    "version": 3,
+    "date": "2026-04-01 23:48:55 KST",
+    "seed": 42,
+    "n_bootstrap": 1000,
+    "n_ranking_splits": 20,
+    "protocols": [
+      "sampled (SET A)",
+      "greedy (SET F)"
+    ],
+    "models": [
+      "qwen",
+      "llama",
+      "mistral"
+    ],
+    "dataset": "MMLU 1000 samples",
+    "fixes_v3": [
+      "Scenario A: nested bootstrap (re-split + re-select layer per iteration)",
+      "Scenario B: 20-split ranking stability test",
+      "Scenario C: per-layer sign re-optimization (from v2)"
+    ],
+    "elapsed_seconds": 591.5
+  },
+  "per_protocol": {
+    "sampled": {
+      "models": {
+        "qwen": {
+          "n_samples": 1000,
+          "num_layers": 28,
+          "accuracy": 0.749,
+          "scenario_a_nested": {
+            "point_estimate": {
+              "best_layer_H_pre": 4,
+              "best_sign_H_pre": -1,
+              "best_layer_H_post": 27,
+              "best_sign_H_post": -1
+            },
+            "layer_selection_stability": {
+              "H_pre_mode_layer": 12,
+              "H_pre_unique_layers": 9,
+              "H_pre_mode_fraction": 0.448,
+              "H_post_mode_layer": 27,
+              "H_post_unique_layers": 1,
+              "H_post_mode_fraction": 1.0
+            },
+            "coverages": {
+              "50": {
+                "acc_H_pre": 0.7933,
+                "acc_H_post": 0.8267,
+                "gap": -0.0333,
+                "nested_bootstrap_mean_gap": -0.0273,
+                "nested_bootstrap_ci_95": [
+                  -0.08,
+                  0.0267
+                ],
+                "nested_bootstrap_p": 0.386,
+                "significant_005": false
+              },
+              "60": {
+                "acc_H_pre": 0.7944,
+                "acc_H_post": 0.8167,
+                "gap": -0.0222,
+                "nested_bootstrap_mean_gap": -0.0306,
+                "nested_bootstrap_ci_95": [
+                  -0.0778,
+                  0.0111
+                ],
+                "nested_bootstrap_p": 0.252,
+                "significant_005": false
+              },
+              "70": {
+                "acc_H_pre": 0.781,
+                "acc_H_post": 0.7857,
+                "gap": -0.0048,
+                "nested_bootstrap_mean_gap": -0.0251,
+                "nested_bootstrap_ci_95": [
+                  -0.062,
+                  0.0095
+                ],
+                "nested_bootstrap_p": 0.214,
+                "significant_005": false
+              },
+              "80": {
+                "acc_H_pre": 0.7708,
+                "acc_H_post": 0.7792,
+                "gap": -0.0083,
+                "nested_bootstrap_mean_gap": -0.0174,
+                "nested_bootstrap_ci_95": [
+                  -0.0459,
+                  0.0125
+                ],
+                "nested_bootstrap_p": 0.282,
+                "significant_005": false
+              },
+              "90": {
+                "acc_H_pre": 0.7593,
+                "acc_H_post": 0.7593,
+                "gap": 0.0,
+                "nested_bootstrap_mean_gap": -0.0027,
+                "nested_bootstrap_ci_95": [
+                  -0.0222,
+                  0.0185
+                ],
+                "nested_bootstrap_p": 0.926,
+                "significant_005": false
+              },
+              "100": {
+                "acc_H_pre": 0.74,
+                "acc_H_post": 0.74,
+                "gap": 0.0,
+                "nested_bootstrap_mean_gap": 0.0,
+                "nested_bootstrap_ci_95": [
+                  0.0,
+                  0.0
+                ],
+                "nested_bootstrap_p": 2.0,
+                "significant_005": false
+              }
+            }
+          },
+          "scenario_c": {
+            "H_pre_optimal": {
+              "layer": 4,
+              "sign": -1,
+              "auroc": 0.6
+            },
+            "H_pre_at_H_post_layer": {
+              "layer": 27,
+              "sign": -1,
+              "auroc": 0.5603
+            },
+            "H_pre_penalty": {
+              "delta": 0.0396,
+              "bootstrap_ci_95": [
+                -0.0515,
+                0.1313
+              ]
+            },
+            "H_post_optimal": {
+              "layer": 27,
+              "sign": -1,
+              "auroc": 0.6358
+            },
+            "H_post_at_H_pre_layer": {
+              "layer": 4,
+              "sign": 1,
+              "auroc": 0.5051
+            },
+            "H_post_penalty": {
+              "delta": 0.1307,
+              "bootstrap_ci_95": [
+                -0.0079,
+                0.2619
+              ]
+            }
+          }
+        },
+        "llama": {
+          "n_samples": 1000,
+          "num_layers": 32,
+          "accuracy": 0.638,
+          "scenario_a_nested": {
+            "point_estimate": {
+              "best_layer_H_pre": 0,
+              "best_sign_H_pre": -1,
+              "best_layer_H_post": 10,
+              "best_sign_H_post": 1
+            },
+            "layer_selection_stability": {
+              "H_pre_mode_layer": 0,
+              "H_pre_unique_layers": 2,
+              "H_pre_mode_fraction": 0.999,
+              "H_post_mode_layer": 10,
+              "H_post_unique_layers": 9,
+              "H_post_mode_fraction": 0.588
+            },
+            "coverages": {
+              "50": {
+                "acc_H_pre": 0.7267,
+                "acc_H_post": 0.6933,
+                "gap": 0.0333,
+                "nested_bootstrap_mean_gap": 0.0247,
+                "nested_bootstrap_ci_95": [
+                  -0.0267,
+                  0.0867
+                ],
+                "nested_bootstrap_p": 0.504,
+                "significant_005": false
+              },
+              "60": {
+                "acc_H_pre": 0.6833,
+                "acc_H_post": 0.6556,
+                "gap": 0.0278,
+                "nested_bootstrap_mean_gap": 0.0242,
+                "nested_bootstrap_ci_95": [
+                  -0.0168,
+                  0.0722
+                ],
+                "nested_bootstrap_p": 0.382,
+                "significant_005": false
+              },
+              "70": {
+                "acc_H_pre": 0.6714,
+                "acc_H_post": 0.6714,
+                "gap": 0.0,
+                "nested_bootstrap_mean_gap": 0.022,
+                "nested_bootstrap_ci_95": [
+                  -0.0143,
+                  0.062
+                ],
+                "nested_bootstrap_p": 0.292,
+                "significant_005": false
+              },
+              "80": {
+                "acc_H_pre": 0.6667,
+                "acc_H_post": 0.6625,
+                "gap": 0.0042,
+                "nested_bootstrap_mean_gap": 0.0213,
+                "nested_bootstrap_ci_95": [
+                  -0.0083,
+                  0.0542
+                ],
+                "nested_bootstrap_p": 0.22,
+                "significant_005": false
+              },
+              "90": {
+                "acc_H_pre": 0.6556,
+                "acc_H_post": 0.6519,
+                "gap": 0.0037,
+                "nested_bootstrap_mean_gap": 0.0152,
+                "nested_bootstrap_ci_95": [
+                  -0.0037,
+                  0.037
+                ],
+                "nested_bootstrap_p": 0.208,
+                "significant_005": false
+              },
+              "100": {
+                "acc_H_pre": 0.64,
+                "acc_H_post": 0.64,
+                "gap": 0.0,
+                "nested_bootstrap_mean_gap": 0.0,
+                "nested_bootstrap_ci_95": [
+                  0.0,
+                  0.0
+                ],
+                "nested_bootstrap_p": 2.0,
+                "significant_005": false
+              }
+            }
+          },
+          "scenario_c": {
+            "H_pre_optimal": {
+              "layer": 0,
+              "sign": -1,
+              "auroc": 0.6207
+            },
+            "H_pre_at_H_post_layer": {
+              "layer": 10,
+              "sign": -1,
+              "auroc": 0.5563
+            },
+            "H_pre_penalty": {
+              "delta": 0.0644,
+              "bootstrap_ci_95": [
+                0.0274,
+                0.1
+              ]
+            },
+            "H_post_optimal": {
+              "layer": 10,
+              "sign": 1,
+              "auroc": 0.5753
+            },
+            "H_post_at_H_pre_layer": {
+              "layer": 0,
+              "sign": -1,
+              "auroc": 0.5366
+            },
+            "H_post_penalty": {
+              "delta": 0.0388,
+              "bootstrap_ci_95": [
+                -0.0661,
+                0.1321
+              ]
+            }
+          }
+        },
+        "mistral": {
+          "n_samples": 1000,
+          "num_layers": 32,
+          "accuracy": 0.627,
+          "scenario_a_nested": {
+            "point_estimate": {
+              "best_layer_H_pre": 0,
+              "best_sign_H_pre": -1,
+              "best_layer_H_post": 24,
+              "best_sign_H_post": -1
+            },
+            "layer_selection_stability": {
+              "H_pre_mode_layer": 0,
+              "H_pre_unique_layers": 3,
+              "H_pre_mode_fraction": 0.889,
+              "H_post_mode_layer": 5,
+              "H_post_unique_layers": 11,
+              "H_post_mode_fraction": 0.418
+            },
+            "coverages": {
+              "50": {
+                "acc_H_pre": 0.7267,
+                "acc_H_post": 0.62,
+                "gap": 0.1067,
+                "nested_bootstrap_mean_gap": 0.0937,
+                "nested_bootstrap_ci_95": [
+                  0.0333,
+                  0.16
+                ],
+                "nested_bootstrap_p": 0.006,
+                "significant_005": true
+              },
+              "60": {
+                "acc_H_pre": 0.6889,
+                "acc_H_post": 0.6333,
+                "gap": 0.0556,
+                "nested_bootstrap_mean_gap": 0.0757,
+                "nested_bootstrap_ci_95": [
+                  0.0278,
+                  0.1278
+                ],
+                "nested_bootstrap_p": 0.008,
+                "significant_005": true
+              },
+              "70": {
+                "acc_H_pre": 0.7,
+                "acc_H_post": 0.6286,
+                "gap": 0.0714,
+                "nested_bootstrap_mean_gap": 0.0536,
+                "nested_bootstrap_ci_95": [
+                  0.0095,
+                  0.0952
+                ],
+                "nested_bootstrap_p": 0.016,
+                "significant_005": true
+              },
+              "80": {
+                "acc_H_pre": 0.675,
+                "acc_H_post": 0.6333,
+                "gap": 0.0417,
+                "nested_bootstrap_mean_gap": 0.0369,
+                "nested_bootstrap_ci_95": [
+                  0.0041,
+                  0.0708
+                ],
+                "nested_bootstrap_p": 0.05,
+                "significant_005": false
+              },
+              "90": {
+                "acc_H_pre": 0.637,
+                "acc_H_post": 0.6259,
+                "gap": 0.0111,
+                "nested_bootstrap_mean_gap": 0.0172,
+                "nested_bootstrap_ci_95": [
+                  -0.0001,
+                  0.037
+                ],
+                "nested_bootstrap_p": 0.106,
+                "significant_005": false
+              },
+              "100": {
+                "acc_H_pre": 0.6033,
+                "acc_H_post": 0.6033,
+                "gap": 0.0,
+                "nested_bootstrap_mean_gap": 0.0,
+                "nested_bootstrap_ci_95": [
+                  0.0,
+                  0.0
+                ],
+                "nested_bootstrap_p": 2.0,
+                "significant_005": false
+              }
+            }
+          },
+          "scenario_c": {
+            "H_pre_optimal": {
+              "layer": 0,
+              "sign": -1,
+              "auroc": 0.6745
+            },
+            "H_pre_at_H_post_layer": {
+              "layer": 24,
+              "sign": -1,
+              "auroc": 0.6771
+            },
+            "H_pre_penalty": {
+              "delta": -0.0026,
+              "bootstrap_ci_95": [
+                -0.0112,
+                0.0067
+              ]
+            },
+            "H_post_optimal": {
+              "layer": 24,
+              "sign": -1,
+              "auroc": 0.5702
+            },
+            "H_post_at_H_pre_layer": {
+              "layer": 0,
+              "sign": -1,
+              "auroc": 0.5434
+            },
+            "H_post_penalty": {
+              "delta": 0.0268,
+              "bootstrap_ci_95": [
+                -0.0339,
+                0.0894
+              ]
+            }
+          }
+        }
+      },
+      "scenario_b_ranking": {
+        "n_splits": 20,
+        "n_ranking_differs": 20,
+        "fraction_differs": 1.0,
+        "most_common_ranking_H_pre": [
+          "mistral",
+          "qwen",
+          "llama"
+        ],
+        "H_pre_mode_fraction": 0.7,
+        "most_common_ranking_H_post": [
+          "qwen",
+          "mistral",
+          "llama"
+        ],
+        "H_post_mode_fraction": 0.5,
+        "all_rankings_H_pre": [
+          [
+            "mistral",
+            "llama",
+            "qwen"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "llama",
+            "qwen"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "llama",
+            "qwen"
+          ],
+          [
+            "mistral",
+            "llama",
+            "qwen"
+          ],
+          [
+            "mistral",
+            "llama",
+            "qwen"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ]
+        ],
+        "all_rankings_H_post": [
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ]
+        ]
+      }
+    },
+    "greedy": {
+      "models": {
+        "qwen": {
+          "n_samples": 1000,
+          "num_layers": 28,
+          "accuracy": 0.75,
+          "scenario_a_nested": {
+            "point_estimate": {
+              "best_layer_H_pre": 12,
+              "best_sign_H_pre": -1,
+              "best_layer_H_post": 27,
+              "best_sign_H_post": -1
+            },
+            "layer_selection_stability": {
+              "H_pre_mode_layer": 12,
+              "H_pre_unique_layers": 7,
+              "H_pre_mode_fraction": 0.53,
+              "H_post_mode_layer": 27,
+              "H_post_unique_layers": 1,
+              "H_post_mode_fraction": 1.0
+            },
+            "coverages": {
+              "50": {
+                "acc_H_pre": 0.8133,
+                "acc_H_post": 0.8333,
+                "gap": -0.02,
+                "nested_bootstrap_mean_gap": -0.0285,
+                "nested_bootstrap_ci_95": [
+                  -0.08,
+                  0.02
+                ],
+                "nested_bootstrap_p": 0.354,
+                "significant_005": false
+              },
+              "60": {
+                "acc_H_pre": 0.8111,
+                "acc_H_post": 0.8111,
+                "gap": 0.0,
+                "nested_bootstrap_mean_gap": -0.0156,
+                "nested_bootstrap_ci_95": [
+                  -0.0611,
+                  0.0278
+                ],
+                "nested_bootstrap_p": 0.56,
+                "significant_005": false
+              },
+              "70": {
+                "acc_H_pre": 0.8,
+                "acc_H_post": 0.7952,
+                "gap": 0.0048,
+                "nested_bootstrap_mean_gap": -0.0084,
+                "nested_bootstrap_ci_95": [
+                  -0.0476,
+                  0.0286
+                ],
+                "nested_bootstrap_p": 0.828,
+                "significant_005": false
+              },
+              "80": {
+                "acc_H_pre": 0.7708,
+                "acc_H_post": 0.775,
+                "gap": -0.0042,
+                "nested_bootstrap_mean_gap": -0.0089,
+                "nested_bootstrap_ci_95": [
+                  -0.0417,
+                  0.0208
+                ],
+                "nested_bootstrap_p": 0.642,
+                "significant_005": false
+              },
+              "90": {
+                "acc_H_pre": 0.7556,
+                "acc_H_post": 0.7704,
+                "gap": -0.0148,
+                "nested_bootstrap_mean_gap": -0.0071,
+                "nested_bootstrap_ci_95": [
+                  -0.0296,
+                  0.0148
+                ],
+                "nested_bootstrap_p": 0.64,
+                "significant_005": false
+              },
+              "100": {
+                "acc_H_pre": 0.7567,
+                "acc_H_post": 0.7567,
+                "gap": 0.0,
+                "nested_bootstrap_mean_gap": 0.0,
+                "nested_bootstrap_ci_95": [
+                  0.0,
+                  0.0
+                ],
+                "nested_bootstrap_p": 2.0,
+                "significant_005": false
+              }
+            }
+          },
+          "scenario_c": {
+            "H_pre_optimal": {
+              "layer": 12,
+              "sign": -1,
+              "auroc": 0.6038
+            },
+            "H_pre_at_H_post_layer": {
+              "layer": 27,
+              "sign": -1,
+              "auroc": 0.566
+            },
+            "H_pre_penalty": {
+              "delta": 0.0377,
+              "bootstrap_ci_95": [
+                -0.0581,
+                0.1433
+              ]
+            },
+            "H_post_optimal": {
+              "layer": 27,
+              "sign": -1,
+              "auroc": 0.6377
+            },
+            "H_post_at_H_pre_layer": {
+              "layer": 12,
+              "sign": 1,
+              "auroc": 0.5415
+            },
+            "H_post_penalty": {
+              "delta": 0.0962,
+              "bootstrap_ci_95": [
+                -0.0198,
+                0.2027
+              ]
+            }
+          }
+        },
+        "llama": {
+          "n_samples": 1000,
+          "num_layers": 32,
+          "accuracy": 0.674,
+          "scenario_a_nested": {
+            "point_estimate": {
+              "best_layer_H_pre": 0,
+              "best_sign_H_pre": -1,
+              "best_layer_H_post": 10,
+              "best_sign_H_post": 1
+            },
+            "layer_selection_stability": {
+              "H_pre_mode_layer": 0,
+              "H_pre_unique_layers": 1,
+              "H_pre_mode_fraction": 1.0,
+              "H_post_mode_layer": 10,
+              "H_post_unique_layers": 9,
+              "H_post_mode_fraction": 0.735
+            },
+            "coverages": {
+              "50": {
+                "acc_H_pre": 0.7667,
+                "acc_H_post": 0.7533,
+                "gap": 0.0133,
+                "nested_bootstrap_mean_gap": 0.0144,
+                "nested_bootstrap_ci_95": [
+                  -0.04,
+                  0.0733
+                ],
+                "nested_bootstrap_p": 0.714,
+                "significant_005": false
+              },
+              "60": {
+                "acc_H_pre": 0.7556,
+                "acc_H_post": 0.75,
+                "gap": 0.0056,
+                "nested_bootstrap_mean_gap": 0.0135,
+                "nested_bootstrap_ci_95": [
+                  -0.0278,
+                  0.0612
+                ],
+                "nested_bootstrap_p": 0.674,
+                "significant_005": false
+              },
+              "70": {
+                "acc_H_pre": 0.7238,
+                "acc_H_post": 0.7381,
+                "gap": -0.0143,
+                "nested_bootstrap_mean_gap": 0.0071,
+                "nested_bootstrap_ci_95": [
+                  -0.0286,
+                  0.0476
+                ],
+                "nested_bootstrap_p": 0.796,
+                "significant_005": false
+              },
+              "80": {
+                "acc_H_pre": 0.7167,
+                "acc_H_post": 0.7083,
+                "gap": 0.0083,
+                "nested_bootstrap_mean_gap": 0.0128,
+                "nested_bootstrap_ci_95": [
+                  -0.0167,
+                  0.0417
+                ],
+                "nested_bootstrap_p": 0.474,
+                "significant_005": false
+              },
+              "90": {
+                "acc_H_pre": 0.6889,
+                "acc_H_post": 0.6815,
+                "gap": 0.0074,
+                "nested_bootstrap_mean_gap": 0.0045,
+                "nested_bootstrap_ci_95": [
+                  -0.0148,
+                  0.0259
+                ],
+                "nested_bootstrap_p": 0.82,
+                "significant_005": false
+              },
+              "100": {
+                "acc_H_pre": 0.6767,
+                "acc_H_post": 0.6767,
+                "gap": 0.0,
+                "nested_bootstrap_mean_gap": 0.0,
+                "nested_bootstrap_ci_95": [
+                  0.0,
+                  0.0
+                ],
+                "nested_bootstrap_p": 2.0,
+                "significant_005": false
+              }
+            }
+          },
+          "scenario_c": {
+            "H_pre_optimal": {
+              "layer": 0,
+              "sign": -1,
+              "auroc": 0.6364
+            },
+            "H_pre_at_H_post_layer": {
+              "layer": 10,
+              "sign": -1,
+              "auroc": 0.6247
+            },
+            "H_pre_penalty": {
+              "delta": 0.0117,
+              "bootstrap_ci_95": [
+                -0.0211,
+                0.0441
+              ]
+            },
+            "H_post_optimal": {
+              "layer": 10,
+              "sign": 1,
+              "auroc": 0.6179
+            },
+            "H_post_at_H_pre_layer": {
+              "layer": 0,
+              "sign": -1,
+              "auroc": 0.5112
+            },
+            "H_post_penalty": {
+              "delta": 0.1067,
+              "bootstrap_ci_95": [
+                0.0027,
+                0.2043
+              ]
+            }
+          }
+        },
+        "mistral": {
+          "n_samples": 1000,
+          "num_layers": 32,
+          "accuracy": 0.597,
+          "scenario_a_nested": {
+            "point_estimate": {
+              "best_layer_H_pre": 30,
+              "best_sign_H_pre": -1,
+              "best_layer_H_post": 7,
+              "best_sign_H_post": -1
+            },
+            "layer_selection_stability": {
+              "H_pre_mode_layer": 30,
+              "H_pre_unique_layers": 5,
+              "H_pre_mode_fraction": 0.704,
+              "H_post_mode_layer": 6,
+              "H_post_unique_layers": 6,
+              "H_post_mode_fraction": 0.642
+            },
+            "coverages": {
+              "50": {
+                "acc_H_pre": 0.7,
+                "acc_H_post": 0.5867,
+                "gap": 0.1133,
+                "nested_bootstrap_mean_gap": 0.1186,
+                "nested_bootstrap_ci_95": [
+                  0.0467,
+                  0.18
+                ],
+                "nested_bootstrap_p": 0.002,
+                "significant_005": true
+              },
+              "60": {
+                "acc_H_pre": 0.6833,
+                "acc_H_post": 0.6,
+                "gap": 0.0833,
+                "nested_bootstrap_mean_gap": 0.0951,
+                "nested_bootstrap_ci_95": [
+                  0.0444,
+                  0.15
+                ],
+                "nested_bootstrap_p": 0.0,
+                "significant_005": true
+              },
+              "70": {
+                "acc_H_pre": 0.6619,
+                "acc_H_post": 0.5905,
+                "gap": 0.0714,
+                "nested_bootstrap_mean_gap": 0.0607,
+                "nested_bootstrap_ci_95": [
+                  0.0143,
+                  0.1049
+                ],
+                "nested_bootstrap_p": 0.008,
+                "significant_005": true
+              },
+              "80": {
+                "acc_H_pre": 0.6125,
+                "acc_H_post": 0.5625,
+                "gap": 0.05,
+                "nested_bootstrap_mean_gap": 0.0306,
+                "nested_bootstrap_ci_95": [
+                  -0.0001,
+                  0.0626
+                ],
+                "nested_bootstrap_p": 0.1,
+                "significant_005": false
+              },
+              "90": {
+                "acc_H_pre": 0.5889,
+                "acc_H_post": 0.5667,
+                "gap": 0.0222,
+                "nested_bootstrap_mean_gap": 0.0166,
+                "nested_bootstrap_ci_95": [
+                  -0.0037,
+                  0.037
+                ],
+                "nested_bootstrap_p": 0.194,
+                "significant_005": false
+              },
+              "100": {
+                "acc_H_pre": 0.5433,
+                "acc_H_post": 0.5433,
+                "gap": 0.0,
+                "nested_bootstrap_mean_gap": 0.0,
+                "nested_bootstrap_ci_95": [
+                  0.0,
+                  0.0
+                ],
+                "nested_bootstrap_p": 2.0,
+                "significant_005": false
+              }
+            }
+          },
+          "scenario_c": {
+            "H_pre_optimal": {
+              "layer": 30,
+              "sign": -1,
+              "auroc": 0.7143
+            },
+            "H_pre_at_H_post_layer": {
+              "layer": 7,
+              "sign": -1,
+              "auroc": 0.713
+            },
+            "H_pre_penalty": {
+              "delta": 0.0012,
+              "bootstrap_ci_95": [
+                -0.0047,
+                0.0075
+              ]
+            },
+            "H_post_optimal": {
+              "layer": 7,
+              "sign": -1,
+              "auroc": 0.6015
+            },
+            "H_post_at_H_pre_layer": {
+              "layer": 30,
+              "sign": 1,
+              "auroc": 0.5818
+            },
+            "H_post_penalty": {
+              "delta": 0.0196,
+              "bootstrap_ci_95": [
+                -0.0476,
+                0.0824
+              ]
+            }
+          }
+        }
+      },
+      "scenario_b_ranking": {
+        "n_splits": 20,
+        "n_ranking_differs": 19,
+        "fraction_differs": 0.95,
+        "most_common_ranking_H_pre": [
+          "mistral",
+          "qwen",
+          "llama"
+        ],
+        "H_pre_mode_fraction": 0.85,
+        "most_common_ranking_H_post": [
+          "qwen",
+          "llama",
+          "mistral"
+        ],
+        "H_post_mode_fraction": 0.75,
+        "all_rankings_H_pre": [
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "llama",
+            "qwen"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "mistral",
+            "qwen",
+            "llama"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ]
+        ],
+        "all_rankings_H_post": [
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "llama",
+            "mistral"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ],
+          [
+            "qwen",
+            "mistral",
+            "llama"
+          ]
+        ]
+      }
+    }
+  }
+}
