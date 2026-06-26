@@ -1,0 +1,38 @@
+[
+  {
+    "sample_idx": 0,
+    "layer_idx": 0,
+    "hidden_dtype": "torch.float32",
+    "h_after_float_dtype": "torch.float32",
+    "lm_head_weight_dtype": "torch.float32",
+    "norm_weight_dtype": "torch.float32",
+    "hidden_device": "cuda:0",
+    "model_device": "cuda:0",
+    "lm_head_device": "meta",
+    "norm_device": "meta"
+  },
+  {
+    "sample_idx": 0,
+    "layer_idx": 16,
+    "hidden_dtype": "torch.float32",
+    "h_after_float_dtype": "torch.float32",
+    "lm_head_weight_dtype": "torch.float32",
+    "norm_weight_dtype": "torch.float32",
+    "hidden_device": "cuda:0",
+    "model_device": "cuda:0",
+    "lm_head_device": "meta",
+    "norm_device": "meta"
+  },
+  {
+    "sample_idx": 0,
+    "layer_idx": 31,
+    "hidden_dtype": "torch.float32",
+    "h_after_float_dtype": "torch.float32",
+    "lm_head_weight_dtype": "torch.float32",
+    "norm_weight_dtype": "torch.float32",
+    "hidden_device": "cuda:0",
+    "model_device": "cuda:0",
+    "lm_head_device": "meta",
+    "norm_device": "meta"
+  }
+]

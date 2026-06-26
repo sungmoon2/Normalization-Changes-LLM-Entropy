@@ -28,6 +28,8 @@ paper/latex/
 01_contexts/
 .claude/
 .mcp.json
+.agents/
+리뷰어_피드백/
 
 # Reports and consultation logs
 reports/

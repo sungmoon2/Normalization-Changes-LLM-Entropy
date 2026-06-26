@@ -1,0 +1,4002 @@
+[
+  {
+    "pre_shuffle_order": 164,
+    "dataset_index": 4448,
+    "subject": "high_school_mathematics",
+    "answer_key": "D",
+    "question_sha256": "31d915cb4c4d83de809671fe16e3d759c301de09cab4518672945f41946b0404",
+    "post_shuffle_order": 0
+  },
+  {
+    "pre_shuffle_order": 383,
+    "dataset_index": 10220,
+    "subject": "prehistory",
+    "answer_key": "D",
+    "question_sha256": "dcd98b0bb81df0ef2ecdb52304f7d0be44debb54d2b5758732c6f6ec15bc3fdf",
+    "post_shuffle_order": 1
+  },
+  {
+    "pre_shuffle_order": 45,
+    "dataset_index": 1326,
+    "subject": "college_medicine",
+    "answer_key": "B",
+    "question_sha256": "38795f9d07caf109d03e347031387bc2ac179fbe2456f2eae9da77355f0a3f98",
+    "post_shuffle_order": 2
+  },
+  {
+    "pre_shuffle_order": 156,
+    "dataset_index": 4190,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "B",
+    "question_sha256": "d478ebc5dd17c94163cd1266ec067fdee5f2e7a96ba43ee242ed40d03b723eda",
+    "post_shuffle_order": 3
+  },
+  {
+    "pre_shuffle_order": 53,
+    "dataset_index": 1516,
+    "subject": "computer_security",
+    "answer_key": "D",
+    "question_sha256": "c8e49f52b24055d30a7a443e54d48ae9b28fdf2b7db02ece8732c2d99d3277c7",
+    "post_shuffle_order": 4
+  },
+  {
+    "pre_shuffle_order": 72,
+    "dataset_index": 2025,
+    "subject": "electrical_engineering",
+    "answer_key": "D",
+    "question_sha256": "5b9521e0ce35fb9bb2ffe129b93f0e6d3fe40b7d7f0d230f60b8f2aee011361c",
+    "post_shuffle_order": 5
+  },
+  {
+    "pre_shuffle_order": 315,
+    "dataset_index": 8862,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "1274c699a332faad7ab64d3f77a72b342c407eabfabbfa7596357756a321dfd2",
+    "post_shuffle_order": 6
+  },
+  {
+    "pre_shuffle_order": 209,
+    "dataset_index": 5714,
+    "subject": "high_school_us_history",
+    "answer_key": "C",
+    "question_sha256": "9963c7f34a434c65268bec1a66c816c06ee5fd8fbf8c5d463de3fe38e5d9a1ee",
+    "post_shuffle_order": 7
+  },
+  {
+    "pre_shuffle_order": 74,
+    "dataset_index": 2087,
+    "subject": "elementary_mathematics",
+    "answer_key": "A",
+    "question_sha256": "6403fb8eeab87b756a4115018e97edaf8479a0e23341bd039171d777b0d4a30b",
+    "post_shuffle_order": 8
+  },
+  {
+    "pre_shuffle_order": 333,
+    "dataset_index": 9205,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "b8daed9ec22a8fc2c67b2a6f742ef00913ef2136a6bb4c4c2858981b592a7691",
+    "post_shuffle_order": 9
+  },
+  {
+    "pre_shuffle_order": 403,
+    "dataset_index": 10709,
+    "subject": "professional_law",
+    "answer_key": "D",
+    "question_sha256": "e0dc30baf17a27f24b8e2e7e767bae774760d7cc1c53290964b62e11fcf8bbc5",
+    "post_shuffle_order": 10
+  },
+  {
+    "pre_shuffle_order": 415,
+    "dataset_index": 11173,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "4a02c7c982a5eda3a2a9ed92be152381574666cb43c95ad52c9499d2f0fe32df",
+    "post_shuffle_order": 11
+  },
+  {
+    "pre_shuffle_order": 92,
+    "dataset_index": 2507,
+    "subject": "formal_logic",
+    "answer_key": "D",
+    "question_sha256": "2e1a90408fe5346efc0855c3f039a39abb860c97c68b43a5743a5626745472dd",
+    "post_shuffle_order": 12
+  },
+  {
+    "pre_shuffle_order": 215,
+    "dataset_index": 5815,
+    "subject": "high_school_us_history",
+    "answer_key": "B",
+    "question_sha256": "8572ad9a3ab7afd4c56330d0c83f67ff99703d262380b0601f9f6a1c9366da32",
+    "post_shuffle_order": 13
+  },
+  {
+    "pre_shuffle_order": 479,
+    "dataset_index": 13575,
+    "subject": "sociology",
+    "answer_key": "A",
+    "question_sha256": "9f0226917391bbe0f1ce0480b968555a4121d10d1087620a796b20c2807a43bd",
+    "post_shuffle_order": 14
+  },
+  {
+    "pre_shuffle_order": 59,
+    "dataset_index": 1683,
+    "subject": "conceptual_physics",
+    "answer_key": "A",
+    "question_sha256": "94706719af9974b071b2827b3300179d17844f343602abe95b2efd299594113b",
+    "post_shuffle_order": 15
+  },
+  {
+    "pre_shuffle_order": 368,
+    "dataset_index": 9904,
+    "subject": "philosophy",
+    "answer_key": "C",
+    "question_sha256": "3a83aea4b10c73682294d0b2238da9cf137a186109a7fdb8c4b91537e64ef075",
+    "post_shuffle_order": 16
+  },
+  {
+    "pre_shuffle_order": 163,
+    "dataset_index": 4441,
+    "subject": "high_school_mathematics",
+    "answer_key": "D",
+    "question_sha256": "392efae7f09f1a064ac019680dcdca895a0de34b523195bceb68520c82d69ee5",
+    "post_shuffle_order": 17
+  },
+  {
+    "pre_shuffle_order": 210,
+    "dataset_index": 5723,
+    "subject": "high_school_us_history",
+    "answer_key": "A",
+    "question_sha256": "4ea746871f1bee2ace2f79295bb4dfb2a991f8b4a5607e77dfd1a93692659508",
+    "post_shuffle_order": 18
+  },
+  {
+    "pre_shuffle_order": 251,
+    "dataset_index": 7021,
+    "subject": "management",
+    "answer_key": "B",
+    "question_sha256": "aece1168584d178fa6cc3ae026e016394410d00a36de7686e0852172faca4a3d",
+    "post_shuffle_order": 19
+  },
+  {
+    "pre_shuffle_order": 443,
+    "dataset_index": 12366,
+    "subject": "professional_medicine",
+    "answer_key": "A",
+    "question_sha256": "e5948f808dcdb40f1e6faf78e471232f5a9c406a779f0aef1d2f16c8ed72f5af",
+    "post_shuffle_order": 20
+  },
+  {
+    "pre_shuffle_order": 320,
+    "dataset_index": 8890,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "49dcfe8925830511f42c69989c15f2d85c7e2a7f2ab43f22a7a55958a86604ff",
+    "post_shuffle_order": 21
+  },
+  {
+    "pre_shuffle_order": 289,
+    "dataset_index": 8243,
+    "subject": "moral_disputes",
+    "answer_key": "B",
+    "question_sha256": "44efc49e9a9fa54c0c6cebb7029af43b4297e1e4f424e9d2f766665b85d731cf",
+    "post_shuffle_order": 22
+  },
+  {
+    "pre_shuffle_order": 389,
+    "dataset_index": 10401,
+    "subject": "professional_accounting",
+    "answer_key": "B",
+    "question_sha256": "cd71218d7382de55d1a014cabdd2ec72c22b2bacca1d10bcec8f3edd0821193d",
+    "post_shuffle_order": 23
+  },
+  {
+    "pre_shuffle_order": 7,
+    "dataset_index": 181,
+    "subject": "anatomy",
+    "answer_key": "B",
+    "question_sha256": "15cfabc11f7ff27ba9dfc097f2417d1516b25eedebbc0c472e224891654c9a68",
+    "post_shuffle_order": 24
+  },
+  {
+    "pre_shuffle_order": 462,
+    "dataset_index": 12975,
+    "subject": "professional_psychology",
+    "answer_key": "B",
+    "question_sha256": "4b1d790a49f839236107601b6387a9f3751fff00d9f92e7d43ecb60765424cba",
+    "post_shuffle_order": 25
+  },
+  {
+    "pre_shuffle_order": 249,
+    "dataset_index": 6964,
+    "subject": "management",
+    "answer_key": "C",
+    "question_sha256": "9eb7a2a1341155f15e07721a85c3a28f92ab015928cea4490574ae0c0b03068d",
+    "post_shuffle_order": 26
+  },
+  {
+    "pre_shuffle_order": 228,
+    "dataset_index": 6206,
+    "subject": "human_aging",
+    "answer_key": "C",
+    "question_sha256": "bc910be3d784302973e969334fc914b85a7bc3a2c84f31f905893f436ab34722",
+    "post_shuffle_order": 27
+  },
+  {
+    "pre_shuffle_order": 245,
+    "dataset_index": 6856,
+    "subject": "machine_learning",
+    "answer_key": "A",
+    "question_sha256": "234ef4491b55be47e99537816249befa38cba99d7e212c32d8989fa39ae632ca",
+    "post_shuffle_order": 28
+  },
+  {
+    "pre_shuffle_order": 211,
+    "dataset_index": 5768,
+    "subject": "high_school_us_history",
+    "answer_key": "D",
+    "question_sha256": "b56e24aac2797fdc7999ab126be76a069c38fb0d4510c5244b92c7245fbcc933",
+    "post_shuffle_order": 29
+  },
+  {
+    "pre_shuffle_order": 129,
+    "dataset_index": 3418,
+    "subject": "high_school_european_history",
+    "answer_key": "D",
+    "question_sha256": "59b05e20d469d5aab2f593bd4afd9a02e39edcb4f4c828214a12fac4f94e92a9",
+    "post_shuffle_order": 30
+  },
+  {
+    "pre_shuffle_order": 162,
+    "dataset_index": 4353,
+    "subject": "high_school_mathematics",
+    "answer_key": "D",
+    "question_sha256": "8810016a704452b4e66700a0c31c319c21503c7c51f191ec0aa51da89bd7ee27",
+    "post_shuffle_order": 31
+  },
+  {
+    "pre_shuffle_order": 223,
+    "dataset_index": 6084,
+    "subject": "high_school_world_history",
+    "answer_key": "D",
+    "question_sha256": "11558040d6aabd2329d21aabc9bc957b58a8cf6229936b90c8868c8429fdb957",
+    "post_shuffle_order": 32
+  },
+  {
+    "pre_shuffle_order": 41,
+    "dataset_index": 1199,
+    "subject": "college_medicine",
+    "answer_key": "D",
+    "question_sha256": "ecc80eb8ab4aef2176b19d6ec846e756cb40cb8538065a9c5c18ee53680d43d1",
+    "post_shuffle_order": 33
+  },
+  {
+    "pre_shuffle_order": 278,
+    "dataset_index": 7838,
+    "subject": "miscellaneous",
+    "answer_key": "C",
+    "question_sha256": "a77384677994f8d70047d78b05ba808cbcec6caa39bc01987954f2ffde031d1b",
+    "post_shuffle_order": 34
+  },
+  {
+    "pre_shuffle_order": 21,
+    "dataset_index": 487,
+    "subject": "clinical_knowledge",
+    "answer_key": "A",
+    "question_sha256": "53673f1fa9570eb120c022066dc02712af1ac711f630d2a5d63805d276e4d610",
+    "post_shuffle_order": 35
+  },
+  {
+    "pre_shuffle_order": 434,
+    "dataset_index": 12049,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "b3085a00beba3387e77e4f6e149a1bc370fcbd90a089ba3332bd649b28d85dca",
+    "post_shuffle_order": 36
+  },
+  {
+    "pre_shuffle_order": 68,
+    "dataset_index": 1944,
+    "subject": "electrical_engineering",
+    "answer_key": "D",
+    "question_sha256": "e3e82857b74d38abdbbd1e7868e76865cad1ba935738ce400e390180c6317700",
+    "post_shuffle_order": 37
+  },
+  {
+    "pre_shuffle_order": 227,
+    "dataset_index": 6186,
+    "subject": "human_aging",
+    "answer_key": "D",
+    "question_sha256": "0e1800077233222e7079a7a89e03c2df8d6e8ddcd4abc5717aa6e7168687e088",
+    "post_shuffle_order": 38
+  },
+  {
+    "pre_shuffle_order": 151,
+    "dataset_index": 4089,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "B",
+    "question_sha256": "b6697bea5095eff67a265bcef95ae99d2f60185fb60c0eae84c3a3845b39fb15",
+    "post_shuffle_order": 39
+  },
+  {
+    "pre_shuffle_order": 369,
+    "dataset_index": 9910,
+    "subject": "philosophy",
+    "answer_key": "B",
+    "question_sha256": "18db50b1eb39e025121a6e838137176f6ff11e578e4afa974ef465066d92afce",
+    "post_shuffle_order": 40
+  },
+  {
+    "pre_shuffle_order": 217,
+    "dataset_index": 5872,
+    "subject": "high_school_world_history",
+    "answer_key": "A",
+    "question_sha256": "7b00e548a5f81643c0bb6d8962b96d0deed6255574019972cd1c7d5897d379b4",
+    "post_shuffle_order": 41
+  },
+  {
+    "pre_shuffle_order": 154,
+    "dataset_index": 4110,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "D",
+    "question_sha256": "19e9a9899b18eb626092e5d1bc95ac0c2096179795a6025bce540524b61dc982",
+    "post_shuffle_order": 42
+  },
+  {
+    "pre_shuffle_order": 177,
+    "dataset_index": 4826,
+    "subject": "high_school_physics",
+    "answer_key": "C",
+    "question_sha256": "ec3600b7da22e2e246d10a941aecd0b2ddd223454f916f5b6ea313079f05e3e5",
+    "post_shuffle_order": 43
+  },
+  {
+    "pre_shuffle_order": 397,
+    "dataset_index": 10611,
+    "subject": "professional_accounting",
+    "answer_key": "B",
+    "question_sha256": "f97d9df358e9ab8c6d3ebd05e13eb62200fa9a434b6aab120671ac5190b1fcae",
+    "post_shuffle_order": 44
+  },
+  {
+    "pre_shuffle_order": 139,
+    "dataset_index": 3710,
+    "subject": "high_school_government_and_politics",
+    "answer_key": "D",
+    "question_sha256": "e9fd1fa7d4186c8dc3d6cb36c67e46d023729d444afc5027e70f88bb2c2dd881",
+    "post_shuffle_order": 45
+  },
+  {
+    "pre_shuffle_order": 141,
+    "dataset_index": 3800,
+    "subject": "high_school_government_and_politics",
+    "answer_key": "B",
+    "question_sha256": "0ca9bd2e66328cb8134f890afaaf86b63238b89e45ce2d790708e4325a3c8415",
+    "post_shuffle_order": 46
+  },
+  {
+    "pre_shuffle_order": 326,
+    "dataset_index": 9139,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "ca603090e436f1de87e777f877878f804f7a1a233b19919899f5e810f956fac0",
+    "post_shuffle_order": 47
+  },
+  {
+    "pre_shuffle_order": 175,
+    "dataset_index": 4810,
+    "subject": "high_school_physics",
+    "answer_key": "A",
+    "question_sha256": "a55483cf153d2edd798b5a54b277a538808df97bddd2069bba52c27b08a15793",
+    "post_shuffle_order": 48
+  },
+  {
+    "pre_shuffle_order": 170,
+    "dataset_index": 4659,
+    "subject": "high_school_microeconomics",
+    "answer_key": "D",
+    "question_sha256": "395e7d6ee538cd7231cbb88b92193b95e752526e032afb1ba38454155c5b7d06",
+    "post_shuffle_order": 49
+  },
+  {
+    "pre_shuffle_order": 88,
+    "dataset_index": 2459,
+    "subject": "formal_logic",
+    "answer_key": "D",
+    "question_sha256": "e2b5a62c6def0ece6f49d9c88a74bccae8f719121172d50752fab40cca35afcf",
+    "post_shuffle_order": 50
+  },
+  {
+    "pre_shuffle_order": 96,
+    "dataset_index": 2628,
+    "subject": "global_facts",
+    "answer_key": "B",
+    "question_sha256": "17412536b2044711731e37b6c6340b9d489fa9c2f4798136c9bb3974d8aee370",
+    "post_shuffle_order": 51
+  },
+  {
+    "pre_shuffle_order": 439,
+    "dataset_index": 12247,
+    "subject": "professional_medicine",
+    "answer_key": "A",
+    "question_sha256": "313d39333a33db2a047aa41bfc39096e44446c8e044c9a309bfdc8958f06cf52",
+    "post_shuffle_order": 52
+  },
+  {
+    "pre_shuffle_order": 303,
+    "dataset_index": 8557,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "aa7b222c46712aa86260cdf2412b69ba18d73b96a7e12c1ad1f9304611707998",
+    "post_shuffle_order": 53
+  },
+  {
+    "pre_shuffle_order": 50,
+    "dataset_index": 1482,
+    "subject": "computer_security",
+    "answer_key": "C",
+    "question_sha256": "f621d8c2be509049c57be14e5f10465a3c68b41fe58325d1302408ce1578aed7",
+    "post_shuffle_order": 54
+  },
+  {
+    "pre_shuffle_order": 199,
+    "dataset_index": 5418,
+    "subject": "high_school_psychology",
+    "answer_key": "C",
+    "question_sha256": "e669499ebb559b7d868e1d1cdd78683bc03153ff7b065464f08c1ea8135ad070",
+    "post_shuffle_order": 55
+  },
+  {
+    "pre_shuffle_order": 297,
+    "dataset_index": 8457,
+    "subject": "moral_disputes",
+    "answer_key": "B",
+    "question_sha256": "e1e7d3856c69adbd5335ead1ba592cd3f1fd2a0deb35f73940eac143a5b9bf6b",
+    "post_shuffle_order": 56
+  },
+  {
+    "pre_shuffle_order": 131,
+    "dataset_index": 3461,
+    "subject": "high_school_geography",
+    "answer_key": "B",
+    "question_sha256": "07475e5cd8dd3ea911fbd2e401c7278fdbe4043e72ffc3f387dc17072bfa1cb3",
+    "post_shuffle_order": 57
+  },
+  {
+    "pre_shuffle_order": 120,
+    "dataset_index": 3316,
+    "subject": "high_school_european_history",
+    "answer_key": "A",
+    "question_sha256": "ad384e196e11ce13bf5566a9aa2b86462d0e464d7b41f10502f0d973d33d28ad",
+    "post_shuffle_order": 58
+  },
+  {
+    "pre_shuffle_order": 358,
+    "dataset_index": 9694,
+    "subject": "nutrition",
+    "answer_key": "B",
+    "question_sha256": "dfaabbddb3bfbd8ff2e683b32fb85e3c1d8dc74295981b007881a391dcd668e0",
+    "post_shuffle_order": 59
+  },
+  {
+    "pre_shuffle_order": 180,
+    "dataset_index": 4861,
+    "subject": "high_school_physics",
+    "answer_key": "A",
+    "question_sha256": "b18590d1d33b7b6d324d35a436663350f95abaa112a95fd9709105f4fee066cb",
+    "post_shuffle_order": 60
+  },
+  {
+    "pre_shuffle_order": 370,
+    "dataset_index": 9933,
+    "subject": "philosophy",
+    "answer_key": "D",
+    "question_sha256": "7b002179fbf5e9ac40789d98e36c53ab10dd2aa17e26b7375942424dc4b48264",
+    "post_shuffle_order": 61
+  },
+  {
+    "pre_shuffle_order": 37,
+    "dataset_index": 1039,
+    "subject": "college_computer_science",
+    "answer_key": "D",
+    "question_sha256": "6c12d9f888b37e83a3c6f72a3a4d6b2bd95decb04a0e36291cac488eae55b338",
+    "post_shuffle_order": 62
+  },
+  {
+    "pre_shuffle_order": 160,
+    "dataset_index": 4250,
+    "subject": "high_school_mathematics",
+    "answer_key": "D",
+    "question_sha256": "bee53886edf17a4777fc8e67e7eda3d1dcd38983d333853093ce7239b28e37d7",
+    "post_shuffle_order": 63
+  },
+  {
+    "pre_shuffle_order": 4,
+    "dataset_index": 168,
+    "subject": "anatomy",
+    "answer_key": "D",
+    "question_sha256": "ce4895381265f3a79c663435c0252384c1b60b0749fce29c3ef27fb6ffa83a21",
+    "post_shuffle_order": 64
+  },
+  {
+    "pre_shuffle_order": 93,
+    "dataset_index": 2519,
+    "subject": "formal_logic",
+    "answer_key": "C",
+    "question_sha256": "cfc897d145472836afad31b2341da3c96f61576189a08341bcb35959c6cc7968",
+    "post_shuffle_order": 65
+  },
+  {
+    "pre_shuffle_order": 304,
+    "dataset_index": 8594,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "be89e91651c5fab4173d98f8dc6a34ffa2a02d19640b57aa5aaa3761f10100b6",
+    "post_shuffle_order": 66
+  },
+  {
+    "pre_shuffle_order": 188,
+    "dataset_index": 5020,
+    "subject": "high_school_psychology",
+    "answer_key": "D",
+    "question_sha256": "19e9ef13328ae9e372cc0bf6a263055bf7871d26bb0f3531e877e5f50c07bb91",
+    "post_shuffle_order": 67
+  },
+  {
+    "pre_shuffle_order": 374,
+    "dataset_index": 10038,
+    "subject": "prehistory",
+    "answer_key": "C",
+    "question_sha256": "812bae90da1a26bdea2b44cd2d3e56b7d47044161235607bf0b3322d9292034c",
+    "post_shuffle_order": 68
+  },
+  {
+    "pre_shuffle_order": 453,
+    "dataset_index": 12626,
+    "subject": "professional_psychology",
+    "answer_key": "C",
+    "question_sha256": "e376f72b1de8c6a023fcb7f43a2294865ae8b5514dae7973ef36661053fc08b2",
+    "post_shuffle_order": 69
+  },
+  {
+    "pre_shuffle_order": 94,
+    "dataset_index": 2585,
+    "subject": "global_facts",
+    "answer_key": "A",
+    "question_sha256": "9d75cfb1f8fffe839f079ba65f2d25bbbcbd9fdb39bdf6b79bf4fdae5379fbb6",
+    "post_shuffle_order": 70
+  },
+  {
+    "pre_shuffle_order": 468,
+    "dataset_index": 13247,
+    "subject": "security_studies",
+    "answer_key": "C",
+    "question_sha256": "016edd96381ad2b3139d14ac89352997644ded6b9d8e7c1279fa7642c597e65c",
+    "post_shuffle_order": 71
+  },
+  {
+    "pre_shuffle_order": 292,
+    "dataset_index": 8309,
+    "subject": "moral_disputes",
+    "answer_key": "D",
+    "question_sha256": "de1c0a154dc12bf4bc563c1bf5cbf7578a87a6f2d8e89bf224ee9f5eeb18d378",
+    "post_shuffle_order": 72
+  },
+  {
+    "pre_shuffle_order": 340,
+    "dataset_index": 9278,
+    "subject": "moral_scenarios",
+    "answer_key": "B",
+    "question_sha256": "10dbf7b40cf4b9bafa4b26299b5cac98b94256a4e9db8f08c2b1d8f612c637ce",
+    "post_shuffle_order": 73
+  },
+  {
+    "pre_shuffle_order": 407,
+    "dataset_index": 10918,
+    "subject": "professional_law",
+    "answer_key": "D",
+    "question_sha256": "0305b17638b822057278973f39f02bbce2b212aa10bce064c19896fcacd8c0bb",
+    "post_shuffle_order": 74
+  },
+  {
+    "pre_shuffle_order": 408,
+    "dataset_index": 10968,
+    "subject": "professional_law",
+    "answer_key": "D",
+    "question_sha256": "ffe235f6cb9356ac1e24fad09ddf7057bdf597b0546368ce4c8356deb6654708",
+    "post_shuffle_order": 75
+  },
+  {
+    "pre_shuffle_order": 187,
+    "dataset_index": 5015,
+    "subject": "high_school_psychology",
+    "answer_key": "C",
+    "question_sha256": "a4b627b2c39967bb65d41443ea355b92a4860c41004c39bae60856fb36ce1d23",
+    "post_shuffle_order": 76
+  },
+  {
+    "pre_shuffle_order": 334,
+    "dataset_index": 9214,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "5918d2e62bc93a5d0a5602d3da8cb1d1016eeb6b7d2dc118bc51ba2a8af5e95c",
+    "post_shuffle_order": 77
+  },
+  {
+    "pre_shuffle_order": 213,
+    "dataset_index": 5794,
+    "subject": "high_school_us_history",
+    "answer_key": "B",
+    "question_sha256": "6160b7d211243773a96d25301bfecf288b98a0f9aab818ee6e94006d8f3568c3",
+    "post_shuffle_order": 78
+  },
+  {
+    "pre_shuffle_order": 127,
+    "dataset_index": 3378,
+    "subject": "high_school_european_history",
+    "answer_key": "D",
+    "question_sha256": "06ee8dfc947acaf7bce85c19a1bbbf62cfdc0055b44eabbd6cd9d0942609cd23",
+    "post_shuffle_order": 79
+  },
+  {
+    "pre_shuffle_order": 11,
+    "dataset_index": 286,
+    "subject": "astronomy",
+    "answer_key": "D",
+    "question_sha256": "5f5f0b6ccb366060bbcacd554f203721b2788af9043b5f2316502a21b31e25e4",
+    "post_shuffle_order": 80
+  },
+  {
+    "pre_shuffle_order": 6,
+    "dataset_index": 173,
+    "subject": "anatomy",
+    "answer_key": "A",
+    "question_sha256": "95931850746cea8170cb50f9b38f27e002b088e532449f7e0d81ad674025809f",
+    "post_shuffle_order": 81
+  },
+  {
+    "pre_shuffle_order": 442,
+    "dataset_index": 12353,
+    "subject": "professional_medicine",
+    "answer_key": "D",
+    "question_sha256": "26384eb1a7d21759de58b91a49566d717c5a39d061b2e23addfbb8d3e664a24f",
+    "post_shuffle_order": 82
+  },
+  {
+    "pre_shuffle_order": 246,
+    "dataset_index": 6865,
+    "subject": "machine_learning",
+    "answer_key": "C",
+    "question_sha256": "5de0edf9720f1dec8ecbbcc140acca71bb9b806e1d0abfb9e7d2cec5d66626ff",
+    "post_shuffle_order": 83
+  },
+  {
+    "pre_shuffle_order": 396,
+    "dataset_index": 10596,
+    "subject": "professional_accounting",
+    "answer_key": "D",
+    "question_sha256": "be0db0334616ce63cd8c98b4d0bcaf1a976441834019d00f422a03f0f50a1ff7",
+    "post_shuffle_order": 84
+  },
+  {
+    "pre_shuffle_order": 425,
+    "dataset_index": 11597,
+    "subject": "professional_law",
+    "answer_key": "A",
+    "question_sha256": "c7ef0273835329464b9a0c0c1b9db21c744c1b99da27c38a3660cce2b23fbe37",
+    "post_shuffle_order": 85
+  },
+  {
+    "pre_shuffle_order": 345,
+    "dataset_index": 9377,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "d659dcb3db8bffce38669f559dd70755a5416a4343943040ec7a1a5236dd97fa",
+    "post_shuffle_order": 86
+  },
+  {
+    "pre_shuffle_order": 89,
+    "dataset_index": 2485,
+    "subject": "formal_logic",
+    "answer_key": "C",
+    "question_sha256": "6a8f042e31632f9ed8d781ba129b336967bab98ebb8378fe95a76cb3a1a649e2",
+    "post_shuffle_order": 87
+  },
+  {
+    "pre_shuffle_order": 426,
+    "dataset_index": 11617,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "1fc59e974aa61325edb0990f77f8cf69695c5bb33444ce24f88ee7c8c4afa913",
+    "post_shuffle_order": 88
+  },
+  {
+    "pre_shuffle_order": 26,
+    "dataset_index": 735,
+    "subject": "clinical_knowledge",
+    "answer_key": "C",
+    "question_sha256": "70f06fadccf4539a2ad3390e06659902d3ce179ae99f3536b1d07543631017e8",
+    "post_shuffle_order": 89
+  },
+  {
+    "pre_shuffle_order": 77,
+    "dataset_index": 2144,
+    "subject": "elementary_mathematics",
+    "answer_key": "A",
+    "question_sha256": "26ba6dae87dd1287c3c4f5ee303aff397b2e8ee7ba797b0e678575590bf7c1df",
+    "post_shuffle_order": 90
+  },
+  {
+    "pre_shuffle_order": 184,
+    "dataset_index": 4965,
+    "subject": "high_school_psychology",
+    "answer_key": "A",
+    "question_sha256": "388844207c27db0a2b94ae03da9f24602b18d79cfd95e11c51fccaedee8b3649",
+    "post_shuffle_order": 91
+  },
+  {
+    "pre_shuffle_order": 262,
+    "dataset_index": 7441,
+    "subject": "miscellaneous",
+    "answer_key": "D",
+    "question_sha256": "a30964c9b2d0fea0e36205921b456568c69c2ba716b8e328f23b272a613a6955",
+    "post_shuffle_order": 92
+  },
+  {
+    "pre_shuffle_order": 207,
+    "dataset_index": 5709,
+    "subject": "high_school_us_history",
+    "answer_key": "C",
+    "question_sha256": "0d4d13a3613c1c53398ca19cad63cf0a912abdf374e0666a543307e207705ff4",
+    "post_shuffle_order": 93
+  },
+  {
+    "pre_shuffle_order": 182,
+    "dataset_index": 4918,
+    "subject": "high_school_psychology",
+    "answer_key": "A",
+    "question_sha256": "424a8aae78aea97fa98a9b0cb4c3d5b11f5aefa6bb38e33cdef70ba6fdaad032",
+    "post_shuffle_order": 94
+  },
+  {
+    "pre_shuffle_order": 95,
+    "dataset_index": 2609,
+    "subject": "global_facts",
+    "answer_key": "B",
+    "question_sha256": "9e2721354326b110d3e8ff7d9c990ac0c0797afc50c35e497ad2dfa415e86f94",
+    "post_shuffle_order": 95
+  },
+  {
+    "pre_shuffle_order": 100,
+    "dataset_index": 2771,
+    "subject": "high_school_biology",
+    "answer_key": "D",
+    "question_sha256": "d564c4dda53624ed3534578ab24a4c2c419cf74f13579f002339c08dd7534f90",
+    "post_shuffle_order": 96
+  },
+  {
+    "pre_shuffle_order": 419,
+    "dataset_index": 11445,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "45339771179330f968284aa66e374324daef0261371e57294be4c82f37c41360",
+    "post_shuffle_order": 97
+  },
+  {
+    "pre_shuffle_order": 394,
+    "dataset_index": 10577,
+    "subject": "professional_accounting",
+    "answer_key": "A",
+    "question_sha256": "cc3adcc6a0609f3fe0fe30d9ca34ac421a9d1ddfa656caa02c50d5bdfa0839b2",
+    "post_shuffle_order": 98
+  },
+  {
+    "pre_shuffle_order": 155,
+    "dataset_index": 4115,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "A",
+    "question_sha256": "63754b3ceeb35962ceef5f227fd2e2c420718b5d518aee28e59f99f9cc640d3b",
+    "post_shuffle_order": 99
+  },
+  {
+    "pre_shuffle_order": 230,
+    "dataset_index": 6264,
+    "subject": "human_aging",
+    "answer_key": "A",
+    "question_sha256": "6ab2bddff9714e9195c24fe88200ee6322c04d0f1ce51dd41b6650291e025de5",
+    "post_shuffle_order": 100
+  },
+  {
+    "pre_shuffle_order": 362,
+    "dataset_index": 9801,
+    "subject": "philosophy",
+    "answer_key": "D",
+    "question_sha256": "a969136849d30d29814a2a7b09208305d5b8034ade94c5d189566fb8d7f74683",
+    "post_shuffle_order": 101
+  },
+  {
+    "pre_shuffle_order": 237,
+    "dataset_index": 6561,
+    "subject": "international_law",
+    "answer_key": "C",
+    "question_sha256": "eea3065df1291f336a9474d653af4d806fc5f13b04c76c1b53d97050962a5a9f",
+    "post_shuffle_order": 102
+  },
+  {
+    "pre_shuffle_order": 353,
+    "dataset_index": 9532,
+    "subject": "nutrition",
+    "answer_key": "C",
+    "question_sha256": "8df5da86b9d24602e3317715df3357224323353c60d02d1f7e7b93037b56df38",
+    "post_shuffle_order": 103
+  },
+  {
+    "pre_shuffle_order": 85,
+    "dataset_index": 2337,
+    "subject": "elementary_mathematics",
+    "answer_key": "C",
+    "question_sha256": "11d1fdbf38d365b82ac547c75abf1f3bf8f26e4f2f2c5b61e9dddd719a9bf5e5",
+    "post_shuffle_order": 104
+  },
+  {
+    "pre_shuffle_order": 323,
+    "dataset_index": 8972,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "8fa93204e9ac3caca05870c163f0405c8709d8a2a03ec8397c2de240efaa4016",
+    "post_shuffle_order": 105
+  },
+  {
+    "pre_shuffle_order": 171,
+    "dataset_index": 4672,
+    "subject": "high_school_microeconomics",
+    "answer_key": "D",
+    "question_sha256": "454203ef9460fabfaa2c9686d2f50194cf043b9ed7de2d95ca7489b23f442312",
+    "post_shuffle_order": 106
+  },
+  {
+    "pre_shuffle_order": 393,
+    "dataset_index": 10503,
+    "subject": "professional_accounting",
+    "answer_key": "B",
+    "question_sha256": "d68b471fb8c381d4fefc4b1a0a2483d8073eff741d75fda4e499e0ec3a9dbd59",
+    "post_shuffle_order": 107
+  },
+  {
+    "pre_shuffle_order": 153,
+    "dataset_index": 4106,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "D",
+    "question_sha256": "83efe990d653936c8e1fdb84a1b17ebe975d3a7c50f3afba4f6adca01190b70c",
+    "post_shuffle_order": 108
+  },
+  {
+    "pre_shuffle_order": 313,
+    "dataset_index": 8794,
+    "subject": "moral_scenarios",
+    "answer_key": "A",
+    "question_sha256": "078f0ae5477e100847fc3981fec2ca619f967bc2236d7c4cde98f7944b8a0d8d",
+    "post_shuffle_order": 109
+  },
+  {
+    "pre_shuffle_order": 38,
+    "dataset_index": 1078,
+    "subject": "college_computer_science",
+    "answer_key": "D",
+    "question_sha256": "68eebb04449923ab1880b290aea5437be46b1dddf12b9ca8d51b613e16ced0bc",
+    "post_shuffle_order": 110
+  },
+  {
+    "pre_shuffle_order": 392,
+    "dataset_index": 10495,
+    "subject": "professional_accounting",
+    "answer_key": "D",
+    "question_sha256": "fad675270bf1ec578564e649d84dec00ce430255e15521d2e8ae09103052ff2d",
+    "post_shuffle_order": 111
+  },
+  {
+    "pre_shuffle_order": 69,
+    "dataset_index": 1962,
+    "subject": "electrical_engineering",
+    "answer_key": "A",
+    "question_sha256": "63f7a66353cf8c678cbb9d3ef8679cb595ae00f9527ff3db9f3fd531d9fb58c4",
+    "post_shuffle_order": 112
+  },
+  {
+    "pre_shuffle_order": 106,
+    "dataset_index": 2848,
+    "subject": "high_school_biology",
+    "answer_key": "A",
+    "question_sha256": "5026841e39aa79860f85e6140924075e5ffa9ab9ce5cda9eecea24b2966103cc",
+    "post_shuffle_order": 113
+  },
+  {
+    "pre_shuffle_order": 348,
+    "dataset_index": 9434,
+    "subject": "nutrition",
+    "answer_key": "D",
+    "question_sha256": "9495849e2e47bc237a6c3b7789e2bf8d23acbfc520f5f5a5f0aec9c9f5c098dd",
+    "post_shuffle_order": 114
+  },
+  {
+    "pre_shuffle_order": 489,
+    "dataset_index": 13713,
+    "subject": "virology",
+    "answer_key": "D",
+    "question_sha256": "b2ef98caaca5dd976fa6dff8c6034e847b5142b005e958504dac7e94142fd8e2",
+    "post_shuffle_order": 115
+  },
+  {
+    "pre_shuffle_order": 428,
+    "dataset_index": 11768,
+    "subject": "professional_law",
+    "answer_key": "D",
+    "question_sha256": "14da21c10c80cf1d08acc47058907681ad8999e02f6741f2a44cfecc5b458eb3",
+    "post_shuffle_order": 116
+  },
+  {
+    "pre_shuffle_order": 158,
+    "dataset_index": 4194,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "A",
+    "question_sha256": "e9dd19c1825d809f519618854799af22e8a1f973abb26fca8e3ecbffa7db67c9",
+    "post_shuffle_order": 117
+  },
+  {
+    "pre_shuffle_order": 31,
+    "dataset_index": 811,
+    "subject": "college_biology",
+    "answer_key": "D",
+    "question_sha256": "fe2c9cb8d300231aa05033cfe097a5d96369c15343aeb799abf28deb9c6e3a74",
+    "post_shuffle_order": 118
+  },
+  {
+    "pre_shuffle_order": 244,
+    "dataset_index": 6849,
+    "subject": "machine_learning",
+    "answer_key": "B",
+    "question_sha256": "d8b18b13c30742d4c4e56bd474a954a9d72cf0e9412705999162974efedf96e9",
+    "post_shuffle_order": 119
+  },
+  {
+    "pre_shuffle_order": 8,
+    "dataset_index": 218,
+    "subject": "anatomy",
+    "answer_key": "B",
+    "question_sha256": "604a9dd387ac8832344f30140c8d2bb3e0475f197018970bc16a0bd7aa9a1492",
+    "post_shuffle_order": 120
+  },
+  {
+    "pre_shuffle_order": 267,
+    "dataset_index": 7524,
+    "subject": "miscellaneous",
+    "answer_key": "C",
+    "question_sha256": "bf2308d6ccbcc9026a4264ef0be011cd59533a05b68a91cc0f706838eca39489",
+    "post_shuffle_order": 121
+  },
+  {
+    "pre_shuffle_order": 485,
+    "dataset_index": 13639,
+    "subject": "us_foreign_policy",
+    "answer_key": "B",
+    "question_sha256": "0046a7e0d103f81570cc3bb47dd06b88c21978a84568e9eefbbf9fcff813ce1a",
+    "post_shuffle_order": 122
+  },
+  {
+    "pre_shuffle_order": 233,
+    "dataset_index": 6472,
+    "subject": "international_law",
+    "answer_key": "B",
+    "question_sha256": "3d15c944ea6998a302b1471b4a2b9a6657f8b69dcce2782a9ae5e4234354bca3",
+    "post_shuffle_order": 123
+  },
+  {
+    "pre_shuffle_order": 261,
+    "dataset_index": 7406,
+    "subject": "miscellaneous",
+    "answer_key": "C",
+    "question_sha256": "31ead7991c035f01a4512567a43cb289e8f1fbab500ec0cb49bb0a4de2e7439f",
+    "post_shuffle_order": 124
+  },
+  {
+    "pre_shuffle_order": 401,
+    "dataset_index": 10673,
+    "subject": "professional_law",
+    "answer_key": "B",
+    "question_sha256": "5ca85345e2a550f1b08a4f1c5ee9228a6d1ba4143d5b3dbedb74d7c00648aecc",
+    "post_shuffle_order": 125
+  },
+  {
+    "pre_shuffle_order": 291,
+    "dataset_index": 8292,
+    "subject": "moral_disputes",
+    "answer_key": "A",
+    "question_sha256": "15ad54166631f0b4ddaab9c95f73c04cb4bcd2d0242387b66950e552f423ef29",
+    "post_shuffle_order": 126
+  },
+  {
+    "pre_shuffle_order": 198,
+    "dataset_index": 5400,
+    "subject": "high_school_psychology",
+    "answer_key": "D",
+    "question_sha256": "65bd4ba724f11cf0a8877e567e7af1192014aefd52ac09d54b16c6b1664c8ca2",
+    "post_shuffle_order": 127
+  },
+  {
+    "pre_shuffle_order": 132,
+    "dataset_index": 3528,
+    "subject": "high_school_geography",
+    "answer_key": "B",
+    "question_sha256": "0f5dbb8f9cba9a41ee08bf56fc13779b2b967a8e160be7f0c3aadeaffe1b0088",
+    "post_shuffle_order": 128
+  },
+  {
+    "pre_shuffle_order": 324,
+    "dataset_index": 9085,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "309e079eb49667a14019c8386599aed91e6e33047fa607cc8636ae5eed498a39",
+    "post_shuffle_order": 129
+  },
+  {
+    "pre_shuffle_order": 322,
+    "dataset_index": 8928,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "d68f4c8080bfa639f10d53e326ea46a9fec65e216efe8b9086dd9ee09bc4c88b",
+    "post_shuffle_order": 130
+  },
+  {
+    "pre_shuffle_order": 2,
+    "dataset_index": 99,
+    "subject": "abstract_algebra",
+    "answer_key": "C",
+    "question_sha256": "17ccc410b86f99504d79903f30ff070829f329c4cf707297509076994c0ffd3f",
+    "post_shuffle_order": 131
+  },
+  {
+    "pre_shuffle_order": 18,
+    "dataset_index": 410,
+    "subject": "business_ethics",
+    "answer_key": "A",
+    "question_sha256": "9beaa97727286d4437bfaaed5fcfd8d3781db01a231392482d7d933e026910ca",
+    "post_shuffle_order": 132
+  },
+  {
+    "pre_shuffle_order": 488,
+    "dataset_index": 13687,
+    "subject": "us_foreign_policy",
+    "answer_key": "C",
+    "question_sha256": "2a211ad5c94948b7e6641a2988d54e76809cf5b03ed486dd941c29a8e627b339",
+    "post_shuffle_order": 133
+  },
+  {
+    "pre_shuffle_order": 263,
+    "dataset_index": 7447,
+    "subject": "miscellaneous",
+    "answer_key": "D",
+    "question_sha256": "c2d1f962a73682e4eef92923aaa1ab3bf1c442f2234372b85ef2ef23ee9befb1",
+    "post_shuffle_order": 134
+  },
+  {
+    "pre_shuffle_order": 76,
+    "dataset_index": 2133,
+    "subject": "elementary_mathematics",
+    "answer_key": "C",
+    "question_sha256": "e6a2c5f957cda5583d9a098f9f079682bb84ed03673754f43bbb64875b6af692",
+    "post_shuffle_order": 135
+  },
+  {
+    "pre_shuffle_order": 253,
+    "dataset_index": 7075,
+    "subject": "marketing",
+    "answer_key": "B",
+    "question_sha256": "5cedbe5daa25daf6a4855f0f2c6907b3a952f4a91996d1a8949af6987f7ca91b",
+    "post_shuffle_order": 136
+  },
+  {
+    "pre_shuffle_order": 314,
+    "dataset_index": 8809,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "88ec339085ade2ca7f65c629a1e259ef42b50407ba9f27ccf587466b913f8863",
+    "post_shuffle_order": 137
+  },
+  {
+    "pre_shuffle_order": 351,
+    "dataset_index": 9485,
+    "subject": "nutrition",
+    "answer_key": "D",
+    "question_sha256": "6284d2bad48aaeb985b4a8389934ef1d32ccf8d47c7d3683a6fa377e4f5feb15",
+    "post_shuffle_order": 138
+  },
+  {
+    "pre_shuffle_order": 471,
+    "dataset_index": 13341,
+    "subject": "security_studies",
+    "answer_key": "D",
+    "question_sha256": "9300d528a46e7ff97b523b97d2961f18e305c828a8d94b9c2678b09d1c8ef41e",
+    "post_shuffle_order": 139
+  },
+  {
+    "pre_shuffle_order": 143,
+    "dataset_index": 3820,
+    "subject": "high_school_government_and_politics",
+    "answer_key": "B",
+    "question_sha256": "74914a379490a01f609be42ef4361c415a2b002c1fda20cb525d5c5b9d386773",
+    "post_shuffle_order": 140
+  },
+  {
+    "pre_shuffle_order": 449,
+    "dataset_index": 12499,
+    "subject": "professional_psychology",
+    "answer_key": "B",
+    "question_sha256": "00ff96e757528fed6d9529681dcf0cb81ffbf764b505deed2ba2cd32e76f1938",
+    "post_shuffle_order": 141
+  },
+  {
+    "pre_shuffle_order": 66,
+    "dataset_index": 1807,
+    "subject": "econometrics",
+    "answer_key": "C",
+    "question_sha256": "8149b14ded30c2195cbe57afcdf3144c883368cd9b151f28eab5d0766f97b6ba",
+    "post_shuffle_order": 142
+  },
+  {
+    "pre_shuffle_order": 179,
+    "dataset_index": 4860,
+    "subject": "high_school_physics",
+    "answer_key": "D",
+    "question_sha256": "5e1905c0877538ecfe7d560b389cd4a4da97fba7e722655202c3f778bbe10b6f",
+    "post_shuffle_order": 143
+  },
+  {
+    "pre_shuffle_order": 133,
+    "dataset_index": 3576,
+    "subject": "high_school_geography",
+    "answer_key": "D",
+    "question_sha256": "9156cc538ebe3b525523b0cb3281401a9c9982a20e9a2044aa6c653d599e37e3",
+    "post_shuffle_order": 144
+  },
+  {
+    "pre_shuffle_order": 144,
+    "dataset_index": 3881,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "D",
+    "question_sha256": "85e6693a1572b26c9410959b7093e9a88177004c32e1331eed2083e164f16a49",
+    "post_shuffle_order": 145
+  },
+  {
+    "pre_shuffle_order": 406,
+    "dataset_index": 10842,
+    "subject": "professional_law",
+    "answer_key": "A",
+    "question_sha256": "55ad85c5c3f3208239a03a1a80865c44730113236a2f67c060a227130d395e59",
+    "post_shuffle_order": 146
+  },
+  {
+    "pre_shuffle_order": 280,
+    "dataset_index": 7964,
+    "subject": "miscellaneous",
+    "answer_key": "C",
+    "question_sha256": "cee30dd470729195dc3fbbc50130b44185c37fe414e1972e942451a52f9a17bd",
+    "post_shuffle_order": 147
+  },
+  {
+    "pre_shuffle_order": 269,
+    "dataset_index": 7592,
+    "subject": "miscellaneous",
+    "answer_key": "A",
+    "question_sha256": "63a30d32e9a1b5edbcf61c0f537717bef5d7dc19f6a13884f70cb2b12a578fd1",
+    "post_shuffle_order": 148
+  },
+  {
+    "pre_shuffle_order": 466,
+    "dataset_index": 13133,
+    "subject": "public_relations",
+    "answer_key": "A",
+    "question_sha256": "243b236338e21bfe7abf7f5950f40d15e04f8cbdacfa6e89d24beec80188b785",
+    "post_shuffle_order": 149
+  },
+  {
+    "pre_shuffle_order": 208,
+    "dataset_index": 5711,
+    "subject": "high_school_us_history",
+    "answer_key": "A",
+    "question_sha256": "77ea06fe32fc63e54f129ce181d559dd9797afd73c6359cdbd987ba4d7eca913",
+    "post_shuffle_order": 150
+  },
+  {
+    "pre_shuffle_order": 145,
+    "dataset_index": 3887,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "D",
+    "question_sha256": "44f2232383d2b73ea65b02ccf6c13baf3cda62b14862901c9254e8a0ef153b3f",
+    "post_shuffle_order": 151
+  },
+  {
+    "pre_shuffle_order": 432,
+    "dataset_index": 12010,
+    "subject": "professional_law",
+    "answer_key": "B",
+    "question_sha256": "562375bd9a11ccac9aab18ca05c18243f5446f793c2fa6541e663905a2a8b453",
+    "post_shuffle_order": 152
+  },
+  {
+    "pre_shuffle_order": 277,
+    "dataset_index": 7820,
+    "subject": "miscellaneous",
+    "answer_key": "D",
+    "question_sha256": "703a7812bfc80cf91e0a05f96829e1819977e852eb706cc5adf9e9857f731828",
+    "post_shuffle_order": 153
+  },
+  {
+    "pre_shuffle_order": 341,
+    "dataset_index": 9329,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "5309bc302625dc6e7e4270197108f4d6a6987507ca5ab848fd0e49a0900c682e",
+    "post_shuffle_order": 154
+  },
+  {
+    "pre_shuffle_order": 465,
+    "dataset_index": 13095,
+    "subject": "public_relations",
+    "answer_key": "A",
+    "question_sha256": "26798cc4582fadd3bdb830057fd97bc99227ef3e815948e83fa59152df85e95f",
+    "post_shuffle_order": 155
+  },
+  {
+    "pre_shuffle_order": 317,
+    "dataset_index": 8880,
+    "subject": "moral_scenarios",
+    "answer_key": "A",
+    "question_sha256": "a1e5fffbab00fc655b1a42d3c2ff1fb7ae2c8c09439cbac66ed34129546df685",
+    "post_shuffle_order": 156
+  },
+  {
+    "pre_shuffle_order": 17,
+    "dataset_index": 399,
+    "subject": "business_ethics",
+    "answer_key": "D",
+    "question_sha256": "22d8d49a765676ce1b91fb2ca49a4b0690b241155d4b9b5c2cdcaa997e134f23",
+    "post_shuffle_order": 157
+  },
+  {
+    "pre_shuffle_order": 448,
+    "dataset_index": 12496,
+    "subject": "professional_psychology",
+    "answer_key": "A",
+    "question_sha256": "b83bcb0ec0e01a7cda0d62dec873cffa3c8405394b154de1b360d9a3f13bdd2e",
+    "post_shuffle_order": 158
+  },
+  {
+    "pre_shuffle_order": 20,
+    "dataset_index": 468,
+    "subject": "business_ethics",
+    "answer_key": "C",
+    "question_sha256": "a1a2dd25607445c4cdacd7f3ca97bef94f0a5b307fb2dd72ee2811e518760424",
+    "post_shuffle_order": 159
+  },
+  {
+    "pre_shuffle_order": 130,
+    "dataset_index": 3425,
+    "subject": "high_school_european_history",
+    "answer_key": "C",
+    "question_sha256": "24215d8be073f14a592cc3b734b6d76da0d9c968dfff24598a0081487efbded1",
+    "post_shuffle_order": 160
+  },
+  {
+    "pre_shuffle_order": 238,
+    "dataset_index": 6576,
+    "subject": "jurisprudence",
+    "answer_key": "D",
+    "question_sha256": "70e32944578ccf3a7c4d867b61dfcfa0bbbf58673f4f34a4d7d1b3078ab65b0c",
+    "post_shuffle_order": 161
+  },
+  {
+    "pre_shuffle_order": 296,
+    "dataset_index": 8447,
+    "subject": "moral_disputes",
+    "answer_key": "C",
+    "question_sha256": "7eb93f2ce4167afa86cf18a76e076766efa646fb8b0a7c952ab08f8969e15825",
+    "post_shuffle_order": 162
+  },
+  {
+    "pre_shuffle_order": 286,
+    "dataset_index": 8178,
+    "subject": "moral_disputes",
+    "answer_key": "B",
+    "question_sha256": "ef400884cdfd7e9937737afc5dadb746028688a31ff5e44ff7d485df4ab2e00f",
+    "post_shuffle_order": 163
+  },
+  {
+    "pre_shuffle_order": 336,
+    "dataset_index": 9228,
+    "subject": "moral_scenarios",
+    "answer_key": "B",
+    "question_sha256": "52ad40dc10e4cd0ff2e6db4199e1e391f6978b4a579109f9287f190e329acb30",
+    "post_shuffle_order": 164
+  },
+  {
+    "pre_shuffle_order": 300,
+    "dataset_index": 8489,
+    "subject": "moral_disputes",
+    "answer_key": "B",
+    "question_sha256": "8ecd2d88de3b3ef6d4b0a178b5eb4463b55165fc52192ef9e6cb1fe0535187fd",
+    "post_shuffle_order": 165
+  },
+  {
+    "pre_shuffle_order": 149,
+    "dataset_index": 3995,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "D",
+    "question_sha256": "23735841779e0b72585fd9c7653cf3e45b8d8a5691d72a2d59b3f0d7725e96c2",
+    "post_shuffle_order": 166
+  },
+  {
+    "pre_shuffle_order": 203,
+    "dataset_index": 5572,
+    "subject": "high_school_statistics",
+    "answer_key": "D",
+    "question_sha256": "07aa292ac026c5b3547e3e67d271651d98a7441adde8e69e878c2db867849ebe",
+    "post_shuffle_order": 167
+  },
+  {
+    "pre_shuffle_order": 387,
+    "dataset_index": 10358,
+    "subject": "professional_accounting",
+    "answer_key": "C",
+    "question_sha256": "0fa411384421b7f790a30e7d8fddee06f450dedfea62a1e57c161bde41e065d3",
+    "post_shuffle_order": 168
+  },
+  {
+    "pre_shuffle_order": 398,
+    "dataset_index": 10628,
+    "subject": "professional_accounting",
+    "answer_key": "C",
+    "question_sha256": "dd4f0b296c66266e78cad909c6ada3ccd303c2a97d1e81d5d42a4233f7e0c41c",
+    "post_shuffle_order": 169
+  },
+  {
+    "pre_shuffle_order": 190,
+    "dataset_index": 5076,
+    "subject": "high_school_psychology",
+    "answer_key": "A",
+    "question_sha256": "62c1679da6f5082908f248380c624b068ba443654d222d8c3285164e4727afad",
+    "post_shuffle_order": 170
+  },
+  {
+    "pre_shuffle_order": 201,
+    "dataset_index": 5504,
+    "subject": "high_school_statistics",
+    "answer_key": "B",
+    "question_sha256": "1decb09f82a668f802b3ee4e701f5cf78f434c9533dda57464ae997a14894b7c",
+    "post_shuffle_order": 171
+  },
+  {
+    "pre_shuffle_order": 418,
+    "dataset_index": 11388,
+    "subject": "professional_law",
+    "answer_key": "B",
+    "question_sha256": "85ab751fa04cb2314d25ba1a6286e1f635038d6e84142a292deae0a3ec36c2d9",
+    "post_shuffle_order": 172
+  },
+  {
+    "pre_shuffle_order": 14,
+    "dataset_index": 339,
+    "subject": "astronomy",
+    "answer_key": "C",
+    "question_sha256": "e953563b2c214dbfabafb35ab506ad5f20cf2147625a67751cc1ea33c57caa3f",
+    "post_shuffle_order": 173
+  },
+  {
+    "pre_shuffle_order": 55,
+    "dataset_index": 1580,
+    "subject": "conceptual_physics",
+    "answer_key": "D",
+    "question_sha256": "9b6f2fe2518d766305b55dac9c9adbb2af88f318913aab021e0a7c72b9a4a80b",
+    "post_shuffle_order": 174
+  },
+  {
+    "pre_shuffle_order": 75,
+    "dataset_index": 2122,
+    "subject": "elementary_mathematics",
+    "answer_key": "A",
+    "question_sha256": "baec9afcfd49bd10cdfe79480e0dc3774255878933930546c2b83fcd6825dece",
+    "post_shuffle_order": 175
+  },
+  {
+    "pre_shuffle_order": 284,
+    "dataset_index": 8117,
+    "subject": "miscellaneous",
+    "answer_key": "A",
+    "question_sha256": "6e962aa39ec1ae8e239d6dc1ff57b8afd66d359ded7b0d404dd90753ebb8821e",
+    "post_shuffle_order": 176
+  },
+  {
+    "pre_shuffle_order": 39,
+    "dataset_index": 1107,
+    "subject": "college_mathematics",
+    "answer_key": "B",
+    "question_sha256": "8d9b0e64b43fbbfe664e41ea88ef9029e85a94aed63838582bfbaeb336dfa872",
+    "post_shuffle_order": 177
+  },
+  {
+    "pre_shuffle_order": 391,
+    "dataset_index": 10475,
+    "subject": "professional_accounting",
+    "answer_key": "A",
+    "question_sha256": "236ff50241ea084b9e40fb148a6c43676703cb60eeab331ed9c01ec91be6a56c",
+    "post_shuffle_order": 178
+  },
+  {
+    "pre_shuffle_order": 460,
+    "dataset_index": 12791,
+    "subject": "professional_psychology",
+    "answer_key": "D",
+    "question_sha256": "d36167b97ad3e7764384b70b25a348c169ab1ff619a6a78913428ac1fc535d7e",
+    "post_shuffle_order": 179
+  },
+  {
+    "pre_shuffle_order": 257,
+    "dataset_index": 7234,
+    "subject": "marketing",
+    "answer_key": "B",
+    "question_sha256": "59ee2cbace01fcc8648da8cc3f57fb43bcd870bbe2c891563f085a315089fd5e",
+    "post_shuffle_order": 180
+  },
+  {
+    "pre_shuffle_order": 178,
+    "dataset_index": 4829,
+    "subject": "high_school_physics",
+    "answer_key": "D",
+    "question_sha256": "f89bd609ab60e26363b38eb157a81fa5eccd412bc9dd7ba89df182262c9dda56",
+    "post_shuffle_order": 181
+  },
+  {
+    "pre_shuffle_order": 212,
+    "dataset_index": 5771,
+    "subject": "high_school_us_history",
+    "answer_key": "C",
+    "question_sha256": "68b2d37b76f58015bd3e5e17fa09260a314dcfa73fb61348bbc4041e14b76460",
+    "post_shuffle_order": 182
+  },
+  {
+    "pre_shuffle_order": 472,
+    "dataset_index": 13382,
+    "subject": "security_studies",
+    "answer_key": "D",
+    "question_sha256": "181971f885eced574906c47060c7da9c18c933cff52be6f0e9f408b58b6ae796",
+    "post_shuffle_order": 183
+  },
+  {
+    "pre_shuffle_order": 420,
+    "dataset_index": 11492,
+    "subject": "professional_law",
+    "answer_key": "D",
+    "question_sha256": "9aa168a60416ad70dd84a4d4d1a260dbf1d7e10e4f234a3a5b514ecf10623953",
+    "post_shuffle_order": 184
+  },
+  {
+    "pre_shuffle_order": 67,
+    "dataset_index": 1889,
+    "subject": "econometrics",
+    "answer_key": "D",
+    "question_sha256": "b62f87d955decddbb5788f3e77eaf1da61f245f75c3396a14d0443855945676b",
+    "post_shuffle_order": 185
+  },
+  {
+    "pre_shuffle_order": 99,
+    "dataset_index": 2766,
+    "subject": "high_school_biology",
+    "answer_key": "B",
+    "question_sha256": "25b4ce635eb8ca0c70bca5ac5dee382c48042e9c0325752d4e7cf924133bd5fb",
+    "post_shuffle_order": 186
+  },
+  {
+    "pre_shuffle_order": 476,
+    "dataset_index": 13512,
+    "subject": "sociology",
+    "answer_key": "A",
+    "question_sha256": "9a5d2745239a6f3ed574bb6420740e9e2cabe96b7a9fa7679d4ee12b01489253",
+    "post_shuffle_order": 187
+  },
+  {
+    "pre_shuffle_order": 97,
+    "dataset_index": 2662,
+    "subject": "global_facts",
+    "answer_key": "B",
+    "question_sha256": "4eb4e0beda0b4d8d1ca75881e44833489313b3fa9aaf3761e64f05a0508b4263",
+    "post_shuffle_order": 188
+  },
+  {
+    "pre_shuffle_order": 196,
+    "dataset_index": 5312,
+    "subject": "high_school_psychology",
+    "answer_key": "B",
+    "question_sha256": "fa96cee248da764fd7f662b3838848cb37f84118bdf6575031c4bc955ed2999c",
+    "post_shuffle_order": 189
+  },
+  {
+    "pre_shuffle_order": 339,
+    "dataset_index": 9255,
+    "subject": "moral_scenarios",
+    "answer_key": "B",
+    "question_sha256": "238f94622c8fb0788f0a222017ffc32d4819eabdb2c61930a94f7e087dc4c9a3",
+    "post_shuffle_order": 190
+  },
+  {
+    "pre_shuffle_order": 288,
+    "dataset_index": 8225,
+    "subject": "moral_disputes",
+    "answer_key": "C",
+    "question_sha256": "75f8e5914d5b41faeb0a9572b4cec2b9d41f523d9ee8186daa1c3a4fa8e05c28",
+    "post_shuffle_order": 191
+  },
+  {
+    "pre_shuffle_order": 318,
+    "dataset_index": 8881,
+    "subject": "moral_scenarios",
+    "answer_key": "A",
+    "question_sha256": "86dce17f6fcbbd46dd6a768fda0957f063a61ac8fee3f70b5770c6ccd4dc4e1e",
+    "post_shuffle_order": 192
+  },
+  {
+    "pre_shuffle_order": 457,
+    "dataset_index": 12709,
+    "subject": "professional_psychology",
+    "answer_key": "A",
+    "question_sha256": "1810561a8afe299569f6991ae9bafe6accbdfa1596c561e3dc8c8e7e14c6bdd3",
+    "post_shuffle_order": 193
+  },
+  {
+    "pre_shuffle_order": 124,
+    "dataset_index": 3341,
+    "subject": "high_school_european_history",
+    "answer_key": "D",
+    "question_sha256": "20ceb884948c563aae8c5bb7b40c7d5ed997299e75bb717bcfc503e563eb2ed0",
+    "post_shuffle_order": 194
+  },
+  {
+    "pre_shuffle_order": 242,
+    "dataset_index": 6820,
+    "subject": "logical_fallacies",
+    "answer_key": "B",
+    "question_sha256": "ccb53607ac93cdd45ae8cf652348741bcd895ba9902bfbe5776df973bb8bf1fa",
+    "post_shuffle_order": 195
+  },
+  {
+    "pre_shuffle_order": 42,
+    "dataset_index": 1225,
+    "subject": "college_medicine",
+    "answer_key": "D",
+    "question_sha256": "a01b642586af2f1b0892018c5edb3e0a9b546fc01fbc6a37326c004ddb0b6103",
+    "post_shuffle_order": 196
+  },
+  {
+    "pre_shuffle_order": 60,
+    "dataset_index": 1684,
+    "subject": "conceptual_physics",
+    "answer_key": "B",
+    "question_sha256": "a2f2e1c3bcf3993452acebeaec78b43c73889208d7a4b981618ba67fa63a70ca",
+    "post_shuffle_order": 197
+  },
+  {
+    "pre_shuffle_order": 192,
+    "dataset_index": 5118,
+    "subject": "high_school_psychology",
+    "answer_key": "A",
+    "question_sha256": "fce36867283149da7f05a99ae1bada2fd2e2468725afe09f0ccdcb5efa810296",
+    "post_shuffle_order": 198
+  },
+  {
+    "pre_shuffle_order": 422,
+    "dataset_index": 11502,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "21517af6a78c9615a8c4b2fcdfda453d0ace5a70ea036e312825cace3fbffa98",
+    "post_shuffle_order": 199
+  },
+  {
+    "pre_shuffle_order": 266,
+    "dataset_index": 7517,
+    "subject": "miscellaneous",
+    "answer_key": "C",
+    "question_sha256": "d9878738845e4e46915ff694ded4059b40a78b5546d1ebaf89fbdbd475c11432",
+    "post_shuffle_order": 200
+  },
+  {
+    "pre_shuffle_order": 254,
+    "dataset_index": 7153,
+    "subject": "marketing",
+    "answer_key": "C",
+    "question_sha256": "b2d7e245edcdd68f763d83cce88571df93d4891fc128b49eb272782be7296c97",
+    "post_shuffle_order": 201
+  },
+  {
+    "pre_shuffle_order": 384,
+    "dataset_index": 10291,
+    "subject": "prehistory",
+    "answer_key": "C",
+    "question_sha256": "f529b82d8aa6afda3dbb3b0212c95d691f7bebd9f8b96a1de2c687fcc08451ed",
+    "post_shuffle_order": 202
+  },
+  {
+    "pre_shuffle_order": 497,
+    "dataset_index": 13917,
+    "subject": "world_religions",
+    "answer_key": "A",
+    "question_sha256": "89247ecb4b7d3f63159f373d0ad6e02c32c4ef23d6a82b2dc2addfc63c1ef4b4",
+    "post_shuffle_order": 203
+  },
+  {
+    "pre_shuffle_order": 226,
+    "dataset_index": 6153,
+    "subject": "human_aging",
+    "answer_key": "A",
+    "question_sha256": "8a42980a27dc7354185c640c1b1fa86f0cbdfa17166cff82f0a91468b994be8e",
+    "post_shuffle_order": 204
+  },
+  {
+    "pre_shuffle_order": 495,
+    "dataset_index": 13843,
+    "subject": "virology",
+    "answer_key": "B",
+    "question_sha256": "bb24ed204b4a662ec4a7d33094db92f640bff8d4fb459f21fc448a8d2ac6fd1a",
+    "post_shuffle_order": 205
+  },
+  {
+    "pre_shuffle_order": 113,
+    "dataset_index": 3076,
+    "subject": "high_school_chemistry",
+    "answer_key": "C",
+    "question_sha256": "d4258bd6ca4b547e2e9f27a864a663279735db5f0b96a521909eff5d12276845",
+    "post_shuffle_order": 206
+  },
+  {
+    "pre_shuffle_order": 19,
+    "dataset_index": 455,
+    "subject": "business_ethics",
+    "answer_key": "A",
+    "question_sha256": "bccf747d5a84638bccbeada0a8ccdb705fb31e5956f53bdb8e4f10da7c554606",
+    "post_shuffle_order": 207
+  },
+  {
+    "pre_shuffle_order": 218,
+    "dataset_index": 5902,
+    "subject": "high_school_world_history",
+    "answer_key": "A",
+    "question_sha256": "87541a2301e5fa7f0d2791065ef54a94a3073502c4565342e08450e9dac73b23",
+    "post_shuffle_order": 208
+  },
+  {
+    "pre_shuffle_order": 118,
+    "dataset_index": 3204,
+    "subject": "high_school_computer_science",
+    "answer_key": "B",
+    "question_sha256": "6266837f5a071940455e59e3a048fad45f52c340b97bb6a20f50bdd7e4bd559f",
+    "post_shuffle_order": 209
+  },
+  {
+    "pre_shuffle_order": 364,
+    "dataset_index": 9864,
+    "subject": "philosophy",
+    "answer_key": "D",
+    "question_sha256": "25c2cf9684f5df9219637e240b0bfa3074517b15951f7ff68ab27f78b791767d",
+    "post_shuffle_order": 210
+  },
+  {
+    "pre_shuffle_order": 385,
+    "dataset_index": 10328,
+    "subject": "prehistory",
+    "answer_key": "C",
+    "question_sha256": "786f18569ad822c69d59b9c5de43f3dfedaf25f05b6b3446d9a05fb9bdb846ad",
+    "post_shuffle_order": 211
+  },
+  {
+    "pre_shuffle_order": 437,
+    "dataset_index": 12157,
+    "subject": "professional_law",
+    "answer_key": "B",
+    "question_sha256": "def805af21aa294da73228131996b734743234b36330ed9d23b36a8a74110f3e",
+    "post_shuffle_order": 212
+  },
+  {
+    "pre_shuffle_order": 293,
+    "dataset_index": 8391,
+    "subject": "moral_disputes",
+    "answer_key": "D",
+    "question_sha256": "f2cf1acdbfdf5bd3e7bd41e432b4a6e7fde9cd523fd536d850d36813ea875d57",
+    "post_shuffle_order": 213
+  },
+  {
+    "pre_shuffle_order": 493,
+    "dataset_index": 13784,
+    "subject": "virology",
+    "answer_key": "B",
+    "question_sha256": "fbc2046fe8db8f2ab918b4d2049390e944b8c67f0c3cf8b893d58f4fba270ac7",
+    "post_shuffle_order": 214
+  },
+  {
+    "pre_shuffle_order": 378,
+    "dataset_index": 10125,
+    "subject": "prehistory",
+    "answer_key": "C",
+    "question_sha256": "f44ed4f10a670b3c282b307133eb2667df9b8c0fc4dfa4030aaa892e86d1f83c",
+    "post_shuffle_order": 215
+  },
+  {
+    "pre_shuffle_order": 241,
+    "dataset_index": 6759,
+    "subject": "logical_fallacies",
+    "answer_key": "D",
+    "question_sha256": "f5cb050ffd6ff1affb12f117a70ce835b28ecab56d981d61e97a3b942d147d16",
+    "post_shuffle_order": 216
+  },
+  {
+    "pre_shuffle_order": 446,
+    "dataset_index": 12423,
+    "subject": "professional_medicine",
+    "answer_key": "A",
+    "question_sha256": "3af82d4aee25d6602b1c0c4a0095c549be54785cd63ff74db817e17d917661dc",
+    "post_shuffle_order": 217
+  },
+  {
+    "pre_shuffle_order": 435,
+    "dataset_index": 12061,
+    "subject": "professional_law",
+    "answer_key": "A",
+    "question_sha256": "f4a7a0a8e87b19611b8a6c0ac014cefd8448327743ddaa771792bfb8ed927255",
+    "post_shuffle_order": 218
+  },
+  {
+    "pre_shuffle_order": 27,
+    "dataset_index": 736,
+    "subject": "clinical_knowledge",
+    "answer_key": "B",
+    "question_sha256": "66a5ffe6ffa99bb93b978eca6858060d8e7bedf576afbad657c1bca83c800c31",
+    "post_shuffle_order": 219
+  },
+  {
+    "pre_shuffle_order": 220,
+    "dataset_index": 6014,
+    "subject": "high_school_world_history",
+    "answer_key": "B",
+    "question_sha256": "5711862ed81b649491ce9734a23273f26fe4fe1ff021854c051a05e4f2074093",
+    "post_shuffle_order": 220
+  },
+  {
+    "pre_shuffle_order": 469,
+    "dataset_index": 13264,
+    "subject": "security_studies",
+    "answer_key": "B",
+    "question_sha256": "483bd2187a78e8ff9634869428bc7dac5fab8619c9c1de1a09d9d4a223187ec0",
+    "post_shuffle_order": 221
+  },
+  {
+    "pre_shuffle_order": 86,
+    "dataset_index": 2417,
+    "subject": "elementary_mathematics",
+    "answer_key": "B",
+    "question_sha256": "fd6223b028b4399aaa585c9a8bf3c7d16c64d181b4e127368071e812fef9bbe0",
+    "post_shuffle_order": 222
+  },
+  {
+    "pre_shuffle_order": 361,
+    "dataset_index": 9799,
+    "subject": "philosophy",
+    "answer_key": "C",
+    "question_sha256": "9b69ed1e09af088ba67ebfedf1323eacfe809b8ef5c5331b1ae3bd09fc3b5c68",
+    "post_shuffle_order": 223
+  },
+  {
+    "pre_shuffle_order": 103,
+    "dataset_index": 2802,
+    "subject": "high_school_biology",
+    "answer_key": "C",
+    "question_sha256": "e8f03613fa50663257af5e57f0eeda1335b76029db27f4bf7f9bb0e57ba080bf",
+    "post_shuffle_order": 224
+  },
+  {
+    "pre_shuffle_order": 481,
+    "dataset_index": 13597,
+    "subject": "sociology",
+    "answer_key": "C",
+    "question_sha256": "1f64cf6a2a73d9a59c566c4bf6a830805ae24c8f35b3f957fdda39cc9fac113c",
+    "post_shuffle_order": 225
+  },
+  {
+    "pre_shuffle_order": 25,
+    "dataset_index": 732,
+    "subject": "clinical_knowledge",
+    "answer_key": "A",
+    "question_sha256": "58ec5d944905fb3f5112357de44140c68ba428d13e69fda56e4cdb28fba3c917",
+    "post_shuffle_order": 226
+  },
+  {
+    "pre_shuffle_order": 307,
+    "dataset_index": 8722,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "bf6e7550da49dcfb5a997293cef73b666e891b69d66701c60f91503ef7b2cde4",
+    "post_shuffle_order": 227
+  },
+  {
+    "pre_shuffle_order": 167,
+    "dataset_index": 4590,
+    "subject": "high_school_microeconomics",
+    "answer_key": "A",
+    "question_sha256": "a79909665ece32261a9d340a79c52643f6e760b37028376bee4568e3746d3488",
+    "post_shuffle_order": 228
+  },
+  {
+    "pre_shuffle_order": 450,
+    "dataset_index": 12530,
+    "subject": "professional_psychology",
+    "answer_key": "C",
+    "question_sha256": "0ab1ebd929f1182bc795d5028d8c6708f95eb2deca4b0a7ec52a5039c467b81d",
+    "post_shuffle_order": 229
+  },
+  {
+    "pre_shuffle_order": 475,
+    "dataset_index": 13476,
+    "subject": "sociology",
+    "answer_key": "D",
+    "question_sha256": "28b87f9943213e35e39fa79fd804e09760b21545c150fc472d636d605b595bf4",
+    "post_shuffle_order": 230
+  },
+  {
+    "pre_shuffle_order": 410,
+    "dataset_index": 10991,
+    "subject": "professional_law",
+    "answer_key": "B",
+    "question_sha256": "769cfdea93dcc0012efc4008d8aefaabb4a03a05c5aa0b6f1749ca3623c20234",
+    "post_shuffle_order": 231
+  },
+  {
+    "pre_shuffle_order": 221,
+    "dataset_index": 6045,
+    "subject": "high_school_world_history",
+    "answer_key": "D",
+    "question_sha256": "25b9f3189526c4d9ea6aa53129e5c3a8e9c30d2fe6ae42821d9de13dd543a383",
+    "post_shuffle_order": 232
+  },
+  {
+    "pre_shuffle_order": 416,
+    "dataset_index": 11182,
+    "subject": "professional_law",
+    "answer_key": "D",
+    "question_sha256": "f70e5c97c50809c89aa64faf7753c9c313b04752a11a231d588f37442765d091",
+    "post_shuffle_order": 233
+  },
+  {
+    "pre_shuffle_order": 105,
+    "dataset_index": 2826,
+    "subject": "high_school_biology",
+    "answer_key": "B",
+    "question_sha256": "19183ca8795372edb5838f277ee0b73901c1d13d98fc66b25a7155a3ba4de78f",
+    "post_shuffle_order": 234
+  },
+  {
+    "pre_shuffle_order": 371,
+    "dataset_index": 9994,
+    "subject": "philosophy",
+    "answer_key": "D",
+    "question_sha256": "dc7b49c802229d24f0f1947a3aea87df230dc8783fca0876d560d9ae511a1853",
+    "post_shuffle_order": 235
+  },
+  {
+    "pre_shuffle_order": 90,
+    "dataset_index": 2487,
+    "subject": "formal_logic",
+    "answer_key": "A",
+    "question_sha256": "c7ad47246aeca31a1a36a640c2776e0b87f01647d2db7f02602dddb05cd516c1",
+    "post_shuffle_order": 236
+  },
+  {
+    "pre_shuffle_order": 452,
+    "dataset_index": 12600,
+    "subject": "professional_psychology",
+    "answer_key": "C",
+    "question_sha256": "9532c9c7d5cdcc51c2e76efb17b1a3a3656b7be8cbe16d185132daca3418d367",
+    "post_shuffle_order": 237
+  },
+  {
+    "pre_shuffle_order": 168,
+    "dataset_index": 4640,
+    "subject": "high_school_microeconomics",
+    "answer_key": "D",
+    "question_sha256": "3263b040011f0127a419759629cc9323b64cc4f1283cf8fabc4dc251f953d5e2",
+    "post_shuffle_order": 238
+  },
+  {
+    "pre_shuffle_order": 240,
+    "dataset_index": 6742,
+    "subject": "logical_fallacies",
+    "answer_key": "B",
+    "question_sha256": "41d5a098ff030287faafd01a2a74a67d165ceca10809e13613c3205ad732e224",
+    "post_shuffle_order": 239
+  },
+  {
+    "pre_shuffle_order": 402,
+    "dataset_index": 10703,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "d2b959662b3fd493a1a472159d3531d3694d43da7d579ded633fb7664c9cf338",
+    "post_shuffle_order": 240
+  },
+  {
+    "pre_shuffle_order": 48,
+    "dataset_index": 1373,
+    "subject": "college_physics",
+    "answer_key": "B",
+    "question_sha256": "a560881143b40105cbe6d7775ce1fb7a66c150d4410e37ffb13b1271b49ac678",
+    "post_shuffle_order": 241
+  },
+  {
+    "pre_shuffle_order": 104,
+    "dataset_index": 2807,
+    "subject": "high_school_biology",
+    "answer_key": "C",
+    "question_sha256": "9b8079795cd3b12abde335ad38ca62b136b45670f5e16712aeac10ac3a04533b",
+    "post_shuffle_order": 242
+  },
+  {
+    "pre_shuffle_order": 206,
+    "dataset_index": 5707,
+    "subject": "high_school_us_history",
+    "answer_key": "C",
+    "question_sha256": "d2ec850a49a3fa60f2addfbf39d68ae0c98ecec7f046f252101b12664a690760",
+    "post_shuffle_order": 243
+  },
+  {
+    "pre_shuffle_order": 247,
+    "dataset_index": 6922,
+    "subject": "machine_learning",
+    "answer_key": "C",
+    "question_sha256": "fc14129d704fe178ab53f22ddefca5be847973d845876f551966984ba14e1c9a",
+    "post_shuffle_order": 244
+  },
+  {
+    "pre_shuffle_order": 200,
+    "dataset_index": 5460,
+    "subject": "high_school_statistics",
+    "answer_key": "D",
+    "question_sha256": "72c328c2e8965041efcf6ac8b3136a28243af752501afd907eca5154925f7820",
+    "post_shuffle_order": 245
+  },
+  {
+    "pre_shuffle_order": 62,
+    "dataset_index": 1714,
+    "subject": "conceptual_physics",
+    "answer_key": "D",
+    "question_sha256": "ebbd378b4d50baee65fb79e8955bc7d6963fb1fa071ed40903471609964c05ca",
+    "post_shuffle_order": 246
+  },
+  {
+    "pre_shuffle_order": 477,
+    "dataset_index": 13515,
+    "subject": "sociology",
+    "answer_key": "B",
+    "question_sha256": "f5b3cb4a303224efd933604f26bf14e65fe0503beaf3915af1438d5d1fc752af",
+    "post_shuffle_order": 247
+  },
+  {
+    "pre_shuffle_order": 147,
+    "dataset_index": 3975,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "C",
+    "question_sha256": "f87135ed5778f95574ac13c04d99d5a8f420d3c0b07a125a52c549b648158584",
+    "post_shuffle_order": 248
+  },
+  {
+    "pre_shuffle_order": 146,
+    "dataset_index": 3958,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "A",
+    "question_sha256": "433bed9c7995b9ac953c706381de167b912312fe25ed239317df35703454e708",
+    "post_shuffle_order": 249
+  },
+  {
+    "pre_shuffle_order": 225,
+    "dataset_index": 6148,
+    "subject": "human_aging",
+    "answer_key": "C",
+    "question_sha256": "085ee7b8a18c5ddf137ec50ce64686beed1f248ddd57ecd6b149d3c88ea3cc9a",
+    "post_shuffle_order": 250
+  },
+  {
+    "pre_shuffle_order": 421,
+    "dataset_index": 11495,
+    "subject": "professional_law",
+    "answer_key": "D",
+    "question_sha256": "8e51de5f87bd7f22319e11189de98787fda4f82535a6447af60ff69f6c95831f",
+    "post_shuffle_order": 251
+  },
+  {
+    "pre_shuffle_order": 484,
+    "dataset_index": 13622,
+    "subject": "us_foreign_policy",
+    "answer_key": "B",
+    "question_sha256": "e01fd5c91881f7baac4fd3013f6a332a2a7c6e31ec1bfba9c0636a492f903789",
+    "post_shuffle_order": 252
+  },
+  {
+    "pre_shuffle_order": 491,
+    "dataset_index": 13724,
+    "subject": "virology",
+    "answer_key": "C",
+    "question_sha256": "5c484344d9291660b5fcc4dec70d587f498537e961bca23310b82ebd897ea3da",
+    "post_shuffle_order": 253
+  },
+  {
+    "pre_shuffle_order": 451,
+    "dataset_index": 12587,
+    "subject": "professional_psychology",
+    "answer_key": "C",
+    "question_sha256": "e1b862d532a50403e8a9d81be89811f1ae732cf0dd6bcb4df9e627e1a38569a2",
+    "post_shuffle_order": 254
+  },
+  {
+    "pre_shuffle_order": 109,
+    "dataset_index": 2984,
+    "subject": "high_school_chemistry",
+    "answer_key": "C",
+    "question_sha256": "d57ce0198f41d557f0ac9b46d32067c511952cb65898ee7ccd7b5eb53ba3b1b5",
+    "post_shuffle_order": 255
+  },
+  {
+    "pre_shuffle_order": 294,
+    "dataset_index": 8405,
+    "subject": "moral_disputes",
+    "answer_key": "D",
+    "question_sha256": "de71afd1a07560581115662cd0de7cabc895fddc9449496b52d08d8a00548023",
+    "post_shuffle_order": 256
+  },
+  {
+    "pre_shuffle_order": 440,
+    "dataset_index": 12274,
+    "subject": "professional_medicine",
+    "answer_key": "A",
+    "question_sha256": "45eb0a1081827ccc9e20194bef40b518ef0c3ed6a69d33a17442678b7e2afbf4",
+    "post_shuffle_order": 257
+  },
+  {
+    "pre_shuffle_order": 121,
+    "dataset_index": 3323,
+    "subject": "high_school_european_history",
+    "answer_key": "D",
+    "question_sha256": "46978fc8937727712d3a46837037e6df7602cbadc0ba1ad0b0defbb40e8964f0",
+    "post_shuffle_order": 258
+  },
+  {
+    "pre_shuffle_order": 265,
+    "dataset_index": 7503,
+    "subject": "miscellaneous",
+    "answer_key": "B",
+    "question_sha256": "dd0213ca89dc8eecc19cfc11bfef0e7fe85966cd60b672733f7ee929507f8e0a",
+    "post_shuffle_order": 259
+  },
+  {
+    "pre_shuffle_order": 169,
+    "dataset_index": 4641,
+    "subject": "high_school_microeconomics",
+    "answer_key": "C",
+    "question_sha256": "ec44db2f979a4bdfb2903ff5c6b70824a632d47da0db6de17f3fe73765f5f76b",
+    "post_shuffle_order": 260
+  },
+  {
+    "pre_shuffle_order": 381,
+    "dataset_index": 10212,
+    "subject": "prehistory",
+    "answer_key": "D",
+    "question_sha256": "fecc593ea49d26f783947f00b5a2a46baa16c1a61eb46c31855a4a2a03c41ef6",
+    "post_shuffle_order": 261
+  },
+  {
+    "pre_shuffle_order": 34,
+    "dataset_index": 1010,
+    "subject": "college_computer_science",
+    "answer_key": "A",
+    "question_sha256": "6d59f1cdad8db51d6432fc0bcd500836a2500aaecc591161be71454ec9241b1b",
+    "post_shuffle_order": 262
+  },
+  {
+    "pre_shuffle_order": 268,
+    "dataset_index": 7565,
+    "subject": "miscellaneous",
+    "answer_key": "B",
+    "question_sha256": "7998b492a529c834d1a75da5f8501eaa80b4e9f704a048a71f79760cf523a2df",
+    "post_shuffle_order": 263
+  },
+  {
+    "pre_shuffle_order": 30,
+    "dataset_index": 794,
+    "subject": "college_biology",
+    "answer_key": "C",
+    "question_sha256": "64c833ab403bc968c73c68106ec43ed17dafe564e7d6d5acbaef7ac949cc9147",
+    "post_shuffle_order": 264
+  },
+  {
+    "pre_shuffle_order": 400,
+    "dataset_index": 10667,
+    "subject": "professional_law",
+    "answer_key": "A",
+    "question_sha256": "37d2be66bc01f7c3fe522b473c4da04045f45958dd7c8a23cf3149452f166c40",
+    "post_shuffle_order": 265
+  },
+  {
+    "pre_shuffle_order": 461,
+    "dataset_index": 12799,
+    "subject": "professional_psychology",
+    "answer_key": "B",
+    "question_sha256": "ae98108efc275ae6c5acc2522de4fdd8e6838bfce6cb434a7ba55c4f2f2a8819",
+    "post_shuffle_order": 266
+  },
+  {
+    "pre_shuffle_order": 354,
+    "dataset_index": 9563,
+    "subject": "nutrition",
+    "answer_key": "D",
+    "question_sha256": "4dc076e4a03b4e3f183b48ee940ab36ed09c887bc60b85d795c63e2b07973e51",
+    "post_shuffle_order": 267
+  },
+  {
+    "pre_shuffle_order": 382,
+    "dataset_index": 10218,
+    "subject": "prehistory",
+    "answer_key": "C",
+    "question_sha256": "cc4acba73ff9ef4e5b9271c3c43f86309e12a9de5ad2c913030dba67eea6f1f2",
+    "post_shuffle_order": 268
+  },
+  {
+    "pre_shuffle_order": 10,
+    "dataset_index": 284,
+    "subject": "astronomy",
+    "answer_key": "B",
+    "question_sha256": "2a151b3460ee8f52ae9058dece8bce822831ee6eda8aba97a041a7564132bf53",
+    "post_shuffle_order": 269
+  },
+  {
+    "pre_shuffle_order": 173,
+    "dataset_index": 4743,
+    "subject": "high_school_physics",
+    "answer_key": "C",
+    "question_sha256": "ada60492afad401c52e8f2423658d93dc8f9f137f80923c70c39c012e750c356",
+    "post_shuffle_order": 270
+  },
+  {
+    "pre_shuffle_order": 342,
+    "dataset_index": 9345,
+    "subject": "moral_scenarios",
+    "answer_key": "B",
+    "question_sha256": "c3cd313d3451a2e650ed87cfc41f69309711d79bf33efedabe139f13672dee8a",
+    "post_shuffle_order": 271
+  },
+  {
+    "pre_shuffle_order": 115,
+    "dataset_index": 3128,
+    "subject": "high_school_chemistry",
+    "answer_key": "B",
+    "question_sha256": "d9449a494119b78397428b7513a4fb6f1b192fd6ada09d5dd93994f06fc47d03",
+    "post_shuffle_order": 272
+  },
+  {
+    "pre_shuffle_order": 363,
+    "dataset_index": 9853,
+    "subject": "philosophy",
+    "answer_key": "D",
+    "question_sha256": "18df954d0f41286d04f612744fac367585524aaa26d8fc676c2fb41f828401db",
+    "post_shuffle_order": 273
+  },
+  {
+    "pre_shuffle_order": 61,
+    "dataset_index": 1697,
+    "subject": "conceptual_physics",
+    "answer_key": "C",
+    "question_sha256": "1f8168ecb83d96efdab05dfa77a124a24896bff0b29befdfe5206c96ddefd838",
+    "post_shuffle_order": 274
+  },
+  {
+    "pre_shuffle_order": 231,
+    "dataset_index": 6341,
+    "subject": "human_sexuality",
+    "answer_key": "D",
+    "question_sha256": "2100f59ef64f71a3a21c082e031d11fd987d3d6a158fa2dac053c2740951462b",
+    "post_shuffle_order": 275
+  },
+  {
+    "pre_shuffle_order": 264,
+    "dataset_index": 7463,
+    "subject": "miscellaneous",
+    "answer_key": "B",
+    "question_sha256": "74a282a63ad0408d5b24feec4e70a35548d1599d63458e2797a51dc25e41b7e0",
+    "post_shuffle_order": 276
+  },
+  {
+    "pre_shuffle_order": 224,
+    "dataset_index": 6126,
+    "subject": "human_aging",
+    "answer_key": "B",
+    "question_sha256": "788c763d4f5a7a2eb2a72689a58066d138d9da5a84a3d29ad4ae4994ad4350c1",
+    "post_shuffle_order": 277
+  },
+  {
+    "pre_shuffle_order": 312,
+    "dataset_index": 8769,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "1a6868da70e54ae7567c34b38fd15a476576276a7994aac663df1318b99d827c",
+    "post_shuffle_order": 278
+  },
+  {
+    "pre_shuffle_order": 356,
+    "dataset_index": 9593,
+    "subject": "nutrition",
+    "answer_key": "D",
+    "question_sha256": "59165fc81f97e30acda9e8b6174b5b337564b215c2be414d2d3815eb206de640",
+    "post_shuffle_order": 279
+  },
+  {
+    "pre_shuffle_order": 159,
+    "dataset_index": 4226,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "B",
+    "question_sha256": "b890596d1d8a6085f593a7db388ccd85a8495722528be64587ee6a297c1a2b7a",
+    "post_shuffle_order": 280
+  },
+  {
+    "pre_shuffle_order": 102,
+    "dataset_index": 2796,
+    "subject": "high_school_biology",
+    "answer_key": "B",
+    "question_sha256": "5a35c547f39d28f84d0ce3b6e4bab7b1080ac57052e2b08acd35723fd0ddbd06",
+    "post_shuffle_order": 281
+  },
+  {
+    "pre_shuffle_order": 310,
+    "dataset_index": 8753,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "6bfb140d34860f35518d58a3990069c9ee6c08907e8ea95a9c140623037fdaa6",
+    "post_shuffle_order": 282
+  },
+  {
+    "pre_shuffle_order": 372,
+    "dataset_index": 10005,
+    "subject": "philosophy",
+    "answer_key": "B",
+    "question_sha256": "1d609d02dbfb8e150e1df4eb0dcdf606dc4ababe7d6edf7580af84585d9edde6",
+    "post_shuffle_order": 283
+  },
+  {
+    "pre_shuffle_order": 344,
+    "dataset_index": 9375,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "18d3f94297c4d8d6de499f9d0a06117bcf6118267316e64d9aefb797dcb20e8a",
+    "post_shuffle_order": 284
+  },
+  {
+    "pre_shuffle_order": 337,
+    "dataset_index": 9233,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "68fe588b3ad055382eda73690aa0d0c8cb8c8691b1d106b2e2fd2f6fb6d40da3",
+    "post_shuffle_order": 285
+  },
+  {
+    "pre_shuffle_order": 365,
+    "dataset_index": 9870,
+    "subject": "philosophy",
+    "answer_key": "C",
+    "question_sha256": "09d4933f7a3380ba845d8897cd842ecf93fd8df043315861b9086150a9430e14",
+    "post_shuffle_order": 286
+  },
+  {
+    "pre_shuffle_order": 84,
+    "dataset_index": 2334,
+    "subject": "elementary_mathematics",
+    "answer_key": "B",
+    "question_sha256": "d9f586cc911421ffa861e59f6b7841a307b760f03dee2c9322a3d221300fc904",
+    "post_shuffle_order": 287
+  },
+  {
+    "pre_shuffle_order": 281,
+    "dataset_index": 7990,
+    "subject": "miscellaneous",
+    "answer_key": "C",
+    "question_sha256": "a4aa5c5831a18d0ceb1b8113afa95a141b988d0f43ce9996b78cb679e3c7a68c",
+    "post_shuffle_order": 288
+  },
+  {
+    "pre_shuffle_order": 243,
+    "dataset_index": 6834,
+    "subject": "logical_fallacies",
+    "answer_key": "C",
+    "question_sha256": "a0243200a17c312af7defb9cda19a5f22213f176989aa67b761e735855be495f",
+    "post_shuffle_order": 289
+  },
+  {
+    "pre_shuffle_order": 65,
+    "dataset_index": 1740,
+    "subject": "conceptual_physics",
+    "answer_key": "C",
+    "question_sha256": "e775176a1e6c17a41eb244b1c866d7997522a9bb0f7101cbd92609ac8001c3f3",
+    "post_shuffle_order": 290
+  },
+  {
+    "pre_shuffle_order": 64,
+    "dataset_index": 1739,
+    "subject": "conceptual_physics",
+    "answer_key": "D",
+    "question_sha256": "5665e15a493e66b0fc6ab73121180c63793d153803a254b52e7aa6c1788ac60e",
+    "post_shuffle_order": 291
+  },
+  {
+    "pre_shuffle_order": 272,
+    "dataset_index": 7664,
+    "subject": "miscellaneous",
+    "answer_key": "C",
+    "question_sha256": "edc42b449a3d6c7505953e9909bbd9327c77737875463c0983af531ec5d8e960",
+    "post_shuffle_order": 292
+  },
+  {
+    "pre_shuffle_order": 423,
+    "dataset_index": 11508,
+    "subject": "professional_law",
+    "answer_key": "A",
+    "question_sha256": "f07ef38242fd05c307b9453d515e569d3201b9a6c5a94fe6432bd206ed1ae368",
+    "post_shuffle_order": 293
+  },
+  {
+    "pre_shuffle_order": 248,
+    "dataset_index": 6946,
+    "subject": "machine_learning",
+    "answer_key": "C",
+    "question_sha256": "e1f1f1278bd43c3d1370972ea1e873b1aba976b65894ea398a86814228e082b4",
+    "post_shuffle_order": 294
+  },
+  {
+    "pre_shuffle_order": 43,
+    "dataset_index": 1253,
+    "subject": "college_medicine",
+    "answer_key": "A",
+    "question_sha256": "32bf17ba77e1c88a50327861d2aa28f9c26cb5f03aaffec14c8d1a2ecbeeee5d",
+    "post_shuffle_order": 295
+  },
+  {
+    "pre_shuffle_order": 417,
+    "dataset_index": 11239,
+    "subject": "professional_law",
+    "answer_key": "B",
+    "question_sha256": "81e6882602dd67500573cb2ce2ddc871d4b641ae5ef9cbf493562208a32e3882",
+    "post_shuffle_order": 296
+  },
+  {
+    "pre_shuffle_order": 375,
+    "dataset_index": 10044,
+    "subject": "prehistory",
+    "answer_key": "B",
+    "question_sha256": "18a338f3266d099a1536817e21286168dfaad451e78a6a5e7f3f0f5a0b25ea80",
+    "post_shuffle_order": 297
+  },
+  {
+    "pre_shuffle_order": 123,
+    "dataset_index": 3334,
+    "subject": "high_school_european_history",
+    "answer_key": "A",
+    "question_sha256": "c5e6a82313717129d99f540facff5be11fe900ddc27fb811e24218b5e675b1e9",
+    "post_shuffle_order": 298
+  },
+  {
+    "pre_shuffle_order": 29,
+    "dataset_index": 772,
+    "subject": "college_biology",
+    "answer_key": "D",
+    "question_sha256": "6691b4b4452e6db185110ca36d9b17a03a5d8b467b9bcba5da85915cd8cfb83c",
+    "post_shuffle_order": 299
+  },
+  {
+    "pre_shuffle_order": 122,
+    "dataset_index": 3325,
+    "subject": "high_school_european_history",
+    "answer_key": "C",
+    "question_sha256": "93fe6fd0c5cd9878f40a21e1c6303d7f8be6abff786abb517db61c18aa907aa4",
+    "post_shuffle_order": 300
+  },
+  {
+    "pre_shuffle_order": 157,
+    "dataset_index": 4192,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "D",
+    "question_sha256": "7029d8ad6836de68ed47a79c839fa4040f4ab854dd797f6e4c1c85b42522f224",
+    "post_shuffle_order": 301
+  },
+  {
+    "pre_shuffle_order": 355,
+    "dataset_index": 9571,
+    "subject": "nutrition",
+    "answer_key": "C",
+    "question_sha256": "e188ae1333c869072cfd8026576d20d05a4cebfed70ab04075dd77b76eb4861c",
+    "post_shuffle_order": 302
+  },
+  {
+    "pre_shuffle_order": 330,
+    "dataset_index": 9173,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "7874521c04549724655a99919190141ef8b9681bcfab446acd6a8b595e174776",
+    "post_shuffle_order": 303
+  },
+  {
+    "pre_shuffle_order": 9,
+    "dataset_index": 280,
+    "subject": "astronomy",
+    "answer_key": "D",
+    "question_sha256": "bb6d1b4753d8f2119b8941cc1df6c66a8670f856cd49c69afd4a10fa61618c4d",
+    "post_shuffle_order": 304
+  },
+  {
+    "pre_shuffle_order": 250,
+    "dataset_index": 6987,
+    "subject": "management",
+    "answer_key": "B",
+    "question_sha256": "19698a2588917574bdde30e0ef3c99592d32ed9186e56edb477da9c454cf87c0",
+    "post_shuffle_order": 305
+  },
+  {
+    "pre_shuffle_order": 165,
+    "dataset_index": 4475,
+    "subject": "high_school_mathematics",
+    "answer_key": "C",
+    "question_sha256": "be41954363687f6a3d4d59bbb3f89fde561f470edfc5c961d094b997b4e3275d",
+    "post_shuffle_order": 306
+  },
+  {
+    "pre_shuffle_order": 306,
+    "dataset_index": 8699,
+    "subject": "moral_scenarios",
+    "answer_key": "B",
+    "question_sha256": "ddfbc76df8edbac6195d6798600cce7536d9ba90a2138cc7ce50cd6bc6307353",
+    "post_shuffle_order": 307
+  },
+  {
+    "pre_shuffle_order": 0,
+    "dataset_index": 14,
+    "subject": "abstract_algebra",
+    "answer_key": "C",
+    "question_sha256": "55afe1e16d2b7f421f602001b5c14c60d1286028b2568381f9fce989d6882245",
+    "post_shuffle_order": 308
+  },
+  {
+    "pre_shuffle_order": 271,
+    "dataset_index": 7613,
+    "subject": "miscellaneous",
+    "answer_key": "B",
+    "question_sha256": "1fb3c998007d10d40ff18fc7b3ef34b49e2170510b7eaf2245162b83eba65f11",
+    "post_shuffle_order": 309
+  },
+  {
+    "pre_shuffle_order": 276,
+    "dataset_index": 7801,
+    "subject": "miscellaneous",
+    "answer_key": "A",
+    "question_sha256": "b16ea45fdd1bd1d5e54b52408f24c6e0e93a7be9edce3d0e27020c51964f2190",
+    "post_shuffle_order": 310
+  },
+  {
+    "pre_shuffle_order": 82,
+    "dataset_index": 2308,
+    "subject": "elementary_mathematics",
+    "answer_key": "B",
+    "question_sha256": "9bfd4a53857c644b3a8d04d4c4a524d80daa32d0477877c2b0d4ffc124637343",
+    "post_shuffle_order": 311
+  },
+  {
+    "pre_shuffle_order": 191,
+    "dataset_index": 5107,
+    "subject": "high_school_psychology",
+    "answer_key": "D",
+    "question_sha256": "0a17c7b5fb42ea910f8278cbf1a2d3d3201f70373b11bf1486210c19d51ac245",
+    "post_shuffle_order": 312
+  },
+  {
+    "pre_shuffle_order": 347,
+    "dataset_index": 9412,
+    "subject": "nutrition",
+    "answer_key": "C",
+    "question_sha256": "c8632bb400f0824b967d73653bb17cd04f82890a36d3feeff8855192df6b5349",
+    "post_shuffle_order": 313
+  },
+  {
+    "pre_shuffle_order": 473,
+    "dataset_index": 13427,
+    "subject": "sociology",
+    "answer_key": "D",
+    "question_sha256": "fdf268cf7178cb381e9d81b804b8c3da6ea8698b92f771a404437b705c0183b3",
+    "post_shuffle_order": 314
+  },
+  {
+    "pre_shuffle_order": 399,
+    "dataset_index": 10652,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "3e8cdd230962cb587f144ce9f8cfbf670d9147e90044dfda51e6f412b45f573f",
+    "post_shuffle_order": 315
+  },
+  {
+    "pre_shuffle_order": 319,
+    "dataset_index": 8885,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "b03eab84169e9ae070c76607dcdad4345da3b80b941753ce3d2f47cb2e6f980b",
+    "post_shuffle_order": 316
+  },
+  {
+    "pre_shuffle_order": 152,
+    "dataset_index": 4099,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "D",
+    "question_sha256": "91e89747d63877454c010563183b6824a8991f19f73e614ecbb26b2132b1cbfb",
+    "post_shuffle_order": 317
+  },
+  {
+    "pre_shuffle_order": 54,
+    "dataset_index": 1562,
+    "subject": "computer_security",
+    "answer_key": "C",
+    "question_sha256": "e80350a8c75ee3d0fc6673c04d197bcee24e7ba1f12cd4eb80826dbbebd3bfa6",
+    "post_shuffle_order": 318
+  },
+  {
+    "pre_shuffle_order": 259,
+    "dataset_index": 7375,
+    "subject": "medical_genetics",
+    "answer_key": "B",
+    "question_sha256": "6b0063bcd222b8225f377ce1c455f2ab791cc45f9277c61e63b542a0a9b6be88",
+    "post_shuffle_order": 319
+  },
+  {
+    "pre_shuffle_order": 91,
+    "dataset_index": 2495,
+    "subject": "formal_logic",
+    "answer_key": "D",
+    "question_sha256": "5b06e598f6338cbd91965e25333568c5fe9e2ae81981efd4449cc9c134c2cef9",
+    "post_shuffle_order": 320
+  },
+  {
+    "pre_shuffle_order": 256,
+    "dataset_index": 7207,
+    "subject": "marketing",
+    "answer_key": "C",
+    "question_sha256": "0422857da3220658dc1e7d4c867e2dd6b4f420c0d641c41835f151f392320777",
+    "post_shuffle_order": 321
+  },
+  {
+    "pre_shuffle_order": 430,
+    "dataset_index": 11879,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "4561d3b30fb6fc55d8b0f322c34a4e5f4f2bef9ac9eec22d506b84c55daa92c9",
+    "post_shuffle_order": 322
+  },
+  {
+    "pre_shuffle_order": 1,
+    "dataset_index": 31,
+    "subject": "abstract_algebra",
+    "answer_key": "B",
+    "question_sha256": "f38c6e29cd7101a4b3254c27ca7866da9bc51aa31924143ef2e9ba2d4fa926ab",
+    "post_shuffle_order": 323
+  },
+  {
+    "pre_shuffle_order": 459,
+    "dataset_index": 12780,
+    "subject": "professional_psychology",
+    "answer_key": "C",
+    "question_sha256": "a780093e278a8ca296e5e4c0c2cdbcf0d304768ab35b8c30b6d716cb879f05cf",
+    "post_shuffle_order": 324
+  },
+  {
+    "pre_shuffle_order": 80,
+    "dataset_index": 2183,
+    "subject": "elementary_mathematics",
+    "answer_key": "B",
+    "question_sha256": "a3e143097f4d2fecad6fea77c4d0edc088a213b2e4026973a56e773fd71e7cdb",
+    "post_shuffle_order": 325
+  },
+  {
+    "pre_shuffle_order": 222,
+    "dataset_index": 6050,
+    "subject": "high_school_world_history",
+    "answer_key": "B",
+    "question_sha256": "f129358ae7cb24643be657570ccd6e140d7d45db351e16e5a2f8b9e782f82a2c",
+    "post_shuffle_order": 326
+  },
+  {
+    "pre_shuffle_order": 431,
+    "dataset_index": 11960,
+    "subject": "professional_law",
+    "answer_key": "A",
+    "question_sha256": "c7a67b2da8560c19c3eddafbfbc6ab728d0f323d8bc4fb1927e8938322aeb099",
+    "post_shuffle_order": 327
+  },
+  {
+    "pre_shuffle_order": 498,
+    "dataset_index": 13921,
+    "subject": "world_religions",
+    "answer_key": "A",
+    "question_sha256": "2c59a094fe9eb320f45e8c6e94ab5f4bdb86deb554f9b1c016ff3b2deb07bbcb",
+    "post_shuffle_order": 328
+  },
+  {
+    "pre_shuffle_order": 455,
+    "dataset_index": 12643,
+    "subject": "professional_psychology",
+    "answer_key": "D",
+    "question_sha256": "67d7c9f32172690a467369d3a0096bb6b102986d0519ef07388d4a049be6ac51",
+    "post_shuffle_order": 329
+  },
+  {
+    "pre_shuffle_order": 328,
+    "dataset_index": 9150,
+    "subject": "moral_scenarios",
+    "answer_key": "B",
+    "question_sha256": "925ef879700e16ef247f84e32be336cac10540da1ec47619d799fbb43ebb296d",
+    "post_shuffle_order": 330
+  },
+  {
+    "pre_shuffle_order": 404,
+    "dataset_index": 10778,
+    "subject": "professional_law",
+    "answer_key": "A",
+    "question_sha256": "e439a44afeb1a7a4c269894a408535cbf89f789ad30f84f7a1972cff3687f1e0",
+    "post_shuffle_order": 331
+  },
+  {
+    "pre_shuffle_order": 436,
+    "dataset_index": 12071,
+    "subject": "professional_law",
+    "answer_key": "A",
+    "question_sha256": "42d6d8bf52804d68618b3e3966e22c04fbad1eeeca3e8cb4284b18a909a0a3c8",
+    "post_shuffle_order": 332
+  },
+  {
+    "pre_shuffle_order": 58,
+    "dataset_index": 1650,
+    "subject": "conceptual_physics",
+    "answer_key": "A",
+    "question_sha256": "0d9af5fa1574d4aae022e299bad0363f9cdf9da56dbf66811b084d76e673e989",
+    "post_shuffle_order": 333
+  },
+  {
+    "pre_shuffle_order": 5,
+    "dataset_index": 169,
+    "subject": "anatomy",
+    "answer_key": "B",
+    "question_sha256": "596bc5cdb82eefa3acb923b136041ced412baa230f8f3831e922661929ed75c1",
+    "post_shuffle_order": 334
+  },
+  {
+    "pre_shuffle_order": 283,
+    "dataset_index": 8086,
+    "subject": "miscellaneous",
+    "answer_key": "A",
+    "question_sha256": "e30550e6af7f448aa10062e30e3abd66efde3baa505f48436229010693dc573b",
+    "post_shuffle_order": 335
+  },
+  {
+    "pre_shuffle_order": 128,
+    "dataset_index": 3393,
+    "subject": "high_school_european_history",
+    "answer_key": "C",
+    "question_sha256": "851495fa6e08457f9c9ca3f017f67bb8e6928c291051d665badd91a7f477dc3e",
+    "post_shuffle_order": 336
+  },
+  {
+    "pre_shuffle_order": 270,
+    "dataset_index": 7596,
+    "subject": "miscellaneous",
+    "answer_key": "B",
+    "question_sha256": "1c9c614e466f3602b92119161ac05ec994d0a8f22d68b2c04f248f5d654be6c6",
+    "post_shuffle_order": 337
+  },
+  {
+    "pre_shuffle_order": 239,
+    "dataset_index": 6690,
+    "subject": "logical_fallacies",
+    "answer_key": "C",
+    "question_sha256": "1fcf7951f56949db70597fc9db00299148ea7ce397ff8f9160bc62b9da529b18",
+    "post_shuffle_order": 338
+  },
+  {
+    "pre_shuffle_order": 405,
+    "dataset_index": 10836,
+    "subject": "professional_law",
+    "answer_key": "B",
+    "question_sha256": "c522cc7eaccaf18e754867e3f4457a7162e248cef5c1325c52a1e4f1982243de",
+    "post_shuffle_order": 339
+  },
+  {
+    "pre_shuffle_order": 195,
+    "dataset_index": 5286,
+    "subject": "high_school_psychology",
+    "answer_key": "B",
+    "question_sha256": "756f0cb82732a69f6957785ca24ede38be3e6c89e10a152f65480a7e2be503bd",
+    "post_shuffle_order": 340
+  },
+  {
+    "pre_shuffle_order": 197,
+    "dataset_index": 5384,
+    "subject": "high_school_psychology",
+    "answer_key": "C",
+    "question_sha256": "c560a971bf754f810b18dc3a309e9c6e02bf1b3ec982fb043cb2c9f736593ba2",
+    "post_shuffle_order": 341
+  },
+  {
+    "pre_shuffle_order": 32,
+    "dataset_index": 836,
+    "subject": "college_biology",
+    "answer_key": "D",
+    "question_sha256": "3b3426e155bd90d2d45270b94f8fdc05d648e2a4a38443950cfa5cea6754d6ff",
+    "post_shuffle_order": 342
+  },
+  {
+    "pre_shuffle_order": 305,
+    "dataset_index": 8628,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "fe919d1bb2bad1ba64714766958610b475f3b0a307efe0558ba57377324f8375",
+    "post_shuffle_order": 343
+  },
+  {
+    "pre_shuffle_order": 487,
+    "dataset_index": 13654,
+    "subject": "us_foreign_policy",
+    "answer_key": "B",
+    "question_sha256": "c135c8871225d7bea1f55ba0e18c9fb654e1c12635396e55578db7b5ce4897e3",
+    "post_shuffle_order": 344
+  },
+  {
+    "pre_shuffle_order": 458,
+    "dataset_index": 12744,
+    "subject": "professional_psychology",
+    "answer_key": "C",
+    "question_sha256": "3bc03001b88d8050c78ea8bff441fa083cde7831a46eeebbf1c783260b78a491",
+    "post_shuffle_order": 345
+  },
+  {
+    "pre_shuffle_order": 429,
+    "dataset_index": 11797,
+    "subject": "professional_law",
+    "answer_key": "D",
+    "question_sha256": "4660040bcc2da9e4292294a7acf5e0aab88374ac66063ab94753b6067972238d",
+    "post_shuffle_order": 346
+  },
+  {
+    "pre_shuffle_order": 78,
+    "dataset_index": 2145,
+    "subject": "elementary_mathematics",
+    "answer_key": "B",
+    "question_sha256": "4f6f5080e4df388b9d0cdef39e6cb1143f76b799a6e13b5ffafd350747233599",
+    "post_shuffle_order": 347
+  },
+  {
+    "pre_shuffle_order": 56,
+    "dataset_index": 1586,
+    "subject": "conceptual_physics",
+    "answer_key": "A",
+    "question_sha256": "ef11441c41c20c324a516d0490c695c23d3461391b585517ffd737281006edb4",
+    "post_shuffle_order": 348
+  },
+  {
+    "pre_shuffle_order": 24,
+    "dataset_index": 708,
+    "subject": "clinical_knowledge",
+    "answer_key": "B",
+    "question_sha256": "dbdf6ae5228d57e7d1399e516c6b251f145cdf2da6aa773c7c6d736a5301ae81",
+    "post_shuffle_order": 349
+  },
+  {
+    "pre_shuffle_order": 46,
+    "dataset_index": 1328,
+    "subject": "college_medicine",
+    "answer_key": "D",
+    "question_sha256": "380eac89f0e4643e6788bc9cd00e849168ac5269662098e5f5fda9cbb2683365",
+    "post_shuffle_order": 350
+  },
+  {
+    "pre_shuffle_order": 252,
+    "dataset_index": 7061,
+    "subject": "marketing",
+    "answer_key": "C",
+    "question_sha256": "01e163e6e2880459c91b44875f3bd28cde645202286c911e653a90a889bce573",
+    "post_shuffle_order": 351
+  },
+  {
+    "pre_shuffle_order": 260,
+    "dataset_index": 7401,
+    "subject": "miscellaneous",
+    "answer_key": "A",
+    "question_sha256": "97eb1e69d6a9f9e28140bd348ff51bed61df93b59afd9b0b0ace4b70dcb3e7b7",
+    "post_shuffle_order": 352
+  },
+  {
+    "pre_shuffle_order": 70,
+    "dataset_index": 1964,
+    "subject": "electrical_engineering",
+    "answer_key": "A",
+    "question_sha256": "413a280fa6e2198642bb94852fdb1b1dc633b23e38226b27d4598927a3c3544f",
+    "post_shuffle_order": 353
+  },
+  {
+    "pre_shuffle_order": 386,
+    "dataset_index": 10338,
+    "subject": "prehistory",
+    "answer_key": "D",
+    "question_sha256": "248ea36b041eefe5e26255d11967a4683bdd798dc27043f3515bda992336a788",
+    "post_shuffle_order": 354
+  },
+  {
+    "pre_shuffle_order": 427,
+    "dataset_index": 11762,
+    "subject": "professional_law",
+    "answer_key": "D",
+    "question_sha256": "faf96bcd82cb0c625a1960dd7b0c8017371586342af137dec611c43dbd5b5ff3",
+    "post_shuffle_order": 355
+  },
+  {
+    "pre_shuffle_order": 204,
+    "dataset_index": 5597,
+    "subject": "high_school_statistics",
+    "answer_key": "D",
+    "question_sha256": "9baf2517c3a63e9a19dd89612af398a9d962328d6cd85bf21568b9e843c07fba",
+    "post_shuffle_order": 356
+  },
+  {
+    "pre_shuffle_order": 298,
+    "dataset_index": 8483,
+    "subject": "moral_disputes",
+    "answer_key": "C",
+    "question_sha256": "d4833090d98bb93275d9cbeba4c882106bd997841439efa019af7485758f8ae3",
+    "post_shuffle_order": 357
+  },
+  {
+    "pre_shuffle_order": 219,
+    "dataset_index": 5912,
+    "subject": "high_school_world_history",
+    "answer_key": "A",
+    "question_sha256": "6fc2ad38a6f4974964f29197fe2f6ba1919d50a3cc64f1ef434e2858ba3020f8",
+    "post_shuffle_order": 358
+  },
+  {
+    "pre_shuffle_order": 299,
+    "dataset_index": 8484,
+    "subject": "moral_disputes",
+    "answer_key": "A",
+    "question_sha256": "1a325096b354c3397c7db833a3b9a2f3f66c22222b7987ab619ff2cb7f3d2ede",
+    "post_shuffle_order": 359
+  },
+  {
+    "pre_shuffle_order": 134,
+    "dataset_index": 3589,
+    "subject": "high_school_geography",
+    "answer_key": "B",
+    "question_sha256": "92d25819d31dbe19e1742232154926b0e5dd4a92090d5e0ceede4205297582a6",
+    "post_shuffle_order": 360
+  },
+  {
+    "pre_shuffle_order": 275,
+    "dataset_index": 7792,
+    "subject": "miscellaneous",
+    "answer_key": "B",
+    "question_sha256": "52dfe906d233741ed28cc9c8df0120265de9b78b7bc210e7b1e6dbb5178c3885",
+    "post_shuffle_order": 361
+  },
+  {
+    "pre_shuffle_order": 474,
+    "dataset_index": 13461,
+    "subject": "sociology",
+    "answer_key": "C",
+    "question_sha256": "1f545c088891dd3c38cba76ca03bc484b3976f362f2cf46bc4b63442c72a07f9",
+    "post_shuffle_order": 362
+  },
+  {
+    "pre_shuffle_order": 126,
+    "dataset_index": 3369,
+    "subject": "high_school_european_history",
+    "answer_key": "C",
+    "question_sha256": "014c2647bf4320558e20b9ae12dd0f78169cac6fca45ccd0d82b2dcda4ee51fa",
+    "post_shuffle_order": 363
+  },
+  {
+    "pre_shuffle_order": 492,
+    "dataset_index": 13781,
+    "subject": "virology",
+    "answer_key": "A",
+    "question_sha256": "9e9e9629846bb33e6bc07b5f609ae2270a78cea62c07fef8b708c4849629370d",
+    "post_shuffle_order": 364
+  },
+  {
+    "pre_shuffle_order": 441,
+    "dataset_index": 12305,
+    "subject": "professional_medicine",
+    "answer_key": "B",
+    "question_sha256": "4544788ee7ae8c4b221e0bff126e0e73ac480093d178c837f16aa1c6f230883a",
+    "post_shuffle_order": 365
+  },
+  {
+    "pre_shuffle_order": 73,
+    "dataset_index": 2081,
+    "subject": "elementary_mathematics",
+    "answer_key": "B",
+    "question_sha256": "ccac02e636674a9d0925bde209b094fe0ffd771e43a6f391be882c4451dbc5dc",
+    "post_shuffle_order": 366
+  },
+  {
+    "pre_shuffle_order": 234,
+    "dataset_index": 6475,
+    "subject": "international_law",
+    "answer_key": "C",
+    "question_sha256": "eaaa30ea7362399c1538a680f1d7a25211eec6c64d309d3722593084358d1143",
+    "post_shuffle_order": 367
+  },
+  {
+    "pre_shuffle_order": 329,
+    "dataset_index": 9164,
+    "subject": "moral_scenarios",
+    "answer_key": "A",
+    "question_sha256": "aedcd1d2a53b2569e9ba6c0c7b3721e41ca0e57d9a183aa02e2d953c756dd1b5",
+    "post_shuffle_order": 368
+  },
+  {
+    "pre_shuffle_order": 202,
+    "dataset_index": 5511,
+    "subject": "high_school_statistics",
+    "answer_key": "C",
+    "question_sha256": "9690a70b17fdc681d18d457718f11790d2f371be827824c423ed5238e142f879",
+    "post_shuffle_order": 369
+  },
+  {
+    "pre_shuffle_order": 255,
+    "dataset_index": 7202,
+    "subject": "marketing",
+    "answer_key": "A",
+    "question_sha256": "cdd0e8fee65cca367fc7c5ff4337ec5e21dc8200e3fd124b3db98fa0e51028da",
+    "post_shuffle_order": 370
+  },
+  {
+    "pre_shuffle_order": 335,
+    "dataset_index": 9220,
+    "subject": "moral_scenarios",
+    "answer_key": "B",
+    "question_sha256": "95433f08db8c079c9f93fd1eaa54a1a1aa364318bd62fdbb53585a20d036f93b",
+    "post_shuffle_order": 371
+  },
+  {
+    "pre_shuffle_order": 376,
+    "dataset_index": 10054,
+    "subject": "prehistory",
+    "answer_key": "C",
+    "question_sha256": "0941b86864330388837cc360bb700e83db98525317025b1a044b7293d7288611",
+    "post_shuffle_order": 372
+  },
+  {
+    "pre_shuffle_order": 380,
+    "dataset_index": 10191,
+    "subject": "prehistory",
+    "answer_key": "B",
+    "question_sha256": "67c5ad1b64b0cb183c5f7894bdb18e07603eedf743ffc3de523b412de10c9ee8",
+    "post_shuffle_order": 373
+  },
+  {
+    "pre_shuffle_order": 367,
+    "dataset_index": 9897,
+    "subject": "philosophy",
+    "answer_key": "D",
+    "question_sha256": "a7f0840b866b27bc768793c3158259db65a1ff33e5fdfa29128cd1a5296d95d1",
+    "post_shuffle_order": 374
+  },
+  {
+    "pre_shuffle_order": 290,
+    "dataset_index": 8269,
+    "subject": "moral_disputes",
+    "answer_key": "B",
+    "question_sha256": "b119bdd724656256c3643dc7b683a25b7b2cfee6bd51fe5bbbab62bc02fe7ce3",
+    "post_shuffle_order": 375
+  },
+  {
+    "pre_shuffle_order": 108,
+    "dataset_index": 2980,
+    "subject": "high_school_chemistry",
+    "answer_key": "A",
+    "question_sha256": "cd0c6e96c0908a34cef97bc537c2bb283fc2183547a7eb03e06bfb4a4767ea00",
+    "post_shuffle_order": 376
+  },
+  {
+    "pre_shuffle_order": 33,
+    "dataset_index": 977,
+    "subject": "college_chemistry",
+    "answer_key": "B",
+    "question_sha256": "3fa8b9f988fb1e9da755850decac5ccb2c22dab4e2cefbadeccfbe2dd0f8bcf3",
+    "post_shuffle_order": 377
+  },
+  {
+    "pre_shuffle_order": 137,
+    "dataset_index": 3680,
+    "subject": "high_school_government_and_politics",
+    "answer_key": "D",
+    "question_sha256": "2e0b82ffca0e4949594b9cf20902304e418b79a557026cd270957110e9ac4b5a",
+    "post_shuffle_order": 378
+  },
+  {
+    "pre_shuffle_order": 205,
+    "dataset_index": 5639,
+    "subject": "high_school_statistics",
+    "answer_key": "A",
+    "question_sha256": "f692bb7517b39e24c46ab959ff0e90fbaa4c3337c975f64d63f7507ea432d9c1",
+    "post_shuffle_order": 379
+  },
+  {
+    "pre_shuffle_order": 161,
+    "dataset_index": 4256,
+    "subject": "high_school_mathematics",
+    "answer_key": "C",
+    "question_sha256": "e290bf2a455b06b96e51b0eb4d5b4610bbd0b74b6e91d0ead75d9a4e8fa764d9",
+    "post_shuffle_order": 380
+  },
+  {
+    "pre_shuffle_order": 482,
+    "dataset_index": 13600,
+    "subject": "sociology",
+    "answer_key": "D",
+    "question_sha256": "2a1d31661bbcc88cabf0611a6ec0b0d15b4c00eb9ca37c98de5fbc599eb9003d",
+    "post_shuffle_order": 381
+  },
+  {
+    "pre_shuffle_order": 117,
+    "dataset_index": 3194,
+    "subject": "high_school_computer_science",
+    "answer_key": "C",
+    "question_sha256": "5d4a23fd9b97a9f295ce281d5d4ef5560ecf88da53481afe5b7638e56dccc375",
+    "post_shuffle_order": 382
+  },
+  {
+    "pre_shuffle_order": 28,
+    "dataset_index": 747,
+    "subject": "clinical_knowledge",
+    "answer_key": "C",
+    "question_sha256": "c7e1fd7a54d609f65ce649c1da74fd6bcde4adf5078133c46efc988fa0ee34c5",
+    "post_shuffle_order": 383
+  },
+  {
+    "pre_shuffle_order": 166,
+    "dataset_index": 4477,
+    "subject": "high_school_mathematics",
+    "answer_key": "C",
+    "question_sha256": "a7addf5a6c9be8a423fb172e174dd25947fc4ccd85bd39db5615c786512e7b3b",
+    "post_shuffle_order": 384
+  },
+  {
+    "pre_shuffle_order": 350,
+    "dataset_index": 9469,
+    "subject": "nutrition",
+    "answer_key": "D",
+    "question_sha256": "a2d40c723d99bfbda82cae22a1a384fa05d66acd323bbbbd837899987311e85f",
+    "post_shuffle_order": 385
+  },
+  {
+    "pre_shuffle_order": 467,
+    "dataset_index": 13183,
+    "subject": "security_studies",
+    "answer_key": "C",
+    "question_sha256": "c75d1c8a07249656e51dd402a6328a0322ace0009b0cc7602ccf7df6aef7a321",
+    "post_shuffle_order": 386
+  },
+  {
+    "pre_shuffle_order": 285,
+    "dataset_index": 8142,
+    "subject": "miscellaneous",
+    "answer_key": "D",
+    "question_sha256": "2072a4630da07c7f5d89b2e8e95fd57989a9c137e7761043db22f8d938498474",
+    "post_shuffle_order": 387
+  },
+  {
+    "pre_shuffle_order": 352,
+    "dataset_index": 9526,
+    "subject": "nutrition",
+    "answer_key": "D",
+    "question_sha256": "8b6381002b3048f5bd41c590f8c731c805ad7f5f026658041ec5fa56efd69f76",
+    "post_shuffle_order": 388
+  },
+  {
+    "pre_shuffle_order": 499,
+    "dataset_index": 13986,
+    "subject": "world_religions",
+    "answer_key": "C",
+    "question_sha256": "e63ccbac6195275b7a91f7ae53853a7cbd1bf99c15b1dea0cbaeb38115191812",
+    "post_shuffle_order": 389
+  },
+  {
+    "pre_shuffle_order": 138,
+    "dataset_index": 3691,
+    "subject": "high_school_government_and_politics",
+    "answer_key": "A",
+    "question_sha256": "2f61906352b5670f57b022ef0209f99bfb1822228fd066090c6d0391102395ea",
+    "post_shuffle_order": 390
+  },
+  {
+    "pre_shuffle_order": 463,
+    "dataset_index": 12982,
+    "subject": "professional_psychology",
+    "answer_key": "B",
+    "question_sha256": "52a07eb83ae9b85ca2fc5774358bf2aedcf601fdebcf12d82619ca4623dd5b89",
+    "post_shuffle_order": 391
+  },
+  {
+    "pre_shuffle_order": 236,
+    "dataset_index": 6558,
+    "subject": "international_law",
+    "answer_key": "D",
+    "question_sha256": "17bbc83646919de83a4b85b0dd53a458e033b3fe179ce953204913eb890a26f2",
+    "post_shuffle_order": 392
+  },
+  {
+    "pre_shuffle_order": 409,
+    "dataset_index": 10979,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "1334bd3eca612f70115bc03ac55f75cd92756c5176a8c113fc67eb9e1e833380",
+    "post_shuffle_order": 393
+  },
+  {
+    "pre_shuffle_order": 494,
+    "dataset_index": 13797,
+    "subject": "virology",
+    "answer_key": "D",
+    "question_sha256": "c5636bafe2645f7bb765e68b4f96676c4f96cc41daeae1d7340124b3199337f3",
+    "post_shuffle_order": 394
+  },
+  {
+    "pre_shuffle_order": 438,
+    "dataset_index": 12208,
+    "subject": "professional_medicine",
+    "answer_key": "A",
+    "question_sha256": "c6e9dd6c51b8892dbf55e028841b6547ab85e48d8500ffed4e60a02736d257a0",
+    "post_shuffle_order": 395
+  },
+  {
+    "pre_shuffle_order": 273,
+    "dataset_index": 7699,
+    "subject": "miscellaneous",
+    "answer_key": "B",
+    "question_sha256": "45c37b2f61b0db27369ef52d7e05e5f31d564d7a5a7924d1312f210182c938b2",
+    "post_shuffle_order": 396
+  },
+  {
+    "pre_shuffle_order": 87,
+    "dataset_index": 2455,
+    "subject": "formal_logic",
+    "answer_key": "D",
+    "question_sha256": "b6ebe82f7b87887cd03acef6e43fdf510c70fadbad5de68cc1bf4c755e08d273",
+    "post_shuffle_order": 397
+  },
+  {
+    "pre_shuffle_order": 411,
+    "dataset_index": 11017,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "73a8452619f3c338f8b16f7ca301fb27fb82972f7eb2232fd414877959d41786",
+    "post_shuffle_order": 398
+  },
+  {
+    "pre_shuffle_order": 311,
+    "dataset_index": 8764,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "f719ea988e0311a5ad50cfec2128cc690a092fb0e19ba8b3f73dcc0ff8d65846",
+    "post_shuffle_order": 399
+  },
+  {
+    "pre_shuffle_order": 36,
+    "dataset_index": 1034,
+    "subject": "college_computer_science",
+    "answer_key": "D",
+    "question_sha256": "23a5ec434546c0b077ac7afa1840b169f8be2e120ab36833b26f826ad41180dc",
+    "post_shuffle_order": 400
+  },
+  {
+    "pre_shuffle_order": 331,
+    "dataset_index": 9180,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "3bffa7a0f2c4e91aa3c7e7835578980febc1b7f9d7fd8f1a7ed50f4a9d2a17a1",
+    "post_shuffle_order": 401
+  },
+  {
+    "pre_shuffle_order": 349,
+    "dataset_index": 9455,
+    "subject": "nutrition",
+    "answer_key": "A",
+    "question_sha256": "542fb9aae9b9503e73d5b6c0d5bea2808415ac0e1ab4d7132cdae402ef7f57f4",
+    "post_shuffle_order": 402
+  },
+  {
+    "pre_shuffle_order": 470,
+    "dataset_index": 13309,
+    "subject": "security_studies",
+    "answer_key": "D",
+    "question_sha256": "6390612ad7f0dd55295b46540cb4b08a82521462a8f7ca410598fbcfba923fe2",
+    "post_shuffle_order": 403
+  },
+  {
+    "pre_shuffle_order": 136,
+    "dataset_index": 3635,
+    "subject": "high_school_geography",
+    "answer_key": "B",
+    "question_sha256": "89f9f1f0791024d768d0728a2fade00e9abff838a9c3622822b2846a38921e00",
+    "post_shuffle_order": 404
+  },
+  {
+    "pre_shuffle_order": 343,
+    "dataset_index": 9366,
+    "subject": "moral_scenarios",
+    "answer_key": "B",
+    "question_sha256": "90f08b20139e0096b2f218d1c386ae9872f435d51c75e329a3e9144fb7adbc37",
+    "post_shuffle_order": 405
+  },
+  {
+    "pre_shuffle_order": 107,
+    "dataset_index": 2894,
+    "subject": "high_school_biology",
+    "answer_key": "A",
+    "question_sha256": "2a2608d23759587316e81653cda0992f900679802877dd641cf802dfb84d99c2",
+    "post_shuffle_order": 406
+  },
+  {
+    "pre_shuffle_order": 181,
+    "dataset_index": 4914,
+    "subject": "high_school_psychology",
+    "answer_key": "A",
+    "question_sha256": "89947fd317c46cc61e18f40ccb8b7fe3f87a48268806090f1fda6d74606de2d4",
+    "post_shuffle_order": 407
+  },
+  {
+    "pre_shuffle_order": 189,
+    "dataset_index": 5034,
+    "subject": "high_school_psychology",
+    "answer_key": "C",
+    "question_sha256": "4c98add44baceb679c38d4433a3ddbe290de25c156347ea6f9c25f498d63a26b",
+    "post_shuffle_order": 408
+  },
+  {
+    "pre_shuffle_order": 83,
+    "dataset_index": 2319,
+    "subject": "elementary_mathematics",
+    "answer_key": "D",
+    "question_sha256": "e37a4076310e3ead392d107505c616fae37a4a00b488fda62e79345244233348",
+    "post_shuffle_order": 409
+  },
+  {
+    "pre_shuffle_order": 186,
+    "dataset_index": 4991,
+    "subject": "high_school_psychology",
+    "answer_key": "D",
+    "question_sha256": "0e77d10be59a4dc82999c6a0fbf6bae253bd826b5b955fe862164007bd528ea6",
+    "post_shuffle_order": 410
+  },
+  {
+    "pre_shuffle_order": 325,
+    "dataset_index": 9125,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "c83e94a5cc3dd5fe5e4466e5dca013c86f7fa9bbd429a11d853535ba16a050ee",
+    "post_shuffle_order": 411
+  },
+  {
+    "pre_shuffle_order": 232,
+    "dataset_index": 6405,
+    "subject": "human_sexuality",
+    "answer_key": "C",
+    "question_sha256": "749a57b6c336cf656768f64703061d2668ce26c71f5b1b00bf7f1255a418c8ea",
+    "post_shuffle_order": 412
+  },
+  {
+    "pre_shuffle_order": 454,
+    "dataset_index": 12629,
+    "subject": "professional_psychology",
+    "answer_key": "D",
+    "question_sha256": "d436bfcc52ab691dfdbd1f090333476034eab9129c71533f247450071c3566cc",
+    "post_shuffle_order": 413
+  },
+  {
+    "pre_shuffle_order": 447,
+    "dataset_index": 12463,
+    "subject": "professional_psychology",
+    "answer_key": "A",
+    "question_sha256": "5d4bc92e473841ae206ed964e2806aa31970431011930fe07ed89d9b9a5a694a",
+    "post_shuffle_order": 414
+  },
+  {
+    "pre_shuffle_order": 51,
+    "dataset_index": 1489,
+    "subject": "computer_security",
+    "answer_key": "A",
+    "question_sha256": "f749037af00258fdeb07a350a1974ea60bde88102f9d0aec66af56f3f628dab8",
+    "post_shuffle_order": 415
+  },
+  {
+    "pre_shuffle_order": 478,
+    "dataset_index": 13528,
+    "subject": "sociology",
+    "answer_key": "A",
+    "question_sha256": "35af0a28e7f1bc54533d46103f91522a124c0da8d3728a8cfb7a3fe647f303a0",
+    "post_shuffle_order": 416
+  },
+  {
+    "pre_shuffle_order": 444,
+    "dataset_index": 12372,
+    "subject": "professional_medicine",
+    "answer_key": "D",
+    "question_sha256": "54827626a5d4bdea30fed89f32ba9b9845815dabc5db2ed4e7c557de679f5f6e",
+    "post_shuffle_order": 417
+  },
+  {
+    "pre_shuffle_order": 148,
+    "dataset_index": 3989,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "A",
+    "question_sha256": "b59991caee3242442fca70bc885b3ac6740446582a547999506d8fc67162a773",
+    "post_shuffle_order": 418
+  },
+  {
+    "pre_shuffle_order": 395,
+    "dataset_index": 10594,
+    "subject": "professional_accounting",
+    "answer_key": "A",
+    "question_sha256": "8110ef87031552942419d43c0106a86db48ae066dd7b2567f07049f269b69bdc",
+    "post_shuffle_order": 419
+  },
+  {
+    "pre_shuffle_order": 116,
+    "dataset_index": 3154,
+    "subject": "high_school_chemistry",
+    "answer_key": "D",
+    "question_sha256": "3fe29f080b4bf873af74ac3322afffefe13dce59e8f92f6486236917be145f4e",
+    "post_shuffle_order": 420
+  },
+  {
+    "pre_shuffle_order": 338,
+    "dataset_index": 9239,
+    "subject": "moral_scenarios",
+    "answer_key": "A",
+    "question_sha256": "75a2f006ab271c74b25e1806f1080496c27cd1de28a5e9d907d77015eb063851",
+    "post_shuffle_order": 421
+  },
+  {
+    "pre_shuffle_order": 23,
+    "dataset_index": 624,
+    "subject": "clinical_knowledge",
+    "answer_key": "C",
+    "question_sha256": "164ef73dccec13ef0b01d725a429c69971bb17bbed4287d2a6f14884a72f6d5b",
+    "post_shuffle_order": 422
+  },
+  {
+    "pre_shuffle_order": 35,
+    "dataset_index": 1022,
+    "subject": "college_computer_science",
+    "answer_key": "C",
+    "question_sha256": "e4753a707c6f4ffe87ce47f5bfc1a9f88523797185e7ede712f33b3b8848a978",
+    "post_shuffle_order": 423
+  },
+  {
+    "pre_shuffle_order": 360,
+    "dataset_index": 9740,
+    "subject": "philosophy",
+    "answer_key": "A",
+    "question_sha256": "fd3a30ee54485b398f83aa9435cc7b35768ce9495ea1c97f7afaa29a7e0a2389",
+    "post_shuffle_order": 424
+  },
+  {
+    "pre_shuffle_order": 98,
+    "dataset_index": 2715,
+    "subject": "high_school_biology",
+    "answer_key": "D",
+    "question_sha256": "2cdf58062e55936c3eb3178b95024c935008a6561b7981119e1f5efa648a374a",
+    "post_shuffle_order": 425
+  },
+  {
+    "pre_shuffle_order": 295,
+    "dataset_index": 8408,
+    "subject": "moral_disputes",
+    "answer_key": "B",
+    "question_sha256": "0bb830ff7be786bc721e87b9a68db872cbe519e533515e200ee3cdcb10f27df7",
+    "post_shuffle_order": 426
+  },
+  {
+    "pre_shuffle_order": 185,
+    "dataset_index": 4989,
+    "subject": "high_school_psychology",
+    "answer_key": "D",
+    "question_sha256": "cd55dda2cd1ac3687d2fed6abb77a26100338f58623efa3071d094e99be69bd3",
+    "post_shuffle_order": 427
+  },
+  {
+    "pre_shuffle_order": 316,
+    "dataset_index": 8872,
+    "subject": "moral_scenarios",
+    "answer_key": "A",
+    "question_sha256": "3677e82c0964bc83b4e3c46bd1e3e4d80b04cf3ffb3714715fa5dabd72b93a30",
+    "post_shuffle_order": 428
+  },
+  {
+    "pre_shuffle_order": 321,
+    "dataset_index": 8903,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "38c98c144b61ca143aa94759c2ebf355f567a95d1faf42ec0375af263b6caaa6",
+    "post_shuffle_order": 429
+  },
+  {
+    "pre_shuffle_order": 424,
+    "dataset_index": 11523,
+    "subject": "professional_law",
+    "answer_key": "D",
+    "question_sha256": "394f321178eef9d298a07fc6cd687700f13969250a0e9edac71c692a1063e88f",
+    "post_shuffle_order": 430
+  },
+  {
+    "pre_shuffle_order": 150,
+    "dataset_index": 4081,
+    "subject": "high_school_macroeconomics",
+    "answer_key": "D",
+    "question_sha256": "c0f488ea7ef30066ba350d322ff2fb1709857213946f6f08b6c83302aa9066d2",
+    "post_shuffle_order": 431
+  },
+  {
+    "pre_shuffle_order": 282,
+    "dataset_index": 8048,
+    "subject": "miscellaneous",
+    "answer_key": "A",
+    "question_sha256": "6c52a7d986a278464bc697372c6753754da8aa249d8b13390b075dafad258b60",
+    "post_shuffle_order": 432
+  },
+  {
+    "pre_shuffle_order": 40,
+    "dataset_index": 1111,
+    "subject": "college_mathematics",
+    "answer_key": "D",
+    "question_sha256": "8b6d46ecab6049c90304dcca8cda75f5df3b2719c092ec32cafcb3787974b745",
+    "post_shuffle_order": 433
+  },
+  {
+    "pre_shuffle_order": 193,
+    "dataset_index": 5174,
+    "subject": "high_school_psychology",
+    "answer_key": "D",
+    "question_sha256": "83a271c9a0de89fc08454c1c257296f17f47363852cf659ca449a7d3891dbd5e",
+    "post_shuffle_order": 434
+  },
+  {
+    "pre_shuffle_order": 63,
+    "dataset_index": 1723,
+    "subject": "conceptual_physics",
+    "answer_key": "B",
+    "question_sha256": "f2ef3745021aaf2bcd9a04e58357a739d0b1de4aefafaa4226634c0ed4de06c7",
+    "post_shuffle_order": 435
+  },
+  {
+    "pre_shuffle_order": 274,
+    "dataset_index": 7700,
+    "subject": "miscellaneous",
+    "answer_key": "B",
+    "question_sha256": "b777d8fc2687ca86a50c048a23f92c42780fc2f0cac0d60db10ef3d85b944541",
+    "post_shuffle_order": 436
+  },
+  {
+    "pre_shuffle_order": 235,
+    "dataset_index": 6526,
+    "subject": "international_law",
+    "answer_key": "C",
+    "question_sha256": "edfdde4e36b2dd4d861eadf306afed3e3b4cb11839d1288d70ff5e948f70ab34",
+    "post_shuffle_order": 437
+  },
+  {
+    "pre_shuffle_order": 373,
+    "dataset_index": 10009,
+    "subject": "philosophy",
+    "answer_key": "A",
+    "question_sha256": "587134afd30fe6651eedc1097b875bec231e17b91ea54cf19a185ad73232fc9b",
+    "post_shuffle_order": 438
+  },
+  {
+    "pre_shuffle_order": 22,
+    "dataset_index": 608,
+    "subject": "clinical_knowledge",
+    "answer_key": "A",
+    "question_sha256": "e272a98b7057b626842910cc39cd0549a9d95ff4a14cb4ebf15c7617072c0e7a",
+    "post_shuffle_order": 439
+  },
+  {
+    "pre_shuffle_order": 413,
+    "dataset_index": 11085,
+    "subject": "professional_law",
+    "answer_key": "A",
+    "question_sha256": "5dea5a5b9ee7123899d5a84b3d65d3929769751fb8cc4765721d1f6fd2734d17",
+    "post_shuffle_order": 440
+  },
+  {
+    "pre_shuffle_order": 135,
+    "dataset_index": 3595,
+    "subject": "high_school_geography",
+    "answer_key": "C",
+    "question_sha256": "d91484df5b1739bbe0cec1e4b551659a706327f257d964079f42452c3517d44e",
+    "post_shuffle_order": 441
+  },
+  {
+    "pre_shuffle_order": 309,
+    "dataset_index": 8730,
+    "subject": "moral_scenarios",
+    "answer_key": "B",
+    "question_sha256": "66866726f17cd76b760b1ec0ad4630492662ec953d787d73a5dfded154a6d2d5",
+    "post_shuffle_order": 442
+  },
+  {
+    "pre_shuffle_order": 176,
+    "dataset_index": 4816,
+    "subject": "high_school_physics",
+    "answer_key": "D",
+    "question_sha256": "bf5d1c28d6ad590ac07680e7d324b3deac6f1cb50309b0694672ed34853d71a2",
+    "post_shuffle_order": 443
+  },
+  {
+    "pre_shuffle_order": 433,
+    "dataset_index": 12041,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "d8c08660de7f63f7875931b0d3d6e7c01544d249dd46df6d64829c095bb2ed22",
+    "post_shuffle_order": 444
+  },
+  {
+    "pre_shuffle_order": 183,
+    "dataset_index": 4923,
+    "subject": "high_school_psychology",
+    "answer_key": "D",
+    "question_sha256": "89df1ed8a0be24bb30bd3759951bf7163b71595edb7c9e015654afd00f6b34e4",
+    "post_shuffle_order": 445
+  },
+  {
+    "pre_shuffle_order": 49,
+    "dataset_index": 1475,
+    "subject": "computer_security",
+    "answer_key": "A",
+    "question_sha256": "a0591e32c5f0e8fcb99ecbfbed62034dd0142d0ca564eb3ee7e2fd62f5242c50",
+    "post_shuffle_order": 446
+  },
+  {
+    "pre_shuffle_order": 194,
+    "dataset_index": 5217,
+    "subject": "high_school_psychology",
+    "answer_key": "A",
+    "question_sha256": "35e432d416b41ebf999c67b6940eaa5100d1703526077d39382550ce1421f3aa",
+    "post_shuffle_order": 447
+  },
+  {
+    "pre_shuffle_order": 480,
+    "dataset_index": 13585,
+    "subject": "sociology",
+    "answer_key": "C",
+    "question_sha256": "aaf20570e9a4ca11a2172006fd5efe19be44d459bf236e820e9fc6402a28f62d",
+    "post_shuffle_order": 448
+  },
+  {
+    "pre_shuffle_order": 490,
+    "dataset_index": 13723,
+    "subject": "virology",
+    "answer_key": "B",
+    "question_sha256": "66e395b08ca6ad8047e40b5edd23479f11aa14f6b5cabd9b3793b4b3db865711",
+    "post_shuffle_order": 449
+  },
+  {
+    "pre_shuffle_order": 172,
+    "dataset_index": 4701,
+    "subject": "high_school_microeconomics",
+    "answer_key": "D",
+    "question_sha256": "ada8e113ea01046edc5e3d20cf86d53db7571df94138264fdc8f5819161baccb",
+    "post_shuffle_order": 450
+  },
+  {
+    "pre_shuffle_order": 390,
+    "dataset_index": 10464,
+    "subject": "professional_accounting",
+    "answer_key": "D",
+    "question_sha256": "d67e421559228c6f11c6cbcb351ef9b4a5ced260f6a204d547623e0c9f5b7bdd",
+    "post_shuffle_order": 451
+  },
+  {
+    "pre_shuffle_order": 110,
+    "dataset_index": 2992,
+    "subject": "high_school_chemistry",
+    "answer_key": "A",
+    "question_sha256": "b5c1d0ad75dd1ad537198684e571ae37c60cf692030be4b8e0f85a404bee7e77",
+    "post_shuffle_order": 452
+  },
+  {
+    "pre_shuffle_order": 79,
+    "dataset_index": 2150,
+    "subject": "elementary_mathematics",
+    "answer_key": "D",
+    "question_sha256": "d26656b05d2c3448e7ce6a4329235b6997cfc62ac8f7cc495273e3cead6bb3ee",
+    "post_shuffle_order": 453
+  },
+  {
+    "pre_shuffle_order": 464,
+    "dataset_index": 13064,
+    "subject": "public_relations",
+    "answer_key": "C",
+    "question_sha256": "36b3adcf3618a6f841e9dd81db94434913246d06c5b2d77b322edef5b1ab3444",
+    "post_shuffle_order": 454
+  },
+  {
+    "pre_shuffle_order": 174,
+    "dataset_index": 4807,
+    "subject": "high_school_physics",
+    "answer_key": "B",
+    "question_sha256": "4ab68db41d93407a911dbc95b4e9a6fba697a4476946623ac72fe6206c888445",
+    "post_shuffle_order": 455
+  },
+  {
+    "pre_shuffle_order": 483,
+    "dataset_index": 13615,
+    "subject": "us_foreign_policy",
+    "answer_key": "B",
+    "question_sha256": "213ae1efb4cac308e9790961f893b7dc73aeaa1db956f4e94af96df4c824e5e5",
+    "post_shuffle_order": 456
+  },
+  {
+    "pre_shuffle_order": 357,
+    "dataset_index": 9603,
+    "subject": "nutrition",
+    "answer_key": "A",
+    "question_sha256": "feb5edc1b10d2a2e7f505c9f48d6fcfe7c38c019e1f297b817ddbdd7b524a7d8",
+    "post_shuffle_order": 457
+  },
+  {
+    "pre_shuffle_order": 81,
+    "dataset_index": 2236,
+    "subject": "elementary_mathematics",
+    "answer_key": "A",
+    "question_sha256": "4106acc0ac403968dae9540722a9abf3a5192820c81344cc8f86aefc34d43243",
+    "post_shuffle_order": 458
+  },
+  {
+    "pre_shuffle_order": 412,
+    "dataset_index": 11075,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "79ba30d10856c65949ffc8d7677b16719f39895466f35f390ac8ecdc82f76d57",
+    "post_shuffle_order": 459
+  },
+  {
+    "pre_shuffle_order": 388,
+    "dataset_index": 10378,
+    "subject": "professional_accounting",
+    "answer_key": "C",
+    "question_sha256": "f40ae3baf011870ee93f4f79752ebc55825397a084781b38fe0ea59f2a30d0cc",
+    "post_shuffle_order": 460
+  },
+  {
+    "pre_shuffle_order": 3,
+    "dataset_index": 102,
+    "subject": "anatomy",
+    "answer_key": "A",
+    "question_sha256": "57e2fa7c846fde3b5986c63f404fe64c9f335996e86a8b36eacd23b7da3fef19",
+    "post_shuffle_order": 461
+  },
+  {
+    "pre_shuffle_order": 445,
+    "dataset_index": 12381,
+    "subject": "professional_medicine",
+    "answer_key": "D",
+    "question_sha256": "15ec0e3ae5404bd1f4e10fb0df7d2d3db65a7f7008c8988a5314317ee7e096ed",
+    "post_shuffle_order": 462
+  },
+  {
+    "pre_shuffle_order": 414,
+    "dataset_index": 11155,
+    "subject": "professional_law",
+    "answer_key": "C",
+    "question_sha256": "1e4db8d1466ab413ceb70be52e0a77747e28baa9e3880a393790bd7444cf7e18",
+    "post_shuffle_order": 463
+  },
+  {
+    "pre_shuffle_order": 142,
+    "dataset_index": 3804,
+    "subject": "high_school_government_and_politics",
+    "answer_key": "A",
+    "question_sha256": "dfbf814fc9e1c0d59f945732cb5e1c86864d225cfcc9ef561ab4a02ec462f341",
+    "post_shuffle_order": 464
+  },
+  {
+    "pre_shuffle_order": 301,
+    "dataset_index": 8522,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "8f2cccdde2cd4603d9c0ff7a6ca97a2e781f67c6160c1aae5b3fcca30eb870a4",
+    "post_shuffle_order": 465
+  },
+  {
+    "pre_shuffle_order": 229,
+    "dataset_index": 6216,
+    "subject": "human_aging",
+    "answer_key": "C",
+    "question_sha256": "62768b2f2bd06605f413bfb364528eac058a9d40a81d4651a88e57a92a8c2e9c",
+    "post_shuffle_order": 466
+  },
+  {
+    "pre_shuffle_order": 112,
+    "dataset_index": 3070,
+    "subject": "high_school_chemistry",
+    "answer_key": "B",
+    "question_sha256": "575e3674efc3f3abe0a31d051ee21a974686a3d113fbb9439f0b8f5a58344bea",
+    "post_shuffle_order": 467
+  },
+  {
+    "pre_shuffle_order": 214,
+    "dataset_index": 5814,
+    "subject": "high_school_us_history",
+    "answer_key": "C",
+    "question_sha256": "d272644c31ea5b45c27b324107b1cf08a46927aca79475eee8bd987d4b725464",
+    "post_shuffle_order": 468
+  },
+  {
+    "pre_shuffle_order": 486,
+    "dataset_index": 13642,
+    "subject": "us_foreign_policy",
+    "answer_key": "C",
+    "question_sha256": "53eb4a9cee934e06148e3a014d7b2036dfd382c0d3fd26916dfc5bc9d63d38e3",
+    "post_shuffle_order": 469
+  },
+  {
+    "pre_shuffle_order": 359,
+    "dataset_index": 9735,
+    "subject": "philosophy",
+    "answer_key": "A",
+    "question_sha256": "66921643d554b8244d11431f1886b3de8b6854a40201e0d905df7d911fa58011",
+    "post_shuffle_order": 470
+  },
+  {
+    "pre_shuffle_order": 332,
+    "dataset_index": 9201,
+    "subject": "moral_scenarios",
+    "answer_key": "D",
+    "question_sha256": "e3d7fd978cb481ef5ae2b4e9f382b3aa3bf9c5e6b319816477976606149d549a",
+    "post_shuffle_order": 471
+  },
+  {
+    "pre_shuffle_order": 366,
+    "dataset_index": 9893,
+    "subject": "philosophy",
+    "answer_key": "A",
+    "question_sha256": "02dd5fa17e7e84ef0c57a9c3cf3e01abaa61709ec2da2612a19c2b0b974b5d7f",
+    "post_shuffle_order": 472
+  },
+  {
+    "pre_shuffle_order": 101,
+    "dataset_index": 2777,
+    "subject": "high_school_biology",
+    "answer_key": "B",
+    "question_sha256": "41d5375b22d832abb8870fde9686277837d772dc1906d47c278eb843694fd808",
+    "post_shuffle_order": 473
+  },
+  {
+    "pre_shuffle_order": 287,
+    "dataset_index": 8209,
+    "subject": "moral_disputes",
+    "answer_key": "A",
+    "question_sha256": "058107bfae03f1e1d150d56c90657e93028e31be86fcad0f2ebfd34f0d9aa82c",
+    "post_shuffle_order": 474
+  },
+  {
+    "pre_shuffle_order": 13,
+    "dataset_index": 327,
+    "subject": "astronomy",
+    "answer_key": "A",
+    "question_sha256": "8ffec765762f503069053c45e9ca107475cf4b7f09239664c17f7c1a9306df00",
+    "post_shuffle_order": 475
+  },
+  {
+    "pre_shuffle_order": 308,
+    "dataset_index": 8727,
+    "subject": "moral_scenarios",
+    "answer_key": "A",
+    "question_sha256": "806bd3f39beddf95c9a47a6aa6e1252f41e1e853f81b36a2c124b49ff9c571e2",
+    "post_shuffle_order": 476
+  },
+  {
+    "pre_shuffle_order": 258,
+    "dataset_index": 7328,
+    "subject": "medical_genetics",
+    "answer_key": "C",
+    "question_sha256": "983789ebde78a92307ac31bfc856f697d0a5f11ac9a196e446ccdab43b3912a8",
+    "post_shuffle_order": 477
+  },
+  {
+    "pre_shuffle_order": 119,
+    "dataset_index": 3221,
+    "subject": "high_school_computer_science",
+    "answer_key": "D",
+    "question_sha256": "1ae8de15f460edf2d95b737d9c9132148f0a485685ea775dcf44c60617320c7f",
+    "post_shuffle_order": 478
+  },
+  {
+    "pre_shuffle_order": 111,
+    "dataset_index": 3045,
+    "subject": "high_school_chemistry",
+    "answer_key": "B",
+    "question_sha256": "37199b1ebbb463f657eb043b470797f5ecf1cbc680a1a049cfe1740b92d2210e",
+    "post_shuffle_order": 479
+  },
+  {
+    "pre_shuffle_order": 47,
+    "dataset_index": 1358,
+    "subject": "college_medicine",
+    "answer_key": "D",
+    "question_sha256": "23b263ff6b439afe8c4edf735c08f3e6f75bbd54f52f3609621bd71acb56f961",
+    "post_shuffle_order": 480
+  },
+  {
+    "pre_shuffle_order": 15,
+    "dataset_index": 353,
+    "subject": "astronomy",
+    "answer_key": "A",
+    "question_sha256": "bff9a55e6fa6d394bb63189da23b4633cca4556e7ef6decdb7d04279e2509ba2",
+    "post_shuffle_order": 481
+  },
+  {
+    "pre_shuffle_order": 16,
+    "dataset_index": 360,
+    "subject": "astronomy",
+    "answer_key": "D",
+    "question_sha256": "fff4c5fd7693ab75e32bb2263940b09f6b736abdf0655de460992900efbc2cfd",
+    "post_shuffle_order": 482
+  },
+  {
+    "pre_shuffle_order": 216,
+    "dataset_index": 5826,
+    "subject": "high_school_us_history",
+    "answer_key": "C",
+    "question_sha256": "16d9a6f07dbef5d0848f74f44f62982e05111fa039c66ace31b8f9635c722939",
+    "post_shuffle_order": 483
+  },
+  {
+    "pre_shuffle_order": 302,
+    "dataset_index": 8524,
+    "subject": "moral_scenarios",
+    "answer_key": "B",
+    "question_sha256": "c5c15d02dbfd461cd894f8c6e9485a7b7357e0680251adfb5650d12058f254d8",
+    "post_shuffle_order": 484
+  },
+  {
+    "pre_shuffle_order": 44,
+    "dataset_index": 1270,
+    "subject": "college_medicine",
+    "answer_key": "A",
+    "question_sha256": "9872018019d238bb0c3db1652400150bd182d968b2af656a4ad9e96ddc4ab9aa",
+    "post_shuffle_order": 485
+  },
+  {
+    "pre_shuffle_order": 279,
+    "dataset_index": 7847,
+    "subject": "miscellaneous",
+    "answer_key": "D",
+    "question_sha256": "364d0bf124aeeade9037e37941e051ac0732a825f7ea636c32d981575322ff82",
+    "post_shuffle_order": 486
+  },
+  {
+    "pre_shuffle_order": 456,
+    "dataset_index": 12690,
+    "subject": "professional_psychology",
+    "answer_key": "C",
+    "question_sha256": "aa40c63c95383a24810fbe6ad39def5ae982b4fd7e196b17912f64d183e0a0d1",
+    "post_shuffle_order": 487
+  },
+  {
+    "pre_shuffle_order": 496,
+    "dataset_index": 13888,
+    "subject": "world_religions",
+    "answer_key": "C",
+    "question_sha256": "0282b996259f6fbd8e9a9ad51396d463fb0036afa74999b2e4beb66f5b164e4b",
+    "post_shuffle_order": 488
+  },
+  {
+    "pre_shuffle_order": 346,
+    "dataset_index": 9389,
+    "subject": "moral_scenarios",
+    "answer_key": "B",
+    "question_sha256": "adbb43fe3f23391fd5da542031c65da6fd9671cbd7f2c50143a5b660ad78a563",
+    "post_shuffle_order": 489
+  },
+  {
+    "pre_shuffle_order": 52,
+    "dataset_index": 1493,
+    "subject": "computer_security",
+    "answer_key": "D",
+    "question_sha256": "4f22ba1318793c6a1ea5b92efcd06090723af1c43c94825a502c255b4583462f",
+    "post_shuffle_order": 490
+  },
+  {
+    "pre_shuffle_order": 377,
+    "dataset_index": 10119,
+    "subject": "prehistory",
+    "answer_key": "A",
+    "question_sha256": "3e724f3e2a16ccf0b1ac2b7f8f6be2fca6e6e3044f698d592100a2e8cd0339d6",
+    "post_shuffle_order": 491
+  },
+  {
+    "pre_shuffle_order": 71,
+    "dataset_index": 2021,
+    "subject": "electrical_engineering",
+    "answer_key": "B",
+    "question_sha256": "83a1876e650f9437080be155af6d0f522726daabe06baab92779e3b39694a149",
+    "post_shuffle_order": 492
+  },
+  {
+    "pre_shuffle_order": 114,
+    "dataset_index": 3087,
+    "subject": "high_school_chemistry",
+    "answer_key": "B",
+    "question_sha256": "825f1d524c529d7e36f4e41e392cfb9f251d384db4f34a186c229b9232435b8e",
+    "post_shuffle_order": 493
+  },
+  {
+    "pre_shuffle_order": 125,
+    "dataset_index": 3355,
+    "subject": "high_school_european_history",
+    "answer_key": "C",
+    "question_sha256": "354a6829261f579515f9d4e8e154022dd6eafb4cd566c54e888a181afdbf8c20",
+    "post_shuffle_order": 494
+  },
+  {
+    "pre_shuffle_order": 140,
+    "dataset_index": 3753,
+    "subject": "high_school_government_and_politics",
+    "answer_key": "D",
+    "question_sha256": "4aa5359a6d90ee63660da5494bc5a6fdc9633ca74f93acd86f8c110c0ab7a1a4",
+    "post_shuffle_order": 495
+  },
+  {
+    "pre_shuffle_order": 379,
+    "dataset_index": 10141,
+    "subject": "prehistory",
+    "answer_key": "A",
+    "question_sha256": "8cab8bf62b5117afe34d7fb9da71d680885540544eb7775fbf6553bc8a52a287",
+    "post_shuffle_order": 496
+  },
+  {
+    "pre_shuffle_order": 12,
+    "dataset_index": 290,
+    "subject": "astronomy",
+    "answer_key": "C",
+    "question_sha256": "00aacee37f53ec556a439158cfe51220ef9f0bd9b68fa0bf0c56d10555f82969",
+    "post_shuffle_order": 497
+  },
+  {
+    "pre_shuffle_order": 57,
+    "dataset_index": 1617,
+    "subject": "conceptual_physics",
+    "answer_key": "C",
+    "question_sha256": "9498c4b67b24dcfc73e7006636f71f245793acc5e2bfaa3aef91df8994c08ba5",
+    "post_shuffle_order": 498
+  },
+  {
+    "pre_shuffle_order": 327,
+    "dataset_index": 9149,
+    "subject": "moral_scenarios",
+    "answer_key": "C",
+    "question_sha256": "24696846a7dd32e2aa696ca628deecce865888a4f4f697789fda6d1c3c772b80",
+    "post_shuffle_order": 499
+  }
+]

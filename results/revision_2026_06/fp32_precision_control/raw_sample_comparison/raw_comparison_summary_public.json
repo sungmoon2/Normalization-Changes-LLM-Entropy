@@ -1,0 +1,298 @@
+{
+  "models": [
+    "qwen",
+    "llama"
+  ],
+  "results": {
+    "llama": {
+      "matched_structure": {
+        "alphas_fp32": [
+          "0.25",
+          "0.35",
+          "0.5",
+          "0.7",
+          "1.0",
+          "1.4",
+          "2.0",
+          "2.8",
+          "4.0"
+        ],
+        "alphas_match": true,
+        "alphas_original": [
+          "0.25",
+          "0.35",
+          "0.5",
+          "0.7",
+          "1.0",
+          "1.4",
+          "2.0",
+          "2.8",
+          "4.0"
+        ],
+        "first_idx": {
+          "fp32": 0,
+          "original": 0
+        },
+        "fp32_sample_result_file_count": 500,
+        "indices_match": true,
+        "last_idx": {
+          "fp32": 499,
+          "original": 499
+        },
+        "layers_fp32": 32,
+        "layers_match": true,
+        "layers_original": 32,
+        "raw_entry_count": {
+          "fp32": 500,
+          "original": 500
+        }
+      },
+      "non_finite_raw_value_pair_count": 0,
+      "problem_count": 0,
+      "raw_sample_level_max_abs_differences": {
+        "alpha.h_post": {
+          "alpha": "0.5",
+          "field": "alpha.h_post",
+          "fp32_value": 0.41729917932839006,
+          "layer": "22",
+          "location_key": null,
+          "max_abs_diff": 0.004698525715582658,
+          "original_value": 0.4219977050439727,
+          "sample_idx": 236,
+          "signed_diff_fp32_minus_original": -0.004698525715582658
+        },
+        "alpha.h_pre": {
+          "alpha": "4.0",
+          "field": "alpha.h_pre",
+          "fp32_value": 0.43368659268228754,
+          "layer": "27",
+          "location_key": null,
+          "max_abs_diff": 0.00532971210728117,
+          "original_value": 0.42835688057500637,
+          "sample_idx": 275,
+          "signed_diff_fp32_minus_original": 0.00532971210728117
+        },
+        "original.h_norm": {
+          "alpha": null,
+          "field": "original.h_norm",
+          "fp32_value": 33.9890251159668,
+          "layer": "30",
+          "location_key": null,
+          "max_abs_diff": 0.01930999755859375,
+          "original_value": 34.00833511352539,
+          "sample_idx": 166,
+          "signed_diff_fp32_minus_original": -0.01930999755859375
+        },
+        "original.h_post": {
+          "alpha": null,
+          "field": "original.h_post",
+          "fp32_value": 0.5242888200788209,
+          "layer": "21",
+          "location_key": null,
+          "max_abs_diff": 0.004297289173823993,
+          "original_value": 0.5285861092526449,
+          "sample_idx": 142,
+          "signed_diff_fp32_minus_original": -0.004297289173823993
+        },
+        "original.h_pre": {
+          "alpha": null,
+          "field": "original.h_pre",
+          "fp32_value": 0.051268194734643495,
+          "layer": "31",
+          "location_key": null,
+          "max_abs_diff": 0.0004487052530683308,
+          "original_value": 0.050819489481575164,
+          "sample_idx": 459,
+          "signed_diff_fp32_minus_original": 0.0004487052530683308
+        },
+        "unit_norm.h_post": {
+          "alpha": null,
+          "field": "unit_norm.h_post",
+          "fp32_value": 0.45584890137727974,
+          "layer": "22",
+          "location_key": null,
+          "max_abs_diff": 0.003896498585582442,
+          "original_value": 0.4597453999628622,
+          "sample_idx": 236,
+          "signed_diff_fp32_minus_original": -0.003896498585582442
+        },
+        "unit_norm.h_pre": {
+          "alpha": null,
+          "field": "unit_norm.h_pre",
+          "fp32_value": 0.9999917342050372,
+          "layer": "1",
+          "location_key": null,
+          "max_abs_diff": 2.4324737302183763e-07,
+          "original_value": 0.9999919774524102,
+          "sample_idx": 32,
+          "signed_diff_fp32_minus_original": -2.4324737302183763e-07
+        }
+      },
+      "summary_level_comparison": {
+        "h_post_worst_layer": {
+          "abs_diff": 0,
+          "fp32": 1,
+          "original": 1,
+          "signed_diff_fp32_minus_original": 0
+        },
+        "h_post_worst_variation": {
+          "abs_diff": 9.761000000002573e-05,
+          "fp32": 0.40688979,
+          "original": 0.4069874,
+          "signed_diff_fp32_minus_original": -9.761000000002573e-05
+        },
+        "h_pre_unit_mean_all_layers": {
+          "abs_diff": 0.0,
+          "fp32": 0.999989,
+          "original": 0.999989,
+          "signed_diff_fp32_minus_original": 0.0
+        }
+      }
+    },
+    "qwen": {
+      "matched_structure": {
+        "alphas_fp32": [
+          "0.25",
+          "0.35",
+          "0.5",
+          "0.7",
+          "1.0",
+          "1.4",
+          "2.0",
+          "2.8",
+          "4.0"
+        ],
+        "alphas_match": true,
+        "alphas_original": [
+          "0.25",
+          "0.35",
+          "0.5",
+          "0.7",
+          "1.0",
+          "1.4",
+          "2.0",
+          "2.8",
+          "4.0"
+        ],
+        "first_idx": {
+          "fp32": 0,
+          "original": 0
+        },
+        "fp32_sample_result_file_count": 500,
+        "indices_match": true,
+        "last_idx": {
+          "fp32": 499,
+          "original": 499
+        },
+        "layers_fp32": 28,
+        "layers_match": true,
+        "layers_original": 28,
+        "raw_entry_count": {
+          "fp32": 500,
+          "original": 500
+        }
+      },
+      "non_finite_raw_value_pair_count": 0,
+      "problem_count": 0,
+      "raw_sample_level_max_abs_differences": {
+        "alpha.h_post": {
+          "alpha": "0.35",
+          "field": "alpha.h_post",
+          "fp32_value": 0.23904070309172212,
+          "layer": "11",
+          "location_key": null,
+          "max_abs_diff": 0.005463000462484602,
+          "original_value": 0.23357770262923752,
+          "sample_idx": 30,
+          "signed_diff_fp32_minus_original": 0.005463000462484602
+        },
+        "alpha.h_pre": {
+          "alpha": "4.0",
+          "field": "alpha.h_pre",
+          "fp32_value": 0.04012693028436046,
+          "layer": "26",
+          "location_key": null,
+          "max_abs_diff": 0.009142560709796944,
+          "original_value": 0.030984369574563513,
+          "sample_idx": 62,
+          "signed_diff_fp32_minus_original": 0.009142560709796944
+        },
+        "original.h_norm": {
+          "alpha": null,
+          "field": "original.h_norm",
+          "fp32_value": 409.6634521484375,
+          "layer": "26",
+          "location_key": null,
+          "max_abs_diff": 0.371002197265625,
+          "original_value": 410.0344543457031,
+          "sample_idx": 53,
+          "signed_diff_fp32_minus_original": -0.371002197265625
+        },
+        "original.h_post": {
+          "alpha": null,
+          "field": "original.h_post",
+          "fp32_value": 0.2390315915970132,
+          "layer": "11",
+          "location_key": null,
+          "max_abs_diff": 0.005382535573903835,
+          "original_value": 0.23364905602310937,
+          "sample_idx": 30,
+          "signed_diff_fp32_minus_original": 0.005382535573903835
+        },
+        "original.h_pre": {
+          "alpha": null,
+          "field": "original.h_pre",
+          "fp32_value": 0.057261448255748734,
+          "layer": "26",
+          "location_key": null,
+          "max_abs_diff": 0.0031824942426489228,
+          "original_value": 0.06044394249839766,
+          "sample_idx": 454,
+          "signed_diff_fp32_minus_original": -0.0031824942426489228
+        },
+        "unit_norm.h_post": {
+          "alpha": null,
+          "field": "unit_norm.h_post",
+          "fp32_value": 0.2412087592800926,
+          "layer": "11",
+          "location_key": null,
+          "max_abs_diff": 0.005170513489788975,
+          "original_value": 0.23603824579030364,
+          "sample_idx": 30,
+          "signed_diff_fp32_minus_original": 0.005170513489788975
+        },
+        "unit_norm.h_pre": {
+          "alpha": null,
+          "field": "unit_norm.h_pre",
+          "fp32_value": 0.9999341931723762,
+          "layer": "23",
+          "location_key": null,
+          "max_abs_diff": 4.795523531608836e-07,
+          "original_value": 0.999933713620023,
+          "sample_idx": 376,
+          "signed_diff_fp32_minus_original": 4.795523531608836e-07
+        }
+      },
+      "summary_level_comparison": {
+        "h_post_worst_layer": {
+          "abs_diff": 0,
+          "fp32": 0,
+          "original": 0,
+          "signed_diff_fp32_minus_original": 0
+        },
+        "h_post_worst_variation": {
+          "abs_diff": 4.350000000000024e-06,
+          "fp32": 0.0004236,
+          "original": 0.00042795,
+          "signed_diff_fp32_minus_original": -4.350000000000024e-06
+        },
+        "h_pre_unit_mean_all_layers": {
+          "abs_diff": 0.0,
+          "fp32": 0.999947,
+          "original": 0.999947,
+          "signed_diff_fp32_minus_original": 0.0
+        }
+      }
+    }
+  }
+}

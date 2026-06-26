@@ -1,0 +1,24 @@
+{
+  "run_id": "260613_fp32_full_mmlu500_v2",
+  "mode": "full",
+  "model_key": "llama",
+  "precision": "fp32",
+  "num_samples_run": 500,
+  "num_samples_manifest": 500,
+  "seed": 42,
+  "alphas": [
+    0.25,
+    0.35,
+    0.5,
+    0.7,
+    1.0,
+    1.4,
+    2.0,
+    2.8,
+    4.0
+  ],
+  "source_script_sha256": "4ac7e995f73b95dc6bcc8e567448ef8dc05cecd27b68e0f1680fdf0cf2fe845e",
+  "control_script_sha256": "99d00b50b889c248be04006f45e1112f3f99071f56eb83c86c7d2d8661161497",
+  "locked_manifest_sha256": "a3f9137f982c1738939a321f23d7fb027f6743748ec1c5653e5eac089c9a6ec8",
+  "model_manifest_sha256": "a3f9137f982c1738939a321f23d7fb027f6743748ec1c5653e5eac089c9a6ec8"
+}

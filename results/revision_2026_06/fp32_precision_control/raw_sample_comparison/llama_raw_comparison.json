@@ -1,0 +1,276 @@
+{
+  "layer_summary_max_abs_differences": {
+    "alpha_summary.h_post": {
+      "alpha": "0.25",
+      "field": "alpha_summary.h_post",
+      "fp32_value": 0.037318,
+      "layer": null,
+      "location_key": "L31_h_post",
+      "max_abs_diff": 9.799999999999393e-05,
+      "original_value": 0.03722,
+      "sample_idx": null,
+      "signed_diff_fp32_minus_original": 9.799999999999393e-05
+    },
+    "alpha_summary.h_pre": {
+      "alpha": "4.0",
+      "field": "alpha_summary.h_pre",
+      "fp32_value": 0.604171,
+      "layer": null,
+      "location_key": "L24_h_pre",
+      "max_abs_diff": 6.899999999998574e-05,
+      "original_value": 0.60424,
+      "sample_idx": null,
+      "signed_diff_fp32_minus_original": -6.899999999998574e-05
+    },
+    "h_post_max_variation.value": {
+      "alpha": null,
+      "field": "h_post_max_variation.value",
+      "fp32_value": 0.40688979,
+      "layer": "1",
+      "location_key": null,
+      "max_abs_diff": 9.761000000002573e-05,
+      "original_value": 0.4069874,
+      "sample_idx": null,
+      "signed_diff_fp32_minus_original": -9.761000000002573e-05
+    },
+    "unit_summary.h_norm_mean": {
+      "alpha": null,
+      "field": "unit_summary.h_norm_mean",
+      "fp32_value": 27.1435,
+      "layer": "28",
+      "location_key": null,
+      "max_abs_diff": 0.0022999999999981924,
+      "original_value": 27.1412,
+      "sample_idx": null,
+      "signed_diff_fp32_minus_original": 0.0022999999999981924
+    },
+    "unit_summary.h_norm_std": {
+      "alpha": null,
+      "field": "unit_summary.h_norm_std",
+      "fp32_value": 0.417,
+      "layer": "30",
+      "location_key": null,
+      "max_abs_diff": 0.0007999999999999674,
+      "original_value": 0.4162,
+      "sample_idx": null,
+      "signed_diff_fp32_minus_original": 0.0007999999999999674
+    },
+    "unit_summary.h_post_change": {
+      "alpha": null,
+      "field": "unit_summary.h_post_change",
+      "fp32_value": 0.015602,
+      "layer": "2",
+      "location_key": null,
+      "max_abs_diff": 6.100000000000029e-05,
+      "original_value": 0.015663,
+      "sample_idx": null,
+      "signed_diff_fp32_minus_original": -6.100000000000029e-05
+    },
+    "unit_summary.h_post_orig_mean": {
+      "alpha": null,
+      "field": "unit_summary.h_post_orig_mean",
+      "fp32_value": 0.576829,
+      "layer": "21",
+      "location_key": null,
+      "max_abs_diff": 0.00047199999999991693,
+      "original_value": 0.577301,
+      "sample_idx": null,
+      "signed_diff_fp32_minus_original": -0.00047199999999991693
+    },
+    "unit_summary.h_post_unit_mean": {
+      "alpha": null,
+      "field": "unit_summary.h_post_unit_mean",
+      "fp32_value": 0.607448,
+      "layer": "21",
+      "location_key": null,
+      "max_abs_diff": 0.00043999999999999595,
+      "original_value": 0.607888,
+      "sample_idx": null,
+      "signed_diff_fp32_minus_original": -0.00043999999999999595
+    },
+    "unit_summary.h_pre_change": {
+      "alpha": null,
+      "field": "unit_summary.h_pre_change",
+      "fp32_value": 0.974907,
+      "layer": "31",
+      "location_key": null,
+      "max_abs_diff": 4.4000000000044004e-05,
+      "original_value": 0.974951,
+      "sample_idx": null,
+      "signed_diff_fp32_minus_original": -4.4000000000044004e-05
+    },
+    "unit_summary.h_pre_orig_mean": {
+      "alpha": null,
+      "field": "unit_summary.h_pre_orig_mean",
+      "fp32_value": 0.025084,
+      "layer": "31",
+      "location_key": null,
+      "max_abs_diff": 4.39999999999989e-05,
+      "original_value": 0.02504,
+      "sample_idx": null,
+      "signed_diff_fp32_minus_original": 4.39999999999989e-05
+    },
+    "unit_summary.h_pre_unit_mean": {
+      "alpha": null,
+      "field": "unit_summary.h_pre_unit_mean",
+      "fp32_value": 0.99999,
+      "layer": "31",
+      "location_key": null,
+      "max_abs_diff": 9.999999999177334e-07,
+      "original_value": 0.999991,
+      "sample_idx": null,
+      "signed_diff_fp32_minus_original": -9.999999999177334e-07
+    }
+  },
+  "matched_structure": {
+    "alphas_fp32": [
+      "0.25",
+      "0.35",
+      "0.5",
+      "0.7",
+      "1.0",
+      "1.4",
+      "2.0",
+      "2.8",
+      "4.0"
+    ],
+    "alphas_match": true,
+    "alphas_original": [
+      "0.25",
+      "0.35",
+      "0.5",
+      "0.7",
+      "1.0",
+      "1.4",
+      "2.0",
+      "2.8",
+      "4.0"
+    ],
+    "first_idx": {
+      "fp32": 0,
+      "original": 0
+    },
+    "fp32_sample_result_file_count": 500,
+    "indices_match": true,
+    "last_idx": {
+      "fp32": 499,
+      "original": 499
+    },
+    "layers_fp32": 32,
+    "layers_match": true,
+    "layers_original": 32,
+    "raw_entry_count": {
+      "fp32": 500,
+      "original": 500
+    }
+  },
+  "model": "llama",
+  "non_finite_raw_value_pair_count": 0,
+  "problem_count": 0,
+  "problems": [],
+  "raw_sample_level_max_abs_differences": {
+    "alpha.h_post": {
+      "alpha": "0.5",
+      "field": "alpha.h_post",
+      "fp32_value": 0.41729917932839006,
+      "layer": "22",
+      "location_key": null,
+      "max_abs_diff": 0.004698525715582658,
+      "original_value": 0.4219977050439727,
+      "sample_idx": 236,
+      "signed_diff_fp32_minus_original": -0.004698525715582658
+    },
+    "alpha.h_pre": {
+      "alpha": "4.0",
+      "field": "alpha.h_pre",
+      "fp32_value": 0.43368659268228754,
+      "layer": "27",
+      "location_key": null,
+      "max_abs_diff": 0.00532971210728117,
+      "original_value": 0.42835688057500637,
+      "sample_idx": 275,
+      "signed_diff_fp32_minus_original": 0.00532971210728117
+    },
+    "original.h_norm": {
+      "alpha": null,
+      "field": "original.h_norm",
+      "fp32_value": 33.9890251159668,
+      "layer": "30",
+      "location_key": null,
+      "max_abs_diff": 0.01930999755859375,
+      "original_value": 34.00833511352539,
+      "sample_idx": 166,
+      "signed_diff_fp32_minus_original": -0.01930999755859375
+    },
+    "original.h_post": {
+      "alpha": null,
+      "field": "original.h_post",
+      "fp32_value": 0.5242888200788209,
+      "layer": "21",
+      "location_key": null,
+      "max_abs_diff": 0.004297289173823993,
+      "original_value": 0.5285861092526449,
+      "sample_idx": 142,
+      "signed_diff_fp32_minus_original": -0.004297289173823993
+    },
+    "original.h_pre": {
+      "alpha": null,
+      "field": "original.h_pre",
+      "fp32_value": 0.051268194734643495,
+      "layer": "31",
+      "location_key": null,
+      "max_abs_diff": 0.0004487052530683308,
+      "original_value": 0.050819489481575164,
+      "sample_idx": 459,
+      "signed_diff_fp32_minus_original": 0.0004487052530683308
+    },
+    "unit_norm.h_post": {
+      "alpha": null,
+      "field": "unit_norm.h_post",
+      "fp32_value": 0.45584890137727974,
+      "layer": "22",
+      "location_key": null,
+      "max_abs_diff": 0.003896498585582442,
+      "original_value": 0.4597453999628622,
+      "sample_idx": 236,
+      "signed_diff_fp32_minus_original": -0.003896498585582442
+    },
+    "unit_norm.h_pre": {
+      "alpha": null,
+      "field": "unit_norm.h_pre",
+      "fp32_value": 0.9999917342050372,
+      "layer": "1",
+      "location_key": null,
+      "max_abs_diff": 2.4324737302183763e-07,
+      "original_value": 0.9999919774524102,
+      "sample_idx": 32,
+      "signed_diff_fp32_minus_original": -2.4324737302183763e-07
+    }
+  },
+  "sha256": {
+    "fp32_analysis": "ebad7ef75da7e068ba404813d65d85361ef5360f9cd02da14253919089398938",
+    "fp32_raw": "7527b1c35831e068f6b21740952a03b44e49d7bb6173fdb9b0ce4d2478b8ba52",
+    "original_analysis": "7a64d8f4e0089e1d64ef397a55a29cbcfd693889c247ed492c11feaf5328b105",
+    "original_raw": "600d00e11883ee8995757a128ce558324b177083cb52afd552ae62a5b4773816"
+  },
+  "summary_level_comparison": {
+    "h_post_worst_layer": {
+      "abs_diff": 0,
+      "fp32": 1,
+      "original": 1,
+      "signed_diff_fp32_minus_original": 0
+    },
+    "h_post_worst_variation": {
+      "abs_diff": 9.761000000002573e-05,
+      "fp32": 0.40688979,
+      "original": 0.4069874,
+      "signed_diff_fp32_minus_original": -9.761000000002573e-05
+    },
+    "h_pre_unit_mean_all_layers": {
+      "abs_diff": 0.0,
+      "fp32": 0.999989,
+      "original": 0.999989,
+      "signed_diff_fp32_minus_original": 0.0
+    }
+  }
+}

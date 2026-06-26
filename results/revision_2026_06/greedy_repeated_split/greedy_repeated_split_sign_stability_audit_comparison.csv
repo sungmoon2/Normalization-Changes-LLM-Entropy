@@ -1,0 +1,13 @@
+model,metric,recomputed_sign_stability,original_sign_stability,recomputed_dominant_sign,original_dominant_sign,recomputed_modal_layer,original_modal_layer,recomputed_modal_layer_freq,original_modal_layer_freq,sign_match,layer_match
+qwen,H_pre,20/20,10/20,-1,-1,12,20,7/20,2/20,False,False
+qwen,H_post,20/20,11/20,-1,-1,27,0,20/20,4/20,False,False
+qwen,logit_std,20/20,12/20,1,1,12,24,17/20,4/20,False,False
+qwen,h_norm,14/20,11/20,1,1,18,26,14/20,5/20,False,False
+llama,H_pre,20/20,12/20,-1,1,0,30,20/20,4/20,False,False
+llama,H_post,19/20,12/20,1,1,10,1,15/20,2/20,False,False
+llama,logit_std,20/20,11/20,1,1,13,31,19/20,4/20,False,False
+llama,h_norm,20/20,12/20,1,-1,0,31,13/20,6/20,False,False
+mistral,H_pre,20/20,13/20,-1,-1,30,31,12/20,13/20,False,False
+mistral,H_post,19/20,11/20,-1,1,6,25,12/20,3/20,False,False
+mistral,logit_std,20/20,13/20,1,-1,14,0,17/20,5/20,False,False
+mistral,h_norm,20/20,11/20,1,1,14,30,15/20,5/20,False,False
