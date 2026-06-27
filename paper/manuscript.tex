@@ -66,7 +66,7 @@ We define $\Hpre$ = entropy of $\text{softmax}(W h_l)$ and $\Hpost$ = entropy of
 This distinction has two diagnostic consequences:
 
 \begin{enumerate}
-\item \textbf{Simple scale baselines provide strong diagnostic controls in the tested settings.} In all tested post-generation settings, scale-correlated baselines (logit standard deviation, hidden-state norm) from a single forward pass match or exceed single-layer $\Hpre$ for correctness discrimination. Adding $\Hpre$ to these baselines leaves little incremental utility (95\% confidence intervals (CIs) for the change in area under the receiver operating characteristic curve (delta-AUROC) include zero in all four logit\_std+$\Hpre$ comparisons; one full-feature comparison on Mistral yields a nominal-level positive delta). The best internal-layer signal exceeds final-output entropy by +0.09 to +0.22 AUROC, and this advantage holds under greedy decoding (Section~\ref{sec:predictive}).
+\item \textbf{Simple scale baselines provide strong diagnostic controls in the tested settings.} In all tested post-generation settings, scale-correlated baselines (logit standard deviation, hidden-state norm) from a single forward pass match or exceed single-layer $\Hpre$ for correctness discrimination. Adding $\Hpre$ to these baselines leaves little incremental utility (95\% confidence intervals (CIs) for the change in area under the receiver operating characteristic curve (delta-AUROC) include zero in all four logit\_std+$\Hpre$ comparisons; one full-feature comparison on Mistral yields a small corrected significant condition-specific positive delta). The best internal-layer signal exceeds final-output entropy by +0.09 to +0.22 AUROC, and this advantage holds under greedy decoding (Section~\ref{sec:predictive}).
 
 \item \textbf{Reported findings depend on normalization point, classifier, and protocol.} The best layer, sign direction, and even which entropy variant is more useful all vary across model family, task, and evaluation protocol. $\Hpost$ exhibits cross-family sign reversal. Switching the Entropy-Lens classifier from $k$-NN to logistic regression (LR) changes AUROC by up to +0.17. No universal optimal layer emerges under our protocol (Sections~\ref{sec:where} and \ref{sec:decoder}).
 \end{enumerate}
@@ -1134,5 +1134,4 @@ This work was supported by the Korea Institute for Advancement of Technology (KI
 \EOD
 
 \end{document}
-
 
